@@ -1,26 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı ve çocuk",
-    "Koç açılışta ve kapanışta"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 5'te",
+    "Kılavuz s. 37–46"
   ],
+  "fikir": "Çalışma belleğine oyunla başlanır. Çocuk sihirli sözcükleri dinleyip doğru anda adım atar; zorlanınca ipucunu kendine göre düzenler ve evde deneyeceği bir ipucu tasarlar.",
   "phases": [
     [
       {
-        "g": "Kendin için",
+        "g": "Oku",
         "ic": "book",
         "i": [
-          "Oyun 1 ve Oyun 2 hikâyelerini (Kılavuz s. 4 ve 6) iki kez sesli oku; ipucu sözcüklerini vurgulamayı dene.",
-          "Oyun 2'nin tuzaklarını işaretle: \"ileri\" ve \"solucan\" ipucu değil, \"geri kalmıyor\" (10) ipucu.",
-          "Oyun 2'ye geçiş kuralını hatırla: Oyun 1'de 11 ipucunun 9'u ya da fazlası doğruysa."
-        ]
-      },
-      {
-        "g": "Odayı hazırla",
-        "ic": "box",
-        "i": [
-          "Yaklaşık 12 adımlık boş bir şerit aç; başlangıç çizgisini bantla işaretle.",
-          "Oyun 2'de çocuk 18 adım ilerler; alan yetmezse adımları küçültmeyi ya da geriye yer değiştirmeyi planla."
+          "Oyun 1 (s. 40) ve Oyun 2 (s. 42) hikâyeleri, sesli",
+          "Oturum akışı: s. 37–44 · Beklenmedik durumlar ve yaş: s. 45"
         ]
       },
       {
@@ -28,15 +20,7 @@
         "ic": "print",
         "i": [
           [
-            "Beceri Kontrol Kartı 1 (çocuğa bir kopya)",
-            "pdf"
-          ],
-          [
-            "İpucu kaydı satırı (Oyun 1: 11 kutu)",
-            "pdf"
-          ],
-          [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 3 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -45,11 +29,8 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 1: Simon Diyor: Dikkat Et, Rotada Kal",
-          "Oyun 1 ve Oyun 2 hikâye metinleri (Kılavuz s. 4 ve 6)",
-          "Bant ya da yere konan işaretler",
-          "Boş kartlar, kalın kalem, boya kalemleri",
-          "Çocuğun 2. Oturumda doldurduğu Peki Ya Sen? sayfasının kopyası"
+          "Odada 12 adımlık boş şerit; başlangıç çizgisi bantla",
+          "Kart 1 (çocuğa bir kopya) · boş kartlar, kalın kalem · ADAPTA (isteğe bağlı, s. 44)"
         ]
       },
       {
@@ -59,11 +40,11 @@
         "pf": [
           [
             "sorun",
-            "Durak 1'de seçilen sorun"
+            "Seçilen sorun (Konu 1)"
           ],
           [
             "beceri",
-            "Çocuğun seçtiği beceri"
+            "Seçilen beceri"
           ],
           [
             "amac",
@@ -75,142 +56,94 @@
           ]
         ],
         "i": [
-          "Koçun getirdiği Koç Raporu (Görev 1, −2 ile +2 arası işaretli)",
-          "Peki Ya Sen? sayfasındaki amaç: Etkinlik 6'da ipucu bu amaç için tasarlanacak."
+          "Koç getirecek: Form 1 (Koç Raporu) · çocuk: Peki Ya Sen? ve Yapılacaklar Listesi"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Kontrol zamanı nasıl geçti?",
+        "t": "Kontrol listesi: Kart 1",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 38–39",
+        "mat": "Kart 1",
+        "neden": "Çocuk oyunda neye ihtiyacı olduğunu önceden bilir; Kart 1 artık onun kartıdır.",
         "i": [
-          "Koç Raporu'nu al; Görev 1 değerine birlikte bak.",
-          "Önce çocuğa sor, sonra Koçtan bir \"denediği an\" anlatmasını iste.",
-          "Sonuç ne olursa olsun denemeyi takdir et; işe yaramadıysa bugünün konusuna bağla.",
-          "Kontrol zamanı hiç yapılmadıysa suçlama; engeli not et (Etkinlik 6'da kullanılacak).",
-          "Koç dışarıda bekler; sonda geri gelecek."
+          [
+            "Kartın dört maddesini oyunla bağlayarak birlikte oku.",
+            "CB"
+          ],
+          "12 adım uzakta başla; deneme adımları; üç kuralı tekrarlat."
         ]
       },
       {
         "a": 2,
-        "t": "Hazır ol: Kart ve oyun alanı",
-        "dk": 5,
-        "ref": "s. 3",
-        "mat": "Beceri Kontrol Kartı 1",
+        "t": "Oyun 1: Dikkat Et · gözden geçir",
+        "dk": 15,
+        "ref": "s. 40–41",
+        "mat": "Oyun 1 hikâyesi (s. 40)",
+        "neden": "Çocuk bir yönergeyi aklında tutup doğru anda hareket edebildiğini görür; asıl öğrenme gözden geçirmede olur.",
         "i": [
-          [
-            "Kartın kopyasını çocuğa ver; dört maddeyi birlikte oku ve oyunla ilişkilendir.",
-            "CB"
-          ],
-          "Çocuk başlangıç çizgisinde, senden yaklaşık 12 adım uzakta dursun.",
-          "İki üç deneme adımı at: ne çok büyük ne çok küçük.",
-          "Üç kuralı söyle ve çocuğa tekrarlat: erken adım, kaçırılan adım, yanlış boyda adım → başa dön."
+          "Her ipucunu ✓ / ✗ kaydet; ilk turda yardım etme.",
+          "Gözden geçirmeye güçlü yanla başla.",
+          "Zorlandıysa ipucunu birlikte düzenleyin: ses, göz teması, görsel, dokunsal, özel işaret (s. 41)."
         ]
       },
       {
         "a": 3,
-        "t": "Oyun 1: Dikkat Et",
-        "dk": 7,
-        "ref": "s. 4",
-        "mat": "Oyun 1 hikâyesi · 11 ipucu",
+        "t": "Oyun 2: Dikkat Et, Rotada Kal",
+        "dk": 20,
+        "ref": "s. 42–43",
+        "mat": "Oyun 2 hikâyesi (s. 42)",
+        "neden": "Çocuk aynı anda birden fazla kuralı aklında tutar: hangi sözcükte hangi yöne gideceğini.",
         "i": [
-          "İpucu sözcükleri: Simon · diyor · dikkat → bir adım ileri.",
-          "Yavaş ve net oku; ilk turda ipucu sözcüklerini ayrıca vurgulama.",
-          [
-            "Her ipucu için ✓ ya da ✗ kaydet; ilk turda yardım etme.",
-            "CB"
-          ],
-          "Başa dönerse kaldığın yerden devam et; puan sıfırlanmaz.",
-          "\"İleri, geri, sağa, sola\"da hareket ederse \"ipucu olmayan sözcükte hareket\" satırına işle."
+          "Oyun 1'de ipuçlarının çoğuna zorlanmadan yanıt verdiyse geç.",
+          "Tuzaklar: \"ileri\" ve \"solucan\" ipucu değil (s. 42).",
+          "Gözden geçir; gerekirse düzenleyip tekrar oynayın."
         ]
       },
       {
         "a": 4,
-        "t": "Gözden geçir, gerekirse ipucunu düzenle",
-        "dk": 8,
-        "ref": "s. 5",
-        "mat": "Beceri Kontrol Kartı 1",
+        "t": "Bu Benim İpucum",
+        "dk": 10,
+        "ref": "s. 43",
+        "mat": "Boş kart, kalın kalem",
+        "neden": "Oyunda işe yarayan fikir gerçek hayata taşınır; amaç mükemmel ipucu değil, ipucu kurmayı öğrenmek.",
         "i": [
-          "Önce güçlü yanı adlandır: \"Aklında tuttun, ipucunu bekledin.\"",
-          "9/11 ya da üstü → kartı kısaca geç, Oyun 2'ye geç.",
-          "Zorlandıysa → kartın 4. maddesini hatırlat, ipucunu birlikte düzenle, Oyun 1'i tekrar oyna.",
-          "Düzenleme seçenekleri: ses, göz teması, görsel kart, el çırpma, özel işaret. Seçimi çocuk yapsın.",
-          "Bitince adlandır: \"Kendi ipucunu kendin düzenledin.\""
+          "Peki Ya Sen?'deki amaç için ipucu: görsel, işitsel ya da dokunsal.",
+          "Kartı çocuk çizsin ya da yazsın; nerede ve ne zaman göreceğini sor."
         ]
       },
       {
         "a": 5,
-        "t": "Oyun 2: Dikkat Et, Rotada Kal",
-        "dk": 10,
-        "ref": "s. 6–7",
-        "mat": "Oyun 2 hikâyesi · 36 ipucu",
+        "t": "Koç katılır",
+        "dk": 12,
+        "sure": "10–15 dk",
+        "ref": "s. 44",
+        "koc": "Koç odaya gelir (çocuğun onayıyla)",
+        "neden": "İpucu evde yaşayacaksa Koçun onu tanıması gerekir; çocuğun kendisinin anlatması sahiplenmeyi güçlendirir.",
         "i": [
-          "Yalnızca Oyun 1'de başarılı olduysa oyna; değilse bu süreyi Oyun 1 tekrarına ayır.",
-          "Kurallar: Simon/diyor/dikkat → ileri · geri → geri · sağ/sağa → sağa · sol/sola → sola.",
-          "Okumadan önce dört kuralı birer kez dene.",
-          [
-            "Kayıt ve \"ilk turda yardım etme\" kuralı Oyun 1 ile aynı.",
-            "CB"
-          ],
-          "Bitince güçlü yanı adlandır; zorlandıysa bir düzenleme seçip tekrar oyna, sonra \"Bravo!\" de."
-        ]
-      },
-      {
-        "a": 6,
-        "t": "Bu Benim İpucum",
-        "dk": 10,
-        "ref": "s. 7",
-        "mat": "Boş kart, kalın kalem, Peki Ya Sen? (2. Oturum)",
-        "i": [
-          "Hedef: Peki Ya Sen?'deki amaç (Etkinlik 1'deki engeli de dikkate al).",
-          "Köprü: \"Oyunda hangi ipucu işine yaradı?\" İşe yarayan türden başla.",
-          "Tür seç (görsel / işitsel / dokunsal); kartı çocuk çizsin ya da yazsın.",
-          "Performans noktası: \"Nerede ve ne zaman görürsün?\"",
-          "B planı: \"İşe yaramazsa türünü ya da yerini değiştiririz.\"",
-          "Üç soru: Dikkat çekiyor mu? Tek şey mi söylüyor? Doğru yerde mi?"
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Bravo Başardın!",
-        "dk": 5,
-        "ref": "s. 8",
-        "koc": "Koç geri döner",
-        "i": [
-          "Koçu davet et; çocuk oyunu ve ipucunu Koça kendisi anlatsın.",
-          "İpucunun evde nereye konacağına çocuk ve Koç birlikte karar versin.",
-          "Kart 1'i son kez birlikte oku; kocaman bir \"Bravo!\""
+          "Çocuk oyunu ve ipucunu Koça anlatsın; ipucunun yerine birlikte karar verin.",
+          "Peki Ya Sen? görevini Koç Raporu'yla gözden geçir; denemeyi takdir et.",
+          "Bravo, Başardın!"
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Çocuğun ipucu kartı, kararlaştırılan yere konmak üzere eve gider; bir hafta denenir.",
-          "Beceri Kontrol Kartı 1'in kopyası çocukta kalır."
+          "Görev 1: Oyun evde Koçla, işe yarayan ipuçlarıyla tekrar edilir (Koç hikâyeyi okur).",
+          "Görev 2: İpucu kararlaştırılan yerde bir hafta denenir; işe yaramazsa türü ya da yeri değişir.",
+          "Zaman planı: 1. gün oyun 2 kez · 3. gün 2 kez · 5. gün 1 kez; aynı günlerde ipucuna bakılır."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "İşe yaramazsa vazgeçilmez; türü ya da yeri değiştirilir (kartın 4. maddesi).",
-          "İşe yaradığında adlandırsın: \"İpucun sana hatırlattı ve sen de yaptın.\"",
-          "İpucunu yeniden söylemek ya da işi çocuğun yerine yapmak yerine biraz beklesin; unutursa kızmasın."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Uygulayıcı Notları: Oyun 1 doğru sayısı, Oyun 2 oynandı mı, kullanılan düzenleme.",
-          "Çocuğun ipucu (tür / yer / hedef) ve Koç Raporu Görev 1."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 3 · aferin biletleri"
         ]
       },
       {
@@ -219,7 +152,7 @@
         "f": [
           [
             "oyun1",
-            "Oyun 1 doğru ipucu (/11)"
+            "Oyun 1 sonucu"
           ],
           [
             "oyun2",
@@ -227,20 +160,19 @@
           ],
           [
             "duzen",
-            "Kullanılan düzenleme"
+            "İşe yarayan düzenleme"
           ],
           [
             "ipucu",
-            "Çocuğun ipucu (tür / yer / hedef)"
+            "Çocuğun ipucu (tür / yer)"
           ]
         ]
       },
       {
-        "g": "4. Oturuma hazırlık",
+        "g": "4. Oturum",
         "ic": "next",
         "i": [
-          "Sabah DJ'i hikâyesini (ÇK1 s. 64–66) oku.",
-          "Oyun 2 bu oturumda oynanmadıysa 4. Oturumun başında kısa bir tur planla."
+          "Sabah DJ'i (Hikâye 5); bugünkü ipucu orada gözden geçirilecek."
         ]
       },
       {

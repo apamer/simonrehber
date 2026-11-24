@@ -1,18 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı ve çocuk",
-    "Koç açılışta ve kapanışta"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 5'te",
+    "Kılavuz s. 47–56"
   ],
+  "fikir": "Bugün oyun yok. Ece'nin hikâyesiyle çocuk unutmanın isteksizlik olmadığını fark eder, ipuçlarının herkesin hayatında olduğunu görür ve kendi ipucunu adlandırır.",
   "phases": [
     [
       {
-        "g": "Kendin için",
+        "g": "Oku",
         "ic": "book",
         "i": [
-          "Sabah DJ'i hikâyesini (ÇK1 s. 64–66) bir kez sesli oku; rollerin değiştiği yerleri işaretle.",
-          "İki durağın yerini belirle: sabah sahnesinin sonu ve Sabah DJ'i fikrinden sonra.",
-          "Konuşalım'daki altı sorudan özdeki üçünü seç (3, 5, 6)."
+          "Sabah DJ'i (Hikâye 5; ÇK1 s. 64–66), bir kez sesli; karakterleri sesle ayır",
+          "Oturum akışı: s. 47–52 · Beklenmedik durumlar ve yaş: s. 53"
         ]
       },
       {
@@ -20,15 +20,15 @@
         "ic": "print",
         "i": [
           [
-            "İpucu Listesi formu (Kılavuz s. 8)",
+            "Form 5 · İpucu Listesi (s. 54)",
             "pdf"
           ],
           [
-            "Peki Ya Sen? formu (Kılavuz s. 9)",
+            "Form 6 · Peki Ya Sen? (s. 55)",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 3 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -37,10 +37,7 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 1",
-          "Sabah DJ'i hikâyesi, iki kopya: çocuğun kopyasında Ece'nin sözleri fosforlu kalemle işaretli",
-          "İpucu Listesi cevap anahtarı (Kılavuz s. 5)",
-          "Fosforlu kalem, kurşun kalem, silgi"
+          "Kart 1 · kurşun kalem, silgi · ADAPTA (isteğe bağlı, s. 53)"
         ]
       },
       {
@@ -54,7 +51,7 @@
           ],
           [
             "duzen",
-            "Oyunda işe yarayan düzenleme"
+            "İşe yarayan düzenleme"
           ],
           [
             "oyun2",
@@ -62,136 +59,94 @@
           ]
         ],
         "i": [
-          "Çocuğun tasarladığı ipucunun bir haftası: nerede durdu, işe yaradı mı?"
+          "Koç getirecek: Form 1 (evdeki oyun ve ipucu)"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: İpucun nasıl çalıştı?",
+        "t": "Kontrol listesi: Kart bugün bir gözlük",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 48",
+        "mat": "Kart 1",
+        "neden": "Kart bugün, hikâyedeki karakterin neye ihtiyaç duyduğunu görmek için kullanılır.",
         "i": [
-          "Önce çocuk anlatsın: İpucu nerede durdu, işine yaradı mı?",
-          "Koçtan ipucunun işe yaradığı bir anı anlatmasını iste.",
           [
-            "İşe yaramadıysa kartın 4. maddesi: türünü ya da yerini birlikte değiştirin.",
-            "CB"
-          ],
-          "Hiç kullanılmadıysa merakla sor: \"Ne oldu da kullanamadın?\" Yanıtı Etkinlik 6'ya sakla.",
-          "Koç dışarıda bekler; sonda geri gelecek."
-        ]
-      },
-      {
-        "a": 2,
-        "t": "Hazır ol: Kart bugün bir gözlük",
-        "dk": 3,
-        "ref": "s. 3",
-        "mat": "Beceri Kontrol Kartı 1",
-        "i": [
-          "Bugün oyun yok; kart, hikâyedeki karakteri görmek için kullanılacak.",
-          "Dinleme görevi ver: \"Ece'nin kartın hangi maddesinde zorlandığını yakala.\""
-        ]
-      },
-      {
-        "a": 3,
-        "t": "Sabah DJ'i: Hikâyeyi canlandırın",
-        "dk": 10,
-        "ref": "s. 3",
-        "mat": "ÇK1 s. 64–66",
-        "i": [
-          "Roller: Ece = çocuk · Anlatıcı, Anne, Baba = sen. Sesini değiştir.",
-          "Okumakta zorlanırsa Ece'nin sözlerini önce sen oku, o tekrar etsin.",
-          "Durak 1 (sabah sonunda): \"Ece neyi unuttu? Sence neden?\" Yanıtı düzeltme.",
-          "Durak 2 (Sabah DJ'i fikrinden sonra): \"Sen hangi işin şarkısını ilk seçerdin?\"",
-          "Çocuk kendi sabahlarını anlatırsa yargılama; Etkinlik 6 için not et."
-        ]
-      },
-      {
-        "a": 4,
-        "t": "Konuşalım: Ece'nin sorunu neydi?",
-        "dk": 10,
-        "ref": "s. 4",
-        "mat": "ÇK1 s. 67",
-        "i": [
-          "Sohbet gibi sor; altı sorunun hepsi gerekmez.",
-          [
-            "Soru 3 (öz): \"Ece bilerek mi unutuyordu?\" Ece'nin sözünü birlikte oku: \"Deniyorum…\"",
-            "CB"
-          ],
-          "Soru 5 (öz): Kartın dört maddesini Ece'nin sabahına taşı.",
-          "Soru 6 (öz): Babanın kartı ve Ece'nin şarkısı → çalışma belleğini adlandır.",
-          "\"Herkesin bazen bir yardımcıya, yani ipucuna ihtiyacı olur.\""
-        ]
-      },
-      {
-        "a": 5,
-        "t": "İpucu avı: İpucu Listesi",
-        "dk": 10,
-        "ref": "s. 5",
-        "mat": "İpucu Listesi formu (s. 8)",
-        "i": [
-          "İlk satırı (çalar saat) sesli düşünerek birlikte yap.",
-          "Her kişi için ipucunun harfini yazsın; eylem ve iki sonuç sözlü olabilir.",
-          "Süre azsa üç satır yeterli; mutlaka koşucu ya da futbolcu satırını seç.",
-          [
-            "Her satırda kartın 2. maddesini hatırlat: İpucunu bekle.",
+            "Kart 1'i oku; dinlerken Ece'nin hangi maddede zorlandığını yakalasın.",
             "CB"
           ]
         ]
       },
       {
-        "a": 6,
-        "t": "Peki ya sen? Kendi ipuçların",
-        "dk": 7,
-        "ref": "s. 6",
-        "mat": "Peki Ya Sen? formu (s. 9)",
+        "a": 2,
+        "t": "Sabah DJ'i: hikâye ve sorular",
+        "dk": 18,
+        "sure": "15–20 dk",
+        "ref": "s. 49–50",
+        "mat": "Hikâye 5 · sorular ÇK1 s. 67",
+        "neden": "Çocuk kendi zorluğunu başkasının hikâyesinde görünce daha rahat konuşur; Ece'nin bilerek unutmadığını fark eder.",
         "i": [
-          "Çocuk alanı kendisi seçsin: okulda, evde ya da arkadaşlarla.",
-          "Her alanda: İpucu ne? Hangi adımlar, hangi sırayla?",
-          "Bir ya da iki alan yeterli; \"evde\" satırını 3. Oturumdaki ipucuyla ilişkilendir.",
-          "Örnekleri çocuk takılmadıkça önce sen söyleme."
+          "Kesmeden oku; araya soru sokma.",
+          "Sorular 1–6 (s. 50); Soru 5'te Kart 1'i Ece'nin sabahına uygula.",
+          "Çalışma belleğini adlandır: doğru zamanda doğru şeyi yapmak için aklında tutmak."
         ]
       },
       {
-        "a": 7,
-        "t": "Kapanış: Koçla paylaş",
-        "dk": 5,
-        "ref": "s. 6",
-        "koc": "Koç geri döner",
+        "a": 3,
+        "t": "İpucu avı",
+        "dk": 12,
+        "sure": "10–15 dk",
+        "ref": "s. 51",
+        "mat": "Form 5 · İpucu Listesi",
+        "neden": "Herkes her gün ipuçlarına yanıt verir; ipucu kullanmak olağan bir şeydir.",
         "i": [
-          "Çocuk Sabah DJ'i fikrini Koça kendi sözleriyle anlatsın.",
-          "Peki Ya Sen? sayfasını Koçla paylaşsın; \"evde\" satırını birlikte okuyun.",
-          "İsteğe bağlı kısa bravo: \"Ece'nin neyi neden unuttuğunu çok iyi yakaladın.\""
+          "İlk satırı birlikte, sesli düşünerek yap; cevap anahtarı s. 51.",
+          "Koşucu ve futbolcu satırında kartın 2. maddesini bağla: ipucunu bekle."
+        ]
+      },
+      {
+        "a": 4,
+        "t": "Peki ya sen?",
+        "dk": 12,
+        "sure": "10–15 dk",
+        "ref": "s. 52",
+        "mat": "Form 6 · Peki Ya Sen?",
+        "neden": "Sıra çocuğun kendi hayatına gelir: hangi ipucuna yanıt vermesi gerekiyor, sonra hangi adımları atmalı?",
+        "i": [
+          "Alanı çocuk seçsin; bir ya da iki alan yeterli.",
+          "\"Evde\" satırını 3. Oturumdaki ipucuyla bağlayabilirsin."
+        ]
+      },
+      {
+        "a": 5,
+        "t": "Koç katılır",
+        "dk": 12,
+        "sure": "10–15 dk",
+        "ref": "s. 52",
+        "koc": "Koç odaya gelir (çocuğun onayıyla)",
+        "neden": "Çocuk Sabah DJ'i fikrini ve kendi ipucunu Koça anlatarak sahiplenir.",
+        "i": [
+          "Çocuk Sabah DJ'ini ve Peki Ya Sen?'i Koça anlatsın.",
+          "Geçen haftanın oyununu ve ipucunu Koç Raporu'yla gözden geçir; işe yaramadıysa kartın 4. maddesi."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Peki Ya Sen? sayfası eve gider.",
-          "3. Oturumdaki ipucu kullanılmaya devam eder (gerekirse yeni yeri ya da türüyle)."
+          "Görev 1 (1. gün): Koç hikâyeyi evde okur; çocuk soruları yanıtlar.",
+          "Görev 2 (3. gün): Seçilen alandaki ipucu ve adımlar konuşulur; fırsat olunca denenir.",
+          "Koça: Unutulunca tekrar söylemek yerine ipucuna yönlendirsin (\"Kartına bak\")."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "\"Evde\" ipucuna çocuk yanıt verince fark etsin ve adlandırsın: \"İpucunu duydun ve hemen başladın.\"",
-          "Tekrar tekrar söylemek ya da kızmak yerine ipucuna yönlendirsin: \"Kartına bak\", \"Alarmın çaldı.\"",
-          "Sabah DJ'ini evde denemek isterse desteklenir; bu hafta zorunlu değil."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Ece'nin sorununa çocuğun yanıtı (bilerek mi unuttu?).",
-          "Peki Ya Sen?'de doldurulan alan(lar) ve evdeki ipucu."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 3 · aferin biletleri"
         ]
       },
       {
@@ -200,24 +155,23 @@
         "f": [
           [
             "evde",
-            "\"Evde\" ipucu ve adımlar"
+            "Evdeki ipucu ve adımlar"
           ],
           [
             "alan",
-            "Doldurulan diğer alan(lar)"
+            "Diğer alan(lar)"
           ],
           [
             "not",
-            "Çocuğun sabahlarına dair not"
+            "Not"
           ]
         ]
       },
       {
-        "g": "5. Oturuma hazırlık",
+        "g": "5. Oturum",
         "ic": "next",
         "i": [
-          "Koçtan gizli işaret için çocuğun sık unuttuğu bir durum düşünüp gelmesini iste.",
-          "Başla!, Unutma!, Hatırlayacağım! kart sayfalarını parlak kartona çoğalt."
+          "Form 7 ipucu kartlarını (s. 65–67) parlak kartona çoğalt; Koç gizli işaret için bir durum düşünsün."
         ]
       },
       {

@@ -1,17 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı, çocuk ve Koç",
-    "Koç baştan sona odada"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 3'ten itibaren",
+    "Kılavuz s. 69–82"
   ],
+  "fikir": "Çok adımlı bir iş en fazla beş küçük adıma bölünür ve bileğe takılan bir listeye dönüşür; ardından oyunlarla çalışma belleği ve bellek yardımcıları denenir.",
   "phases": [
     [
       {
-        "g": "Koçla",
-        "ic": "phone",
+        "g": "Oku",
+        "ic": "book",
         "i": [
-          "Çocuğun adımlarını takip etmekte zorlandığı bir iş düşünüp gelsin (ör. odayı toplamak).",
-          "Bu oturumda baştan sona odada kalacağını hatırlat."
+          "Oturum akışı: s. 69–75 · Beklenmedik durumlar ve yaş: s. 76",
+          "Koçtan aldığın bilgilere bak: Çocuk hangi çok adımlı işte zorlanıyor?"
         ]
       },
       {
@@ -19,23 +20,15 @@
         "ic": "print",
         "i": [
           [
-            "Kağıt zincir bilek listesi (Kılavuz s. 9) · kalın kağıt",
+            "Form 8 · Bilek listeleri (s. 77–79), kalın kâğıda",
             "pdf"
           ],
           [
-            "Yapışkan bilek listesi (Kılavuz s. 10)",
+            "İkon sayfaları (s. 80–82), renkli",
             "pdf"
           ],
           [
-            "Bilek kontrol listesi (Kılavuz s. 11)",
-            "pdf"
-          ],
-          [
-            "İkon sayfaları (Kılavuz s. 12–14) · renkli",
-            "pdf"
-          ],
-          [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 3 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -44,17 +37,8 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 1",
-          "Bant, makas, kalem",
-          "Cırt bant ya da geniş maskeleme bandı (yapışkan liste için)"
-        ]
-      },
-      {
-        "g": "Odayı hazırla",
-        "ic": "box",
-        "i": [
-          "Oyun 2 için odaya 4–5 günlük nesne yerleştir: kitap, fincan, elma, kalem, cetvel.",
-          "Nesnelerin yerini bil: \"Telefonun yanındaki mavi kitap\" gibi tarif edeceksin."
+          "Kart 1 · makas, bant, kalem (yapışkan liste için cırt bant)",
+          "Oyun 2 için odaya 4–5 günlük nesne: kitap, fincan, elma, kalem…"
         ]
       },
       {
@@ -72,144 +56,85 @@
           ],
           [
             "cumle",
-            "Çocuğun cümlesi"
+            "Not"
           ]
         ],
         "i": [
-          "Kartlar ve gizli işaretin bir haftası: işe yarayan, yaramayan."
+          "Koç getirecek: Form 1 (Koç Raporu)"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Kartlar ve işaret",
+        "t": "Kontrol listesi: Kart 1",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 70",
+        "mat": "Kart 1",
+        "neden": "Bilek listesi ve oyunlar Kart 1'in 1. maddesine hizmet eder: ne yapacağını hatırla.",
         "i": [
-          "Çocuğa sor: \"Kartı koyduğun yerde gördüğünde ne oldu?\"",
-          "Koça sor: Gizli işaret kaç kez kullanıldı, işe yaradı mı?",
           [
-            "Yaramayan kart ya da işaretin yerini, türünü ya da kendisini birlikte değiştirin.",
-            "CB"
-          ],
-          "Koç dışarı çıkmaz: liste ve oyunlar evde onunla sürecek."
-        ]
-      },
-      {
-        "a": 2,
-        "t": "Hazır ol: Bir ipucu yetmediğinde",
-        "dk": 3,
-        "ref": "s. 2",
-        "mat": "Beceri Kontrol Kartı 1",
-        "i": [
-          "Ece'nin sabahını hatırlat: arka arkaya pek çok iş.",
-          [
-            "Kartın 1. maddesi: Ne yapacağını hatırla. Bugün çok şeyi birden hatırlamanın yolları.",
+            "Kart 1'i birlikte oku.",
             "CB"
           ]
         ]
       },
       {
-        "a": 3,
-        "t": "Bir iş seç, küçük adımlara böl",
-        "dk": 10,
-        "ref": "s. 3",
-        "koc": "Koç odada",
+        "a": 2,
+        "t": "Görev 1: Bilek listesi",
+        "dk": 20,
+        "ref": "s. 71–72",
+        "mat": "Form 8, makas, bant",
+        "neden": "Çocuk çok adımlı işlerde neden zorlandığını fark eder; işi küçük adımlara bölüp dış destekle sürdürür.",
         "i": [
-          "Koç ve çocuk birlikte sık yapılan, adımları karışan bir iş seçsin.",
-          "Adımları çocuk sırayla söylesin; onun sözcüklerini koru.",
-          "En fazla beş adım; her biri kısa, net, tek eylem (\"Odanı topla\" değil, \"Kitapları rafa koy\").",
-          "Son satıra küçük bir ödül: hikâye, kısa oyun, yıldız. Basit tut."
+          "Zorlandığı bir işi çocukla seç.",
+          "En fazla 5 kısa, net adım; çocuğun sözleriyle.",
+          "Liste türünü çocuk seçsin (zincir, yapışkan, kutucuklu); bir örnek hazırlayıp bileğe takın."
+        ]
+      },
+      {
+        "a": 3,
+        "t": "Görev 2: Çalışma belleği oyunları",
+        "dk": 25,
+        "ref": "s. 73–74",
+        "mat": "Odadaki günlük nesneler",
+        "koc": "Koç katılır (çocuğun onayıyla)",
+        "neden": "Çocuk aklında aynı anda kaç şey tutabildiğini oyunla keşfeder ve bellek yardımcılarını öğrenir.",
+        "i": [
+          "Oyun 1 · Bir yolculuğa çıkıyoruz: bavula eklenenleri sırayla hatırla.",
+          "Oyun 2 · Hazır ol, pozisyon al, başla!: seviye seviye 1–4 nesne.",
+          "Skor değil, kavram; zorlanınca bir yardımcıyı birlikte dene."
         ]
       },
       {
         "a": 4,
-        "t": "Bilek listesini yap ve tak",
-        "dk": 10,
-        "ref": "s. 4",
-        "mat": "Bilek listesi formları (s. 9–14)",
-        "i": [
-          "Türü çocuk seçsin: kağıt zincir · yapışkan · kontrol listesi.",
-          "Kağıt zincir (s. 9): bir kez yapılacak işler; ödül bileklikte gizli, ilk iş serbest uçta.",
-          "Yapışkan (s. 10, 12–14): her gün tekrarlanan rutinler; ikonlar Başla!'dan Bravo!'ya taşınır.",
-          "Kontrol listesi (s. 11): en basit tür; Koçla birlikte onay işareti.",
-          "Etkinlik 3'teki adımlarla listeyi hazırla ve bileğine tak; diğer formlar Koça verilir."
-        ]
-      },
-      {
-        "a": 5,
-        "t": "Hafıza oyunu 1: Bir yolculuğa çıkıyoruz",
-        "dk": 8,
-        "ref": "s. 5",
-        "koc": "Koç da oyuncu",
-        "i": [
-          "Her oyuncu önceki eşyaları sırayla tekrar edip bir eşya ekler; komik eşyalar serbest.",
-          "Kaç eşya hatırlandı? Ortak rekoru yaz.",
-          [
-            "Zorlaşınca bir yardımcı seç: hep birlikte tekrar · komik resim · ilk harfleri yaz.",
-            "CB"
-          ],
-          "İkinci turu oyna, rekoru karşılaştır: \"İlk harfler de bir ipucu; bilek listen de böyle çalışıyor.\""
-        ]
-      },
-      {
-        "a": 6,
-        "t": "Hafıza oyunu 2: Hazır ol, Pozisyon al, Başla!",
-        "dk": 8,
-        "ref": "s. 6",
-        "mat": "Odadaki günlük nesneler",
-        "i": [
-          "Hazır ol: sen söylersin, o dinler · Pozisyon al: sesli tekrar eder · Başla!: gider ve yapar.",
-          "Turlar: A 1 şey → B 2 → C 3 → D 4 şey.",
-          [
-            "Zorlanınca \"Pozisyon al\"da bir yardımcı: üç kez tekrar · zihindeki film · tek resim.",
-            "CB"
-          ],
-          "Bitirirken tek soru: \"Hangi yardımcı işe yaradı?\" ya da \"Evde hangisini kullanırsın?\"",
-          "Zaman kısıtlıysa iki oyundan birini oyna; diğeri evde Koçla."
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Liste bileğinde eve gidiyor",
-        "dk": 5,
-        "ref": "s. 7",
+        "t": "Koç: liste bileğinde eve gidiyor",
+        "dk": 15,
+        "ref": "s. 75",
         "koc": "Koç odada",
+        "neden": "Liste ve oyunlar evde Koçla sürer.",
         "i": [
-          "Çocuk bileğindeki listeyi Koça anlatsın: iş, adımlar, sonunda ne var?",
-          "Listenin evde ilk ne zaman kullanılacağına birlikte karar verin.",
-          "En sevdiği oyunu ve işine yarayan yardımcıyı adlandır.",
-          "\"Liste kullanmak akıllıca bir yardımdır; büyükler de liste kullanır.\""
+          "Çocuk listesini Koça kendisi anlatsın.",
+          "Koçla iki öneri: küçük bir ödül; yaklaşık üç hafta listeyle dene, sonra kısa bir listesiz deneme.",
+          "Geçen haftanın görevlerini Koç Raporu'yla gözden geçir."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Bilekteki liste ve diğer bilek listesi formları.",
-          "Hafıza oyunlarının kuralları; rekor bir sonraki oturumda konuşulacak."
+          "Görev 1: Seçilen iş her yapıldığında liste bileğe takılır.",
+          "Görev 2: Oyunlar kısa ve sık (5–10 dk).",
+          "Zaman planı: 1., 3. ve 5. gün liste kontrolü ve oyun (10–15 dk)."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "1–3. hafta: liste her seferinde bilekte; Koç her adımı hatırlatmaz, listeyi gösterir.",
-          "Deneme günü: \"Bu işi listesiz yapabiliyor muyum?\" Bir kez denenir.",
-          "Sonuç ne olursa deneme takdir edilir; olmadıysa listeye geri dönülür.",
-          "Hafıza oyunları kısa ve sık: arabada, yemek beklerken, yatmadan önce."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Seçilen iş, adımlar ve ödül; liste türü.",
-          "Oynanan oyun(lar), rekor ve işe yarayan yardımcı."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 3 · aferin biletleri"
         ]
       },
       {
@@ -218,24 +143,23 @@
         "f": [
           [
             "is",
-            "Seçilen iş ve liste türü"
+            "Bilek listesi: iş ve tür"
           ],
           [
             "rekor",
-            "Yolculuk oyunu rekoru"
+            "Oyun rekoru"
           ],
           [
             "yardimci",
-            "İşe yarayan hafıza yardımcısı"
+            "İşe yarayan bellek yardımcısı"
           ]
         ]
       },
       {
-        "g": "7. Oturuma hazırlık",
+        "g": "7. Oturum",
         "ic": "next",
         "i": [
-          "Sırada ÇK1'in kapanışı: Bravo, Başardın! Koç ve çocuk baştan sona odada olacak.",
-          "İsterse büyükanne ya da öğretmen gibi bir yetişkini de getirebileceğini Koça söyle."
+          "Bravo, Başardın! Önce Koç gelir; s. 90–92'yi çoğalt."
         ]
       },
       {

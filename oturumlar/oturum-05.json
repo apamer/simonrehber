@@ -1,17 +1,25 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı ve çocuk",
-    "Koç açılış, gizli işaret ve kapanışta"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 3'ten itibaren",
+    "Kılavuz s. 57–68"
   ],
+  "fikir": "Bir atölye: Çocuk kendi ipucu kartını yapar. İki kural: hatırlatıcıyı yaz, sonra doğru zamana ve doğru yere koy. Koçla bir gizli işarette anlaşılır.",
   "phases": [
     [
+      {
+        "g": "Oku",
+        "ic": "book",
+        "i": [
+          "Oturum akışı: s. 57–63 · İpucu bankası: s. 61 · Beklenmedik durumlar ve yaş: s. 64",
+          "İsteğe bağlı: Michael Phelps'in Hikâyesi (Hikâye 6)"
+        ]
+      },
       {
         "g": "Koçla",
         "ic": "phone",
         "i": [
-          "Gizli işaret için çocuğun evde sık unuttuğu bir durumu düşünüp gelmesini iste.",
-          "Etkinlik 6'da odaya davet edileceğini söyle."
+          "Koç, evde ve okulda en sık hatırlatma gereken bir durumu düşünüp gelsin."
         ]
       },
       {
@@ -19,19 +27,11 @@
         "ic": "print",
         "i": [
           [
-            "Başla! klaket kartları (Kılavuz s. 9) · parlak renkli karton",
+            "Form 7 · İpucu kartları: Başla!, Unutma!, Hatırlayacağım! (s. 65–67), parlak kartona",
             "pdf"
           ],
           [
-            "Unutma! kartları (Kılavuz s. 10)",
-            "pdf"
-          ],
-          [
-            "Hatırlayacağım! kartları (Kılavuz s. 11)",
-            "pdf"
-          ],
-          [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 3 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -40,11 +40,8 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 1",
-          "Kartlar mümkünse önceden kesilmiş",
-          "Makas, renkli kalemler",
-          "Bant ya da yapışkan hamur: kartlar eve \"takılmaya hazır\" gitsin",
-          "İpucu bankası listesi (Kılavuz s. 5), yanında dursun"
+          "Kart 1 · makas, renkli kalemler, bant ya da yapışkan hamur",
+          "4. Oturumdaki Peki Ya Sen? · ADAPTA (isteğe bağlı, s. 62)"
         ]
       },
       {
@@ -54,7 +51,7 @@
         "pf": [
           [
             "evde",
-            "\"Evde\" ipucu"
+            "Evdeki ipucu ve adımlar"
           ],
           [
             "alan",
@@ -62,141 +59,84 @@
           ],
           [
             "not",
-            "Sabahlara dair not"
+            "Not"
           ]
         ],
         "i": [
-          "Peki Ya Sen? sayfası: \"evde\" satırı bugünkü kartlar için hammadde."
+          "Koç getirecek: Form 1 (Koç Raporu)"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Haftanı anlat",
+        "t": "Kontrol listesi: Kart 1",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 58",
+        "mat": "Kart 1",
+        "neden": "Bugünkü kartlar Kart 1'in 1. ve 4. maddesine hizmet eder: ne yapacağını hatırla, zorlanırsan ipucunu düzenle.",
         "i": [
-          "Çocuğa sor: \"Evde\" ipucunu fark ettiği bir an oldu mu?",
-          "Koçtan ipucuna yanıt verdiği bir anı anlatmasını iste.",
-          "İşe yaramayan anı not et; Etkinlik 5'te o an için kart yapılabilir.",
-          "Hafta iyi geçmediyse: \"Bugün daha güçlüsünü yapacağız.\"",
-          "Koç dışarıda bekler; Etkinlik 6'da geri gelecek."
+          [
+            "Kart 1'i birlikte oku.",
+            "CB"
+          ]
         ]
       },
       {
         "a": 2,
-        "t": "Hazır ol: Kartın iki maddesi",
-        "dk": 3,
-        "ref": "s. 3",
-        "mat": "Beceri Kontrol Kartı 1",
+        "t": "Görev 1: İpucu kartları",
+        "dk": 18,
+        "sure": "15–20 dk",
+        "ref": "s. 59–61",
+        "mat": "Form 7, karton, makas, kalem",
+        "neden": "Unutmak herkesin başına gelir; ipucu kullanmak akıllıcadır. Kartın yeri, kartın kendisi kadar önemlidir.",
         "i": [
-          [
-            "1. madde: Ne yapacağını hatırla.",
-            "CB"
-          ],
-          [
-            "4. madde: Zorlanıyorsan ipucunu kendine göre düzenle.",
-            "CB"
-          ],
-          "\"Bugün kendi ipuçlarını kendin üreteceksin.\""
+          "Kural: Yaz, sonra doğru zamanda doğru yere koy.",
+          "Örnek kartların yerini birlikte bulun (s. 59): \"Tam o anda görür müsün?\"",
+          "En az bir kartı çocuk hazırlasın; seçenek sun, hazır verme. Yeri kartın arkasına yazılsın."
         ]
       },
       {
         "a": 3,
-        "t": "\"Olamaz, unuttum!\" Herkes unutur",
-        "dk": 5,
-        "ref": "s. 3",
+        "t": "Görev 2: Gizli işaretler",
+        "dk": 20,
+        "ref": "s. 62",
+        "koc": "Koç katılır (çocuğun onayıyla)",
+        "neden": "Hatırlatma ihtiyacı çoğu zaman plansız gelir; önceden anlaşılmış küçük bir işaret, sözlü uyarıya gerek bırakmaz.",
         "i": [
-          "\"Annenin, babanın 'Olamaz, … unutmuşum!' dediğini duydun mu?\" Boşluğu birlikte doldurun.",
-          "Unutmayı normalleştir: çoğu insan unutur, bazıları daha sık.",
-          "İki kural: 1 · Yaz (ya da çiz). 2 · Doğru yere koy."
+          "Durumu ve işareti çocuk ve Koç birlikte seçsin; deneyin.",
+          "Koç için dört kural (s. 62): İşaret ceza değil, önceden anlaşılmış bir hatırlatmadır."
         ]
       },
       {
         "a": 4,
-        "t": "Dedektiflik: Bu kart nereye?",
-        "dk": 7,
-        "ref": "s. 3",
-        "mat": "ÇK1 örnek kartları",
-        "i": [
-          "Örnek: Klozet notu mutfağa yapışsa işe yarar mı?",
-          "Dört örnek kartın yerini tartışın: klozet, doktor randevusu, imza evrakı, ödev Başla!'sı.",
-          "Önce çocuğun fikri; makulse kabul et.",
-          "Tek soru yeterli: \"Tam o işi yapacağın anda bu kartı görür müsün?\""
-        ]
-      },
-      {
-        "a": 5,
-        "t": "İpucu kartı atölyesi",
-        "dk": 15,
-        "ref": "s. 4–5",
-        "mat": "Başla! / Unutma! / Hatırlayacağım! kartları",
-        "i": [
-          "Durumu seç: \"Senin bazen unuttuğun şeyler neler?\" Bir ya da iki durum yeter.",
-          "Türü çocuk seçsin: Başlamak mı zor (Başla!), ne yapacağını hatırlamak mı (Unutma!)?",
-          [
-            "Kartın üstüne tek bir eylem: yazı ya da çizim. Hazır verme, seçenek sun.",
-            "CB"
-          ],
-          "Dedektif sorusunu sor; yeri kartın arkasına yaz.",
-          "Fikir çıkmazsa ipucu bankasından iki seçenek sun.",
-          "İsterse evde unutan başka biri için de bir kart; ama az kart, çok dikkat."
-        ]
-      },
-      {
-        "a": 6,
-        "t": "Gizli işaret: Koçla bizim işaretimiz",
+        "t": "Koç: kartlar eve gidiyor",
         "dk": 10,
-        "ref": "s. 6",
-        "koc": "Koç odaya gelir",
-        "i": [
-          "Koça sor: \"Evde en sık hatırlatmak zorunda kaldığınız an?\" Tek durum seç.",
-          "İşareti çocuk ve Koç birlikte seçsin: el hareketi, kısa kelime ya da mimik.",
-          "Anlamını çocuk söylesin; cümlesini aynen tekrar et.",
-          "Bir kez deneyin: Koç işareti yapar, çocuk eylemi canlandırır.",
-          "Koç için dört kural: sessiz, açıklamasız, azarsız, amaç çocuğun kendini hatırlatması.",
-          "İstersen Michael Phelps'in \"C\" işaretini anlat."
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Kartlar eve gidiyor",
-        "dk": 5,
-        "ref": "s. 7",
+        "ref": "s. 63",
         "koc": "Koç odada",
+        "neden": "Kart ve işaret ancak evde kullanılırsa işe yarar; plan Koçla birlikte yazılır.",
         "i": [
-          "Çocuk kartlarını Koça göstersin ve her birinin yerini kendisi söylesin.",
-          "Gizli işaret planını üçünüz doldurun: durum, işaret, çocuğun cümlesi, evde / okulda.",
-          "İsteğe bağlı kısa bravo: \"Bugün kendi kartlarını kendin yaptın.\""
+          "Çocuk kartını ve yerini Koça anlatsın.",
+          "Gizli işaret planını (s. 63) üçünüz doldurun.",
+          "Geçen haftanın görevlerini Koç Raporu'yla gözden geçir."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Çocuğun ipucu kartları, bant ya da yapışkan hamurla birlikte.",
-          "Gizli işaret planı (bir kopya Koçta)."
+          "Görev 1: Kartlar ilk gün seçilen yerlere konur; doğru zamanda hatırlatıyor mu, bakılır.",
+          "Görev 2: Koç gizli işareti planlanan durumda, kurallara uyarak kullanır.",
+          "Zaman planı: 1., 3. ve 5. gün kart ve işaret kısaca konuşulur. İşe yaramazsa yeri, türü ya da işaret değişir."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Kartlar seçilen yerlere konur; çocuk doğru zamanda hatırlatıp hatırlatmadığına bakar.",
-          "Gizli işaret yalnızca planlanan durumda ve dört kurala uyarak kullanılır.",
-          "İşe yaramazsa yeri, türü ya da işaret değişir; başarısızlık sayılmaz."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Hazırlanan kartlar (tür ve yer).",
-          "Gizli işaret planı: durum, işaret, çocuğun cümlesi."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 3 · aferin biletleri"
         ]
       },
       {
@@ -213,17 +153,15 @@
           ],
           [
             "cumle",
-            "Çocuğun cümlesi"
+            "Not"
           ]
         ]
       },
       {
-        "g": "6. Oturuma hazırlık",
+        "g": "6. Oturum",
         "ic": "next",
         "i": [
-          "Koçtan, çocuğun adımlarını karıştırdığı çok adımlı bir iş düşünüp gelmesini iste.",
-          "6. Oturumda Koç baştan sona odada olacak; bunu Koça söyle.",
-          "İlk soru hazır: \"Kartı koyduğun yerde gördüğünde ne oldu?\""
+          "\"Kartı koyduğun yerde gördüğünde ne oldu?\" Sırada bilek listeleri ve hafıza oyunları."
         ]
       },
       {

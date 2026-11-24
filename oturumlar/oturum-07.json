@@ -1,29 +1,45 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı, çocuk ve Koç",
-    "Herkes baştan sona odada"
+    "60–70 dk",
+    "Önce Koç · çocuk Adım 4'te katılır",
+    "Kılavuz s. 83–92"
   ],
+  "fikir": "Çalışma Kitabı 1'in son adımı. Koç, çocuğun ipucu kullanmasını fark etmeyi ve davranışa özel övmeyi öğrenir; bölüm çocukla birlikte değerlendirilir ve hedef davranışlar seçilir.",
   "phases": [
     [
+      {
+        "g": "Koçla",
+        "ic": "phone",
+        "i": [
+          "Koça önce kendisinin geleceğini, çocuğun sonra katılacağını söyle; çocuğa bekleme alanında bir uğraş hazırla."
+        ]
+      },
+      {
+        "g": "Oku",
+        "ic": "book",
+        "i": [
+          "Oturum akışı: s. 83–88 · Beklenmedik durumlar ve yaş: s. 89",
+          "Form 3 kayıtlarına bak; hedef davranış adaylarını not et."
+        ]
+      },
       {
         "g": "Yazdır",
         "ic": "print",
         "i": [
           [
-            "Koç için: Teşvik edici sözler (Kılavuz s. 8)",
+            "Koç için: Teşvik edici sözler (s. 90)",
             "pdf"
           ],
           [
-            "Beceri Takip Formu (Kılavuz s. 9) · her yetişkin için bir kopya",
+            "Form 11 · Beceri Takip Formu, Dış Gözlemci (s. 91): ortak form, kutuya Kart 1",
             "pdf"
           ],
           [
-            "Aferin biletleri (Kılavuz s. 10)",
+            "Aferin biletleri (s. 92)",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2 ve 3",
             "pdf"
           ]
         ]
@@ -32,18 +48,7 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 1",
-          "Önceki oturumlarda hazırlanan ipucu, kart ve listeler (varsa)",
-          "Makas (biletler için)",
-          "İsteğe bağlı \"hazine kutusu\": çıkartma, kalem, kısa oyun kartı"
-        ]
-      },
-      {
-        "g": "Kendin için",
-        "ic": "book",
-        "i": [
-          "Dört oturumun özet tablosunu (Kılavuz s. 2) gözden geçir: 3. Oyun · 4. Sabah DJ'i · 5. Atölye · 6. Bilek.",
-          "Davranışa özel övgü kuralını hatırla: strateji + sonuç + adını koy."
+          "ÇK1 araçları: ipucu kartları, gizli işaret planı, bilek listeleri"
         ]
       },
       {
@@ -57,7 +62,7 @@
           ],
           [
             "rekor",
-            "Yolculuk oyunu rekoru"
+            "Oyun rekoru"
           ],
           [
             "yardimci",
@@ -65,138 +70,88 @@
           ]
         ],
         "i": [
-          "Bilek listesi ve hafıza oyunlarının haftası."
+          "Koç getirecek: Form 1 (Koç Raporu)"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Liste ve oyunlar",
+        "t": "Oturumun görevleri",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 84",
+        "koc": "Koçla",
+        "neden": "Oturuma Koçla başlanır; herkesin bugünkü görevi kısaca anlatılır.",
         "i": [
-          "Çocuğa sor: Listeyi kaç kez kullandı, en sevdiği oyun hangisi, rekoru kaç?",
-          "Koçtan listeyle bir işin bittiği bir anı anlatmasını iste.",
-          "Bu anı not et: Etkinlik 3'te özel övgü örneği olacak."
+          "Koça bugünün akışını ve her katılımcının görevini anlat."
         ]
       },
       {
         "a": 2,
-        "t": "Geriye bakış: Benim ipuçlarım",
-        "dk": 8,
-        "ref": "s. 2",
-        "mat": "Önceki kartlar ve listeler",
+        "t": "Koç eğitimi: beş aşamalı motivasyon",
+        "dk": 28,
+        "sure": "25–30 dk",
+        "ref": "s. 85–86",
+        "koc": "Koçla",
+        "mat": "Aferin biletleri",
+        "neden": "Çocuk bir ipucunu kullandığında Koçun bunu fark etmesi ve davranışa özel övmesi gerekir.",
         "i": [
-          "3. Oyun: \"Oyunda ipucunu nasıl güçlendirmiştik?\"",
-          "4. Sabah DJ'i: \"Senin çalar saatin, başlama düdüğün ne?\"",
-          "5. Atölye: \"Hangi kartın en çok işe yaradı?\"",
-          "6. Bilek: \"Hangi yardımcıyı kullanmayı seviyorsun?\"",
-          [
-            "\"Hangisi senin en iyi ipucun?\" Kartın hangi maddesine yardım ediyor? Not et.",
-            "CB"
-          ]
+          "Beş aşamayı örneklerle modelle: genel övgüden davranışa özel övgüye (s. 85–86).",
+          "Aferin bileti: Beceriyi işaretle; bilet geri alınmaz, ceza olarak kullanılmaz."
         ]
       },
       {
         "a": 3,
-        "t": "Koçla: Davranışa özel övgü",
-        "dk": 10,
-        "ref": "s. 3",
-        "koc": "Koçla yürütülür",
+        "t": "Hazır cümle kalıpları",
+        "dk": 5,
+        "ref": "s. 87",
+        "koc": "Koçla",
+        "mat": "Teşvik edici sözler (s. 90)",
+        "neden": "Koç süreci yalnızca izlemez: başta niyeti destekler, zorlanınca soruna odaklanır, sonunda çabayı takdir eder.",
         "i": [
-          "Genel övgü, teşvik ve özel övgü örneklerini karşılaştır (Mert örneği).",
-          "Kural: Ne yaptı? → Ne oldu? → Adını koy.",
-          "Kartın sözcüklerini kullan: hatırladın · bekledin · doğru eylemi yaptın · düzenledin.",
-          "Şimdi deneyin: Koç, Etkinlik 1'deki anı kullanarak çocuğa özel bir övgü söylesin.",
-          "Cümle genel kalırsa birlikte yeniden kurun."
+          "Üç an için cümleleri Koçla oku; s. 90 cep kartı olarak Koçta kalır.",
+          "Kural: Ne yaptığını tanımla (\"Listene baktın ve bitirdin\")."
         ]
       },
       {
         "a": 4,
-        "t": "Koçla: Üç anda üç cümle",
-        "dk": 10,
-        "ref": "s. 4",
-        "mat": "Teşvik edici sözler (s. 8)",
-        "koc": "Koçla yürütülür",
+        "t": "Çocukla bölüm değerlendirmesi",
+        "dk": 15,
+        "ref": "s. 88",
+        "koc": "Çocuk katılır · Koç aktif",
+        "neden": "Çocuk, Koç ve uygulayıcı bölüm boyunca çalışılanları birlikte hatırlar ve yorumlar.",
         "i": [
-          "Başlarken: İyi niyeti destekle, ipucu öner.",
-          "Zorlanınca: Suçlamadan stratejiye geç (\"Gel bu ipucunu güçlendirelim\").",
-          "Başarınca: Sonucu çabaya ve stratejiye bağla.",
-          "Performans noktasında, tam o anda söylemenin önemini konuş.",
-          "Teşvik edici sözler sayfasını Koça ver; ezber gerekmez, tek kural: ne yaptığını tanımla."
+          "3–6. oturumların araçlarını hatırlayın: oyun, Sabah DJ'i, kartlar, bilek listesi.",
+          "Form 1 ve Form 3 üzerinden herkes görüşünü söylesin."
         ]
       },
       {
         "a": 5,
-        "t": "Çemberi genişlet: Beceri Takip Formu",
-        "dk": 7,
-        "ref": "s. 5",
-        "mat": "Beceri Takip Formu (s. 9)",
+        "t": "Haftalık görev",
+        "dk": 10,
+        "ref": "s. 88",
+        "neden": "Bölümde öne çıkan ve çocuğun ihtiyacına uygun hedef davranışlar seçilir.",
         "i": [
-          "Çocuk haftasını başka kimin yanında geçiriyor? Büyükanne, bakıcı, öğretmen.",
-          "Çocukla bir hedef beceri belirle (ör. \"İşareti görünce sifonu çekmek\").",
-          "Her yetişkin için ayrı form; Koç ona ipucunu ya da gizli işareti öğretir.",
-          "Yetişkin tarihi ve ne olduğunu kısaca yazar (Berk ve büyükanne örneği)."
-        ]
-      },
-      {
-        "a": 6,
-        "t": "Aferin biletleri",
-        "dk": 5,
-        "ref": "s. 5",
-        "mat": "Aferin biletleri (s. 10)",
-        "i": [
-          "Biletleri kes; çocuğun gösterdiği becerinin yanına işaret koy.",
-          "İşaretlediğin beceriyi ortaya çıktığı durumla birlikte konuş.",
-          [
-            "İlk Aferin biletini ver: \"Burada 'Ne yapacağını hatırla' yazıyor.\"",
-            "CB"
-          ],
-          "Bilet hiç geri alınmaz, ceza olarak kullanılmaz."
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Bravo, başardın!",
-        "dk": 5,
-        "ref": "s. 6",
-        "koc": "Koç odada",
-        "i": [
-          "Çocuk \"en iyi ipucunu\" Koça anlatsın.",
-          "Koç, strateji + sonuç kuralıyla kısa bir bravo söylesin.",
-          "Çalışma Kitabı 1'in bitişini birlikte kutlayın: \"Artık ipuçlarında bir uzmansın!\""
+          "Form 3 kayıtlarından hedef davranışları seç.",
+          "Form 2 çocuğa, Form 1 Koça; bilet ve ödül kararı."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Teşvik edici sözler sayfası (Koça).",
-          "Beceri Takip Formu(ları): her yetişkine bir kopya.",
-          "Aferin biletleri: çocuk biriktirir."
+          "Bu hafta her gün: Koç ve çocuk her akşam yaklaşık 10 dk hedef davranışları konuşur.",
+          "Bilet seçildiyse Koç verir; ödül varsa önceden belirlenen koşullarla."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Hafta boyunca en az üç kez davranışa özel övgü denesin.",
-          "Çocuk başka yerde kalıyorsa Beceri Takip Formu devreye girsin.",
-          "Çocuk ipuçlarını ve gizli işareti kullanmaya devam etsin."
-        ]
-      },
-      {
-        "g": "ÇK2'ye geçmeden kontrol et",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Çocuk en az bir ipucunu evde düzenli kullanıyor.",
-          "İşe yaramayan bir ipucunu değiştirebileceğini biliyor (kartın 4. maddesi).",
-          "Koç gizli işareti ve davranışa özel övgüyü kullanıyor.",
-          "Eksik varsa ÇK1 ev çalışmalarına bir iki hafta daha devam et."
+          "Form 3: 7. oturum kısmı ve Bölüm Kapanışı sayfası",
+          "Form 1 Koça · Form 2 çocuğa"
         ]
       },
       {
@@ -205,11 +160,11 @@
         "f": [
           [
             "enIyi",
-            "Çocuğun en iyi ipucu ve kart maddesi"
+            "En işe yarayan ipucu"
           ],
           [
             "takip",
-            "Beceri Takip Formu: hedef ve yetişkin(ler)"
+            "Hedef davranış(lar)"
           ],
           [
             "hazir",
@@ -218,14 +173,10 @@
         ]
       },
       {
-        "g": "8. Oturuma hazırlık",
+        "g": "8. Oturum",
         "ic": "next",
         "i": [
-          [
-            "Sırada Çalışma Kitabı 2 · Bunu Yapma! Yeni kart: Simon Diyor: \"Yapma\".",
-            "TE"
-          ],
-          "Beceri Kontrol Kartı 2'yi hazırla."
+          "Çalışma Kitabı 2 başlıyor. Geçmeden önce çocuğun ipucunu zamanında kullanıp gerektiğinde güçlendirebildiğini gözden geçir."
         ]
       },
       {
