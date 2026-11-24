@@ -25,6 +25,14 @@ Portal basılı kılavuzun **yanında** kullanılır; kılavuzun yerini tutmaz.
 - Sabit adlar: **Bravo, Başardın!**, **Aferin biletleri**, **Beceri Kontrol Kartları**.
 - Kesin, abartılı ya da tanı/etiket dili kullanılmaz.
 
+## Yazım ölçüsü: kısa spot bilgi (kullanıcı kararı)
+Uygulayıcı seans sırasında uzun liste okuyamaz. Portal kılavuzu anlatmaz; ne yapılacağını, neyin kullanılacağını ve ayrıntının hangi sayfada olduğunu söyler. Karmaşık görünen süreci basit göstermek amaçtır.
+- "Seansı uygula": kılavuzdaki her **adım için tek kart**; kartta süre, materyal, Koç durumu ve kılavuz sayfası; **en fazla 3 kısa madde** (yalnızca kaçırılmaması gerekenler: kilit soru, not edilecek şey, verilecek ürün).
+- "Seansa hazırlan": Oku (sayfalarıyla) · Yazdır (form numarasıyla) · Masaya · Önceki oturumdan gelen. Her grup 1–2 satır.
+- "Seansı tamamla": Ver · Doldur (form adı) · kayıt alanları · sonraki oturum için tek satır.
+- Beklenmedik durumlar, yaşa göre uyarlama, çıkış kontrol listeleri gibi tablolar portala taşınmaz; yalnızca sayfa numarası verilir.
+- Maddeler tam cümle olmak zorunda değil; "·" ile ayrılmış kısa ifadeler yeterli.
+
 ## İçerik kuralları
 - Kaynak belgeyi (kılavuzun son hâli) okumadan içerik üretme. Elde olmayan dosyayı kullanıcıdan iste.
 - Telif: kılavuzun ve hikâyelerin uzun metinlerini portala aktarma; kısa madde + sayfa referansı yeterli.
