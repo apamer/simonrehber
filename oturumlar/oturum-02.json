@@ -1,8 +1,9 @@
 {
   "facts": [
-    "≈ 50 dk",
+    "60–70 dk",
     "Uygulayıcı ve çocuk",
-    "Koç açılışta ve kapanışta"
+    "Koç sonda katılır (açılışta isteğe bağlı)",
+    "Kılavuz s. 25–34"
   ],
   "phases": [
     [
@@ -11,7 +12,9 @@
         "ic": "book",
         "i": [
           "Simon'un Hikâyesi'ni (ÇK Giriş s. 32–42) iki kez sesli oku; Simon'un sesiyle anlatmayı dene.",
-          "Üç durağı (s. 33, 34, 35) ve dört beceri sayfasını (s. 38–41) işaretle."
+          "Dört beceri sayfasını (ÇK s. 38–41) işaretle; Adım 3'teki konuşma sorularını önceden seç.",
+          "Önerilen okuma: Çalışma Kitapları referans sayfaları R-1–R-8 (s. 25).",
+          "Yaşa göre uyarlama ve beklenmedik durumlar tablolarına göz at (s. 34)."
         ]
       },
       {
@@ -27,24 +30,33 @@
         "ic": "print",
         "i": [
           [
-            "Peki Ya Sen? çalışma sayfası (ÇK s. 45)",
+            "Form 4 · Peki Ya Sen? (R-7, ÇK s. 45)",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1 · Oturum Değerlendirme ve Takip Formu",
+            "pdf"
+          ],
+          [
+            "Form 2 · Yapılacaklar (Görev) Listesi (R-8)",
+            "pdf"
+          ],
+          [
+            "Form 3 · Beceri Takip Formu",
             "pdf"
           ]
         ]
       },
       {
-        "g": "Masaya",
+        "g": "Materyal kutusu (s. 26)",
         "ic": "box",
         "i": [
-          "Simon'un Hikâyesi (ÇK Giriş s. 32–42)",
-          "Simon'un Dört Beyin Becerisi görseli (s. 36)",
-          "Yürütücü İşlevler Kontrol Listem (s. 43–44)",
+          "Simon'un Hikâyesi (R-1, ÇK Giriş s. 32–42)",
+          "Simon'un Dört Beyin Becerisi görseli (ÇK s. 36)",
+          "Yürütücü İşlevler Kontrol Listem (R-6, ÇK s. 43–44)",
           "Boş kâğıt, kalem, boya kalemleri",
-          "Beceri Kontrol Kartları (isteğe bağlı)"
+          "Beceri Kontrol Kartları (isteğe bağlı)",
+          "ADAPTA çalışma sayfaları (isteğe bağlı)"
         ]
       },
       {
@@ -66,7 +78,7 @@
           ]
         ],
         "i": [
-          "Ailenin getirdiği Beceri Anları Kayıt Sayfası",
+          "Koçun getirdiği Beceri Anları Kayıt Sayfası",
           "1. Oturumda doldurulan Beyin Becerileri Haritası"
         ]
       }
@@ -74,126 +86,164 @@
     [
       {
         "a": 1,
-        "t": "Karşılama: Koçla birlikte",
-        "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "no": 1,
+        "t": "Çocukla görüşmeye giriş",
+        "dk": 10,
+        "ref": "s. 26–27",
+        "koc": "Koç isteğe bağlı, kısa",
         "i": [
-          "Çocuğu ve Koçu birlikte karşıla.",
-          "Koçtan seçtiğin başarı anını çocuğun yanında anlatmasını iste. Zorlanılan anlar konuşulmaz.",
-          "Koça teşekkür et; dışarıda bekleyeceğini ve sonunda döneceğini çocuğun duyacağı biçimde söyle."
+          "İsteğe bağlı: Koç çocukla geldiyse seçtiğin başarı anını çocuğun yanında kısaca anlatsın; zorlanılan anlar konuşulmaz. Sonra Koç dışarıda bekler.",
+          "Programı çocuğun diliyle tanıt: \"yürütücü işlevler\" yerine \"beyin becerileri\" de.",
+          "Hikâye, oyun ve kısa etkinliklerle, onun hızında çalışacağınızı söyle.",
+          "Bunun bir sınav ya da test olmadığını söyle; fikirlerinin önemli olduğunu vurgula.",
+          "Güçlü yönlerini fark et ve söyle; yaşıtlarıyla karşılaştırma.",
+          "Tepkilerini ve sözlerini kısaca not al. Örnek başlangıç konuşması: s. 27."
         ]
       },
       {
         "a": 2,
-        "t": "Simon'la tanışma",
-        "dk": 3,
-        "ref": "s. 3",
-        "mat": "Simon'un resmi (ÇK s. 32)",
+        "no": 2,
+        "t": "Simon'un Hikâyesi (R-1)",
+        "dk": 20,
+        "ref": "s. 27–29",
+        "mat": "ÇK Giriş s. 32–42",
         "i": [
-          "Simon'un kaykaylı resmini göster ve Simon'u tanıt.",
-          "Sınav olmadığını, yanlış cevabın da olmadığını söyle.",
-          "Hikâyeyi Simon'un ağzından, \"ben\" diliyle anlat."
+          "Okuma, anlat: Simon'un ağzından, \"ben\" diliyle; duraklayıp tepkilerini gözle.",
+          "Simon'un kaykaylı resmini (ÇK s. 32) göster; istediği zaman soru sorabileceğini söyle.",
+          "ÇK s. 32–35'i akıcı anlat: dört sorun, \"zeki olmak tek başına yeterli değil\", oyun tahtası. Üzerine Adım 3'te konuşacaksınız.",
+          "Açılış (ÇK s. 36–37): görseli göster, kısa adları söyle: Hatırlama, Durdurma, Değiştirme, Planlama.",
+          [
+            "Hatırlama (ÇK s. 38): Simon'un aracı ipucu; köprü sorusu",
+            "CB"
+          ],
+          [
+            "Durdurma (ÇK s. 39): durma oyunları ve ipucu veren yetişkinler; köprü sorusu",
+            "TE"
+          ],
+          [
+            "Değiştirme (ÇK s. 40): isterse bir kez yavaş nefes, uzatmadan; köprü sorusu",
+            "BE"
+          ],
+          [
+            "Planlama (ÇK s. 41): oyun planı bir oyun tahtasına benzer; köprü sorusu",
+            "SO"
+          ],
+          "Dört beceriyi kısa geç; çocuğun ilgi gösterdiği beceride biraz daha dur. Kartı masaya koymak isteğe bağlı.",
+          "Hikâyenin sonu (ÇK s. 42): dört kısa adı parmağınla tek tek göster.",
+          "Sihirli değişim vaat etme; \"Her gün daha iyiye gidiyorum\" bir beklenti değil, umut mesajıdır."
         ]
       },
       {
         "a": 3,
-        "t": "Simon'un Hikâyesi: Ben neden yapamıyordum?",
-        "dk": 10,
-        "ref": "s. 4",
-        "mat": "ÇK s. 33–35",
+        "no": 3,
+        "t": "Simon'un Hikâyesi hakkında konuşmak",
+        "dk": 22,
+        "sure": "20–25 dk",
+        "ref": "s. 29–31",
+        "mat": "Boş kâğıt, kalem, boya kalemleri",
         "i": [
+          "Her konuda en fazla bir iki soru sor; hemen çözüm öğretme, önce düşüncelerini ve duygularını dinle.",
           [
-            "Durak 1 · Simon'un dört sorunu: \"Hangisi sana en tanıdık geldi?\" Cevabı not et.",
+            "Konu 1 · Simon'un dört sorunu (ÇK s. 33): \"Hangisi sana en tanıdık geldi?\" Cevabı not et.",
             "ALL"
           ],
-          "Durak 2 · \"Belki de beceriksiz biriyim\": \"Sence Simon beceriksiz mi?\"",
-          "Durak 3 · Oyun tahtası: kâğıda BAŞLA, BİTİŞ ve kıvrımlı bir yol çiz.",
-          "Çizimi sakla; Etkinlik 6'da kullanılacak."
+          "Konu 2 · \"Belki de beceriksiz biriyim\" (ÇK s. 34): \"Sence Simon beceriksiz mi?\" Zeki olmanın tek başına yetmediğini vurgula.",
+          "Konu 3 · Oyun tahtası (ÇK s. 35): BAŞLA, BİTİŞ ve yolu birlikte çizin; Simon'un işini ve dikkatini çekebilecekleri ekleyin.",
+          "Rotadan çıkmak bitişe ulaşamamak demek değildir; Simon nerede olduğunu fark edip rotasına dönmeyi öğrenir.",
+          "Çizimi sakla; Adım 4'te çocuğun amacı için kullanılacak.",
+          "Çocuğun düşüncelerini sor: hikâyede en çok hangi bölüm dikkatini çekti, Simon'a ne söylerdi?",
+          "Son soru: \"Simon'un dört becerisinden hangisi senin işine en çok yarardı?\" Cevabı not et.",
+          "Sorgu gibi değil, seçme imkânı veren sorular sor (s. 31); yanıt vermek istemezse beklemeden devam et.",
+          "Zaman kalırsa: ADAPTA ek etkinlikleri (isteğe bağlı, yaklaşık 10 dk, s. 31); adımların yerine geçmez."
         ]
       },
       {
         "a": 4,
-        "t": "Simon'un dört beyin becerisi",
-        "dk": 15,
-        "ref": "s. 5–6",
-        "mat": "ÇK s. 36–42",
+        "no": 4,
+        "t": "Görev: Kontrol Listem",
+        "dk": 12,
+        "sure": "10–15 dk",
+        "ref": "s. 32",
+        "mat": "Kontrol Listem (R-6, ÇK s. 43–44)",
         "i": [
-          "Görseli göster; kısa adları söyle: Hatırlama, Durdurma, Değiştirme, Planlama.",
-          [
-            "Hatırlama (s. 38): ipucu aracı ve köprü sorusu",
-            "CB"
-          ],
-          [
-            "Durdurma (s. 39): durma oyunları ve köprü sorusu",
-            "TE"
-          ],
-          [
-            "Değiştirme (s. 40): isterse bir kez yavaş nefes, köprü sorusu",
-            "BE"
-          ],
-          [
-            "Planlama (s. 41): oyun tahtasıyla bağla, köprü sorusu",
-            "SO"
-          ],
-          "Çocuğun Durak 1'de seçtiği becerinin üzerinde daha uzun dur.",
-          "Hikâyenin sonu (s. 42): \"Hangisi senin işine en çok yarardı?\" Cevabı not et."
+          "Simon'un listesini (ÇK s. 43) Simon'un sesiyle kısaca anlat: becerileri uygula, araç kullan, yardım iste.",
+          "Her yolu hikâyeden bir örnekle bağla; yardım istemenin de bir beceri olduğunu söyle.",
+          "Çocuğun kendi listesini (ÇK s. 44) birlikte oluşturun: her yolun yanına onun örneği; kutuları çocuk işaretlesin.",
+          "Liste evde görebileceği bir yere asılır."
         ]
       },
       {
         "a": 5,
-        "t": "Simon'un Kontrol Listesi",
-        "dk": 4,
-        "ref": "s. 7",
-        "mat": "ÇK s. 43–44",
+        "no": 4,
+        "t": "Peki Ya Sen? görev formu (Form 4, R-7)",
+        "dk": 0,
+        "sure": "Adım 4 içinde",
+        "ref": "s. 32",
+        "mat": "Peki Ya Sen? (ÇK s. 45)",
         "i": [
-          "Sayfayı Simon'un yol haritası olarak göster; doldurulmaz.",
-          "Üç yolu hikâyeden bir örnekle bağla: becerileri uygula, araç kullan, yardım iste."
+          "Bir amaç yazın: küçük, somut, bu hafta denenebilir. Adım 3'teki oyun tahtasından ya da köprü sorularından çıkan örneği kullan.",
+          "Bir beceriyi daire içine alın; amaca nasıl yardım edeceğini konuşun.",
+          "Çocuğun kendi kontrol listesinden bir yol seçin ve nasıl yapacağını yazın.",
+          "Kendini gözlem soruları: Hedefime ulaşabildim mi? Nerede zorlandım? Hangi beceriyi iyi kullandım? Neyi farklı yaparım?",
+          "Amaç büyükse küçült: \"Bu hafta onun küçük bir parçası ne olabilir?\"",
+          "Çocuk yazmak istemezse sen yaz, o söylesin."
         ]
       },
       {
         "a": 6,
-        "t": "Peki Ya Sen?",
-        "dk": 7,
-        "ref": "s. 7",
-        "mat": "Peki Ya Sen? (ÇK s. 45)",
+        "no": 4,
+        "t": "Kapanış: Koç oturuma katılır",
+        "dk": 0,
+        "sure": "Adım 4 içinde",
+        "ref": "s. 33",
+        "koc": "Koç odaya gelir",
         "i": [
-          "Küçük, somut ve bu hafta denenebilir bir amaç yazın.",
-          "Bir beceriyi daire içine alın.",
-          "Kontrol listesinden bir yol seçip nasıl yapacağını yazın.",
-          "Amaç büyükse küçültün: \"Bu hafta onun küçük bir parçası ne olabilir?\""
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Koç geri döner",
-        "dk": 6,
-        "ref": "s. 8",
-        "koc": "Koç geri döner",
-        "i": [
-          "Koçu içeri al; çocuk Simon'u ve amacını Koça anlatsın.",
-          "\"Bir Şey Daha Var!\": Koçla kontrol zamanını belirleyin (tarih, saat, yer).",
-          "Koça rolünü söyle: o anda yanında olsun, \"Nasıl gitti?\" diye sorsun; puan vermesin.",
+          "Koçu içeri al; çocuk Simon'u ve amacını Koça kendisi anlatsın. Takılırsa destekle, sözü ona bırak.",
+          "Kontrol zamanını (tarih, saat, yer) Koçla belirleyin; Peki Ya Sen?'deki \"Kontrol Zamanı!\" alanına yazın.",
+          "Koça rolünü söyle: kontrol zamanında yanında olsun, \"Nasıl gitti, nerede zorlandın?\" diye sorsun; puan vermesin, eleştirmesin.",
           "Sayfadaki üç mesajı çocuğa oku.",
-          "Bravo, Başardın!: çabayı ve dürüstlüğü adlandır."
+          "Bravo, Başardın!: sonucu değil, çabayı ve dürüstlüğü adlandır.",
+          "Form 1'in 1. bölümünü doldurup Koça ver; Yapılacaklar (Görev) Listesi'ni çocuğa ver."
         ]
       }
     ],
     [
       {
+        "g": "Oturumdan çıkmadan önce (s. 34)",
+        "ic": "form",
+        "i": [
+          "Dört beceri kısa adlarıyla tanıtıldı.",
+          "Çocuk, Simon'un dört sorunundan birini seçti.",
+          "Çocuk en az bir beceriyi kendi hayatıyla ilişkilendirmeye davet edildi; tepkisi not edildi.",
+          "Çocuğun kendi kontrol listesi (ÇK s. 44) oluşturuldu.",
+          "Peki Ya Sen? sayfası dolduruldu; kontrolün tarihi, saati ve yeri yazıldı.",
+          "Form 1'in 1. bölümü dolduruldu ve Koça verildi.",
+          "Yapılacaklar (Görev) Listesi çocuğa verildi; Form 3 dolduruldu."
+        ]
+      },
+      {
         "g": "Eve gidenler",
         "ic": "hand",
         "i": [
-          "Peki Ya Sen? sayfası eve gider; amacın yaşandığı yere asılır (kapı, buzdolabı).",
-          "Koça hatırlat: Koç Raporu'nda Görev 1 kontrol zamanında çocukla birlikte işaretlenecek (−2 ile +2)."
+          "Peki Ya Sen? sayfası ve çocuğun kendi kontrol listesi; liste evde görebileceği bir yere asılır.",
+          "Yapılacaklar (Görev) Listesi; sonraki oturuma getirilir."
+        ]
+      },
+      {
+        "g": "Koça söyle",
+        "ic": "hand",
+        "i": [
+          "Kontrol zamanında görevi çocukla birlikte gözden geçirsin: \"Ne işe yaradı?\", \"Nerede zorlandın?\"",
+          "Form 1'de Görev 1'i çocukla birlikte değerlendirsin, Gelişim Alanları ve İhtiyaçlar bölümünü doldursun, formu sonraki oturuma getirsin."
         ]
       },
       {
         "g": "Formu doldur",
         "ic": "form",
         "i": [
-          "Uygulayıcı Notları: Durak 1'de seçilen sorun, seçilen beceri, çocuğun amacı ve yolu.",
-          "\"Görev / Öneri 1\" alanına amacı ve kontrol zamanını yaz."
+          "Form 1, 1. bölüm: Konu 1'de seçilen sorun, Adım 3'te seçilen beceri, amaç ve seçilen yol.",
+          "\"Görev / Öneri 1\" alanına amacı ve zaman planını yaz.",
+          "Form 3 · Beceri Takip Formu'nu doldur."
         ]
       },
       {
@@ -202,7 +252,7 @@
         "f": [
           [
             "sorun",
-            "Durak 1'de seçilen sorun"
+            "Konu 1'de seçilen sorun"
           ],
           [
             "beceri",
@@ -222,7 +272,8 @@
         "g": "3. Oturuma hazırlık",
         "ic": "next",
         "i": [
-          "Koç getirecek: Koç Raporu (Görev 1 işaretlenmiş).",
+          "Çocuğa görevi nasıl yaptığı sorulacak; zorlandığı yerler birlikte konuşulacak.",
+          "Koç getirecek: Form 1 (Görev 1 değerlendirilmiş). Çocuk getirecek: Peki Ya Sen? ve Yapılacaklar Listesi.",
           "3. Oturumda Çalışma Kitabı 1 başlıyor; Beceri Kontrol Kartı 1'i hazırla."
         ]
       },
