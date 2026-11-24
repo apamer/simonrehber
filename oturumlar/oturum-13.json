@@ -1,18 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı ve çocuk",
-    "Koç açılışta ve kapanışta"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 5'te",
+    "Kılavuz s. 151–162"
   ],
+  "fikir": "Serdar'ın hikâyesi: Öfke sorun değil, kızgınken ne yapıldığı önemli. Çocuk kendisi için zor bir geçişi adlandırır; o anda söyleyeceği bir cümle ve bakacağı bir \"bayrak\" seçer.",
   "phases": [
     [
       {
-        "g": "Kendin için",
+        "g": "Oku",
         "ic": "book",
         "i": [
-          "Hikâyeyi (Kılavuz s. 8–9) oku; Serdar'ın Dur, Odaklan, Değiştir anlarını işaretle.",
-          "İki durak: antrenör bayrağı gösterdikten hemen sonra ve nefes paragrafında.",
-          "Çekirdek sorular: 2, 5, 7. Soru 8 \"Peki ya sen?\"de konuşulur."
+          "Hikâye 8 · Takım Oyuncusu (s. 158–159)",
+          "Oturum akışı: s. 151–156 · Beklenmedik durumlar ve yaş: s. 157"
         ]
       },
       {
@@ -20,23 +20,23 @@
         "ic": "print",
         "i": [
           [
-            "Takım Oyuncusu hikâyesi (Kılavuz s. 8–9) · iki kopya",
+            "Hikâye 8 (s. 158–159), iki kopya; çocuğunkinde Serdar'ın replikleri işaretli",
             "pdf"
           ],
           [
-            "Tartışma soruları (Kılavuz s. 10)",
+            "Tartışma soruları (s. 160)",
             "pdf"
           ],
           [
-            "İnsanlar bu becerileri ne zaman kullanır? (Kılavuz s. 11)",
+            "Form 15 · İnsanlar bu becerileri ne zaman kullanır? (s. 161)",
             "pdf"
           ],
           [
-            "Peki ya sen? (Kılavuz s. 12)",
+            "Form 16 · Peki ya sen? (s. 162)",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 25 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -45,10 +45,7 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 3",
-          "DUR işareti duvarda, çocuğun göz hizasında",
-          "Çocuğun kopyası: Serdar'ın replikleri fosforlu kalemle işaretli",
-          "İsteğe bağlı küçük bayrak ya da renkli kâğıt"
+          "Kart 3 · DUR levhası duvarda · isteğe bağlı küçük bir bayrak · ADAPTA (isteğe bağlı)"
         ]
       },
       {
@@ -70,138 +67,91 @@
           ]
         ],
         "i": [
-          "Evde bir kolay geçişte üç adım denendi mi?"
+          "Koç getirecek: Form 1 (evdeki oyun)"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Geçişler evde nasıl gitti?",
+        "t": "Kontrol listesi: Kart 3",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 152",
+        "mat": "Kart 3",
+        "neden": "Kart 3, bilişsel esneklik bölümü boyunca çocuğun her zaman bakacağı hatırlatmalardır.",
         "i": [
-          "Koça sor: Oyun evde oynandı mı? Kolay bir geçişte üç adım denendi mi?",
           [
-            "Bir anı adlandır: \"Durdun, bir nefes aldın ve yemeğe geçtin. Vites değiştirdin.\"",
+            "Kart 3'ü birlikte oku.",
             "BE"
-          ],
-          "Denenmediyse sorun etme; bugün nedenini konuşacağınızı söyle.",
-          "Koç çıkar; kapanışta geri dönecek."
+          ]
         ]
       },
       {
         "a": 2,
-        "t": "Hazır ol: Bir futbol maçına gidiyoruz",
-        "dk": 3,
-        "ref": "s. 2",
-        "mat": "Beceri Kontrol Kartı 3",
+        "t": "Hikâye: Takım Oyuncusu",
+        "dk": 25,
+        "ref": "s. 153–154",
+        "mat": "Hikâye 8, sorular (s. 160)",
+        "neden": "Çocuk dikkatini değiştirme becerisinin gerçek hayatta nasıl kullanıldığını görür: Serdar çok öfkelenir ama sakinleşip vites değiştirir.",
         "i": [
-          "Kartı \"gözlük\" yap: Serdar'ın hangi adımları kullandığını yakala.",
-          "Roller: Serdar = çocuk · Anlatıcı ve Antrenör = sen.",
-          "Okumakta zorlanırsa Serdar'ın repliklerini önce sen fısılda."
+          "Rollerle canlandırın: Serdar'ı çocuk oynar; Durak 2'de nefes ve gevşeme birlikte.",
+          "Zaman azsa önce 2, 5 ve 7. sorular.",
+          "\"Ben de tekmelerdim\" derse yargılama: \"Bakalım Serdar sonra ne yaptı.\""
         ]
       },
       {
         "a": 3,
-        "t": "Hikâyeyi canlandır: Takım Oyuncusu",
-        "dk": 12,
-        "ref": "s. 3",
-        "mat": "Hikâye (s. 8–9)",
+        "t": "İnsanlar bu becerileri ne zaman kullanır?",
+        "dk": 10,
+        "ref": "s. 155",
+        "mat": "Form 15",
+        "neden": "Vites değiştirmek herkes için gereklidir; başkalarına bakmak çocuğun kendi hayatına geçmeden önce kolay bir ısınmadır.",
         "i": [
-          "İlk yarı: Serdar kenara alınır, bankı tekmeler; antrenör sessizce bayrağı gösterir.",
-          "Durak 1: \"Serdar ne hissediyor? Antrenör neden konuşmadan bayrağı gösterdi?\"",
-          [
-            "Durak 2 (nefes paragrafı): \"Hadi Serdar, şimdi sen yap!\" DUR işaretine bak, nefes al, yumrukları gevşet; sen de yap.",
-            "BE"
-          ],
-          "Kenarda: \"Dur! Takım oyuncusu ol!\" · İkinci yarı: \"Rahatla. Sakin ol. Yapabilirsin!\"",
-          "Öfke sorun değil; önemli olan kızgınken ne yapıldığı. \"Ben de tekmelerdim\" derse yargılama."
+          "İlk satırı (Baba) birlikte yapın; sonra bir iki kişi yeterli.",
+          "Dur: neyi bırakmalı · Sakinleş · Düşün."
         ]
       },
       {
         "a": 4,
-        "t": "Konuşalım: Serdar ne yaptı?",
-        "dk": 8,
-        "ref": "s. 4",
-        "mat": "Tartışma soruları (s. 10)",
+        "t": "Peki ya sen?",
+        "dk": 10,
+        "ref": "s. 155",
+        "mat": "Form 16",
+        "neden": "Hikâyeden çocuğun kendi hayatına köprü kurulur; ev planı bu adıma dayanır.",
         "i": [
-          "Soru 2: Oynamaktan izlemeye geçmek için ne yaptı?",
-          "Soru 5: Oyundaki becerilerden hangilerini kullandı? Dur · Odaklan · Değiştir.",
-          "Soru 7: Kızgın kalsaydı ne olurdu?",
-          "Serdar'ın sözcükleri: \"Vites değiştirme zamanı\", \"Dur! Takım oyuncusu ol!\"",
-          [
-            "\"Sana durman gerektiğini ne hatırlatabilir?\" Çocuğun \"bayrağını\" seç: DUR işareti, kart, bileklik, gizli işaret.",
-            "BE"
-          ]
+          "Önce kolay geçişler, sonra zor bir geçiş.",
+          "\"Kendime söyleyeceğim cümle\" ve \"Benim bayrağım\" alanlarını doldurun."
         ]
       },
       {
         "a": 5,
-        "t": "İnsanlar ne zaman vites değiştirir?",
-        "dk": 8,
-        "ref": "s. 5",
-        "mat": "Form (s. 11)",
+        "t": "Koç katılır",
+        "dk": 12,
+        "sure": "10–15 dk",
+        "ref": "s. 156",
+        "koc": "Koç odaya gelir (çocuğun onayıyla)",
+        "neden": "Çocuk zor geçişini, sözünü ve bayrağını Koça kendisi anlatır.",
         "i": [
-          "Çocuk Dur, Sakinleş, Düşün sütunlarını doldursun.",
-          "İlk satırı (Baba) birlikte yap; sonra bir iki kişi yeterli. Sözlü de olur.",
-          "\"Sakinleş\" sütununda göstersin: omuzlarını düşürmek, nefesi yavaş vermek."
-        ]
-      },
-      {
-        "a": 6,
-        "t": "Peki ya sen? Kolay ve zor geçişlerim",
-        "dk": 8,
-        "ref": "s. 5",
-        "mat": "Form (s. 12)",
-        "i": [
-          "Önce kolay geçişler: çocuk iyi yaptığını görsün.",
-          "Sonra zor geçişler; bulamazsa seçenek sun: sıra beklemek, kaybetmek, tableti kapatmak, teneffüsten derse dönmek.",
-          [
-            "Son satır: \"Bu geçişte kendine ne söylersen işe yarar?\" Seçtiği \"bayrağı\" da yaz.",
-            "BE"
-          ]
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Benim bayrağım",
-        "dk": 6,
-        "ref": "s. 6",
-        "koc": "Koç geri döner",
-        "i": [
-          "Çocuk Serdar'ı iki cümleyle anlatsın: ne oldu, nasıl vites değiştirdi.",
-          "Peki ya sen? formunu Koça göstersin: zor geçiş, kendi cümlesi, kendi bayrağı.",
-          "Plan: Koç geçişten önce kısa uyarı verir ve görsel ipucunu gösterir; çocuk cümlesini söyler.",
-          "Bir kez prova edin."
+          "Antrenör ile Koç ayrımını açıkla: Öfke anında az söz, sessiz bir işaret.",
+          "12. Oturum görevlerini Koç Raporu'yla kontrol et."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Peki ya sen? formu: zor geçiş, cümle ve bayrak.",
-          "İsteğe bağlı: hikâye evde yeniden canlandırılabilir; Antrenör'ü Koç oynar."
+          "Görev 1: Hikâye Koçla okunur ve canlandırılır (çocuk Serdar, Koç Antrenör); sorular cevaplanır.",
+          "Günlük hayatta: Zor geçişte bayrağa bakar; Dur-Odaklan-Değiştir ve seçtiği cümle.",
+          "Zaman planı: 1. gün hikâye · 3. ve 5. gün bir geçişte bayrak ve söz."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Plan tek bir geçişte denensin; çok zor görünüyorsa önce daha kolay bir geçişte.",
-          "Fark ettiği vites değiştirme anını adlandırsın: \"Tableti kapattın, nefes aldın ve sofraya geldin.\"",
-          "Öfke anında az söz ve sessiz bir işaret; antrenör gibi."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Çocuğun seçtiği zor geçiş, kendi cümlesi ve görsel ipucu.",
-          "Koçla kararlaştırılan uyarı."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 25 · aferin biletleri"
         ]
       },
       {
@@ -210,28 +160,27 @@
         "f": [
           [
             "gecis",
-            "Seçilen zor geçiş"
+            "Zor geçiş"
           ],
           [
             "cumle",
-            "Kendi cümlesi"
+            "Kendime söyleyeceğim cümle"
           ],
           [
             "bayrak",
-            "Görsel ipucu (bayrağı)"
+            "Benim bayrağım"
           ],
           [
             "uyari",
-            "Koçun uyarısı"
+            "Not"
           ]
         ]
       },
       {
-        "g": "14. Oturuma hazırlık",
+        "g": "14. Oturum",
         "ic": "next",
         "i": [
-          "Koça bir sonraki oturumda baştan sona odada olacağını söyle.",
-          "Rüzgâr gülü (yoksa baloncuk) ve saniyeli bir saat hazırla."
+          "Lütfen Dikkat! kartları (Form 17) ve Sakinlik Ölçeği (Form 18) çoğaltılacak; rüzgâr gülü hazırla."
         ]
       },
       {

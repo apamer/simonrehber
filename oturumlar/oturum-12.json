@@ -1,26 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı ve çocuk",
-    "Koç açılışta ve kapanışta"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 3'te",
+    "Kılavuz s. 141–150"
   ],
+  "fikir": "Bilişsel esnekliğe oyunla başlanır: Dur (tepkiyi durdur), Odaklan (nefes, beden, beyin), Değiştir (dikkati yeni hedefe çevir). Çocuk iki oyun arasında bu üç adımla birkaç kez geçiş yapar.",
   "phases": [
     [
       {
-        "g": "Kendin için",
+        "g": "Oku",
         "ic": "book",
         "i": [
-          "Üç komutu ve her birinde sesli düşüneceğin cümleleri (Kılavuz s. 4) gözden geçir.",
-          "NBB'yi (Nefes, Beden, Beyin) kendin bir kez dene; yarım dakikayı geçmemeli.",
-          "Top oynanamıyorsa çocuğun sevdiği iki kısa oyun seç (ör. yapboz ve bloklar)."
-        ]
-      },
-      {
-        "g": "Odayı hazırla",
-        "ic": "box",
-        "i": [
-          "DUR işaretini duvara, çocuğun göz hizasına as (Kılavuz s. 9).",
-          "Yumuşak bir top, bir \"sepet\" (kova, kutu) ve skor için kâğıt ya da yazı tahtası."
+          "Oyunun dört bölümü (A–D) ve sesli düşünme cümleleri: s. 143–145",
+          "Oturum akışı: s. 141–146 · Beklenmedik durumlar ve yaş: s. 147"
         ]
       },
       {
@@ -28,17 +20,25 @@
         "ic": "print",
         "i": [
           [
-            "Beceri Kontrol Kartı 3: Dur… Odaklan… Değiştir! (Kılavuz s. 8) · iki kart",
+            "Beceri Kontrol Kartı 3 (s. 148), çocuğa bir kopya",
             "pdf"
           ],
           [
-            "DUR işareti (Kılavuz s. 9) · renkli",
+            "DUR levhası (s. 149), duvara göz hizasında",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 25 ve aferin biletleri",
             "pdf"
           ]
+        ]
+      },
+      {
+        "g": "Masaya",
+        "ic": "box",
+        "i": [
+          "Yumuşak top, sepet ya da kova, skor için kâğıt",
+          "Top oynanamıyorsa çocuğun sevdiği iki kısa oyun · ADAPTA (isteğe bağlı)"
         ]
       },
       {
@@ -48,11 +48,11 @@
         "pf": [
           [
             "enIyi",
-            "En iyi durdurma aracı"
+            "En işe yarayan durdurma aracı"
           ],
           [
             "takip",
-            "Beceri Takip Formu"
+            "Hedef davranış(lar)"
           ],
           [
             "hazir",
@@ -60,140 +60,68 @@
           ]
         ],
         "i": [
-          "Bravo haftası: ÇK2 Aferin biletleri ve Beceri Takip Formu kayıtları."
+          "Koç getirecek: Form 1 (hedef davranışlar) ve varsa bilet toplamı"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Bravo haftası",
-        "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "t": "Kontrol listesi: Kart 3",
+        "dk": 8,
+        "sure": "5–10 dk",
+        "ref": "s. 142",
+        "mat": "Kart 3",
+        "neden": "Liste, oyunda başarılı olmak için ne yapması gerektiğini açıklar; oyundan sonra değerlendirmede yeniden kullanılır.",
         "i": [
-          "Aferin biletlerine ve Beceri Takip Formuna birlikte bak: kim, hangi durdurma anını yazmış?",
           [
-            "Koç bir anı okusun; adlandır: \"Kendini durdurdun ve hedefine döndün.\"",
-            "TE"
-          ],
-          "Koça yeni kitaba başlandığını söyle; Koç çıkar, kapanışta döner."
+            "Kart 3'ü çocuğa ver; oyundan önce birlikte oku.",
+            "BE"
+          ]
         ]
       },
       {
         "a": 2,
-        "t": "Hazır ol: Yeni kitap, yeni kart",
-        "dk": 5,
-        "ref": "s. 2",
-        "mat": "Beceri Kontrol Kartı 3",
+        "t": "Oyun: Dur… Odaklan… Değiştir!",
+        "dk": 40,
+        "sure": "35–45 dk",
+        "ref": "s. 143–145",
+        "mat": "Top, sepet, DUR levhası",
+        "neden": "Çocuk eğlendiği bir şeyi bırakıp yenisine geçmeyi, adımları yüksek sesle düşünen bir yetişkini izleyerek öğrenir.",
         "i": [
-          "\"Eğlendiğin bir şeyi bırakıp başka bir şeye geçmek bazen zor olur, değil mi?\"",
-          [
-            "Kartı birlikte oku, bir kopyasını ver; dört maddeyi oyunla eşleştir.",
-            "BE"
-          ],
-          "1 Dur → topu bırak · 2 Odaklan → nefes, gevşe · 3 Değiştir → \"Yeni oyuna hazırım\" · 4 Geçiş → yeni oyuna başla."
+          "Önce gevşeme: Nefes · Beden · Beyin (s. 143).",
+          "Top atma → \"Dur! Odaklan! Değiştir!\" → salon basketbolu; her adımda sesli düşün (s. 144).",
+          "Gözden geçir: Kart 3'ün maddelerini oyundaki anlarla bağla (s. 145)."
         ]
       },
       {
         "a": 3,
-        "t": "Hazırlan: Nefes, Beden, Beyin",
-        "dk": 8,
-        "ref": "s. 3",
-        "mat": "DUR işareti",
-        "i": [
-          "Geçiş ne demek? Hızlıca (işareti görünce bırak) ve tamamen (dikkatini yeni oyuna ver).",
-          "Birlikte DUR işaretine bakın.",
-          [
-            "Nefes: uzun, derin bir nefes al, yavaşça ver. Önce sen göster.",
-            "BE"
-          ],
-          "Beden: yumruğu sık ve bırak; gergin ve gevşek kas farkını hissettir.",
-          "Beyin: \"Yeni oyuna geçmeye hazırım.\" Sonra çocuğa sor: \"Sen beynine ne söyleteceksin?\""
-        ]
-      },
-      {
-        "a": 4,
-        "t": "Oyun: Top atma ↔ Salon Basketbolu",
+        "t": "Koç katılır",
         "dk": 15,
-        "ref": "s. 4",
-        "mat": "Top, sepet, skor tahtası",
+        "ref": "s. 146",
+        "koc": "Koç odaya gelir (çocuğun onayıyla)",
+        "neden": "Oyun ve iç konuşma evde Koçla sürer.",
         "i": [
-          "Herkes bir basketbolcu adı seçsin; birer deneme atışı.",
-          "Oyun 1 (top atma) ile başla; \"Dur!\" deyince Oyun 2'ye geçilecek.",
-          [
-            "Dur! → topu bırak, DUR işaretine bak · Odaklan! → nefes, gevşe · Değiştir! → sepete at.",
-            "BE"
-          ],
-          "İlk turda top sende olsun; her adımı sesli düşünerek göster.",
-          "Sonraki turlarda sor: \"Şimdi beynin sana ne söylüyor?\" Birkaç kez iki yönlü geçiş yap."
-        ]
-      },
-      {
-        "a": 5,
-        "t": "Gözden geçir: Kartın üzerinden",
-        "dk": 7,
-        "ref": "s. 5",
-        "mat": "Beceri Kontrol Kartı 3",
-        "i": [
-          "Her madde için oyundan somut bir an: \"Dur dediğimde top elindeydi ama hemen bıraktın.\"",
-          "Bir iki soru: \"Durdurmak kolay mıydı?\" · \"Nefes yardım etti mi?\" · \"Hangi adım en çok yardım etti?\"",
-          "\"Buna 'vites değiştirmek' diyoruz.\""
-        ]
-      },
-      {
-        "a": 6,
-        "t": "Tekrar oyna: Biraz daha zor",
-        "dk": 5,
-        "ref": "s. 5",
-        "i": [
-          "\"Dur\" komutunu beklenmedik anlarda ver; geçişleri hızlandır.",
-          "Komutu söyleme, yalnızca DUR işaretini göster; adımları çocuk başlatsın.",
-          [
-            "Çocuktan kendi kendine \"Dur!\" demesini iste; kendi iç konuşma cümlesini bulsun.",
-            "BE"
-          ],
-          "Bir tur rolleri değiştir: komutları çocuk versin."
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Koça NBB'yi öğret",
-        "dk": 5,
-        "ref": "s. 6",
-        "koc": "Koç geri döner",
-        "i": [
-          "Çocuk Kart 3'ü gösterip Nefes-Beden-Beyin'i Koça kendisi öğretsin.",
-          "Kısa tur: Koç oynarken çocuk \"Dur!\" desin, Koç üç adımı yapsın.",
-          "Kartın ikinci kopyası eve gitsin.",
-          "İsteğe bağlı mini bravo: \"Dur dediğimde topu bıraktın, nefes aldın ve öbür oyuna geçtin.\""
+          "Çocuk Nefes-Beden-Beyin adımlarını Koça kendisi anlatsın.",
+          "11. Oturum hedef davranışlarını değerlendir; bilet toplamını Form 9'un Bölüm Kapanışı sayfasına işle."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Beceri Kontrol Kartı 3 (bir kopya).",
-          "İsteğe bağlı: evde iki kısa oyunla \"Dur, Odaklan, Değiştir\" oyunu."
+          "Görev 1: Oyun evde; komutları Koç verir, çocuk geçişte bir iç konuşma cümlesi kullanır (\"Yeni oyuna hazırım\").",
+          "Zaman planı: 1., 3. ve 5. gün oyun 15 dk.",
+          "Koça: Geçişten önce kısa bir uyarı ver (\"İki dakika sonra duruyoruz\")."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Zorlanılmayan küçük bir geçişte (oyundan sofraya) üç adımı birlikte denesin: \"Dur… bir nefes… şimdi yemeğe hazırım.\"",
-          "Geçişten önce kısa uyarı versin: \"İki dakika sonra duruyoruz.\"",
-          "Bu hafta büyük ve zor geçişlerde beceriyi beklemesin."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Geçişte en çok zorlayan adım: durmak, odaklanmak ya da değiştirmek.",
-          "Çocuğun iç konuşma cümlesi ve Koçla kararlaştırılan."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 25 · aferin biletleri"
         ]
       },
       {
@@ -202,7 +130,7 @@
         "f": [
           [
             "adim",
-            "En çok zorlayan adım"
+            "En çok zorlayan adım (Dur / Odaklan / Değiştir)"
           ],
           [
             "cumle",
@@ -215,11 +143,10 @@
         ]
       },
       {
-        "g": "13. Oturuma hazırlık",
+        "g": "13. Oturum",
         "ic": "next",
         "i": [
-          "Takım Oyuncusu hikâyesini (Kılavuz s. 8–9) iki kopya çoğalt; Serdar'ın repliklerini işaretle.",
-          "İstersen küçük bir bayrak ya da renkli kâğıt hazırla (\"takım bayrağı\")."
+          "Hikâye 8 · Takım Oyuncusu (s. 158–159): Serdar takım bayrağına bakıp \"vites değiştirir\"."
         ]
       },
       {
