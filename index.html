@@ -97,6 +97,10 @@ main{padding-block:8px 64px}
 .shead h1{font-family:var(--f-display);font-size:clamp(22px,3.4vw,30px);line-height:1.2;margin:4px 0 8px;text-wrap:balance}
 .facts{display:flex;gap:8px;flex-wrap:wrap}
 .facts span{background:rgba(255,255,255,.18);border-radius:999px;padding:3px 11px;font-size:14px;font-weight:600}
+.shead .idea{margin:12px 0 0;font-size:15.5px;line-height:1.45;max-width:62ch;opacity:.95}
+.shead .idea b{font-weight:700}
+.why{margin:8px 16px 0;font-size:14.5px;line-height:1.45;color:var(--ink)}
+.why b{color:var(--ac)}
 .sico{width:132px;height:132px;margin-left:auto;background:#FFFFFF;border-radius:22px;padding:10px;flex-shrink:0;box-shadow:0 6px 18px rgba(0,0,0,.18)}
 .sico svg{width:100%;height:100%;display:block}
 @media (max-width:640px){.shead{flex-wrap:wrap}.sico{width:88px;height:88px;padding:6px;border-radius:16px}.shead .big{font-size:48px}}
@@ -330,7 +334,7 @@ function phaseHTML(n,p){
       const c=ACT_C[((b.no||b.a)-1)%ACT_C.length];
       const ks=b.i.map((_,i)=>base+"i"+i); const dn=ks.filter(k=>st(k)).length;
       h+=`<article class="act" id="a${b.a}" style="--ac:var(--${c});--as:var(--${c.replace('-d','')}-s)"><div class="acth"><span class="an">${b.no||b.a}</span><b>${b.t}</b><span class="ok" data-ok="${base}">${dn}/${ks.length}</span></div>
-      <div class="tags"><span class="t-dk">${b.sure||b.dk+" dk"}</span>${b.mat?`<span class="t-mat">Materyal: ${b.mat}</span>`:""}${b.koc?`<span class="t-koc">${b.koc}</span>`:""}<span>Kılavuz ${b.ref}</span></div>
+      <div class="tags"><span class="t-dk">${b.sure||b.dk+" dk"}</span>${b.mat?`<span class="t-mat">Materyal: ${b.mat}</span>`:""}${b.koc?`<span class="t-koc">${b.koc}</span>`:""}<span>Kılavuz ${b.ref}</span></div>${b.neden?`<p class="why"><b>Amaç:</b> ${b.neden}</p>`:""}
       <div class="items">${b.i.map((x,i)=>Array.isArray(x)?item(base+"i"+i,x[0],x[1]):item(base+"i"+i,x)).join("")}</div></article>`;return}
     if(b.done){const d=st(`s${n}done`);h+=`<div class="done ${d?'is':''}"><button type="button" id="doneBtn">${d?"✓ Seans tamamlandı":"Seansı tamamlandı olarak işaretle"}</button><span>${d?"Ana ekranda bu oturum tamamlandı olarak görünür.":"Bütün maddeleri bitirdiğinde işaretle."}</span></div>`+resetHTML(n);return}
     h+=`<div class="grp"><div class="gh"><span class="gi">${ICON[b.ic]||""}</span><h4>${b.g}</h4></div>`;
@@ -347,7 +351,7 @@ function phaseHTML(n,p){
 
 let curS=0,curP=0,curV="",retQ=null;
 function shead(n){const s=SESS[n-1],b=BOOKS[s[1]],D=DATA[n];
-  return `<section class="shead ${s[1]===0?'multi':''}" style="${cv(b.c)}"><span class="big">${n}</span><div><div class="k">${b.tag} · ${s[3]}</div><h1>${s[2]}</h1>${D?`<div class="facts">${D.facts.map(f=>`<span>${f}</span>`).join("")}</div>`:""}</div>${SICON[n]?`<span class="sico">${SICON[n]}</span>`:""}</section>`}
+  return `<section class="shead ${s[1]===0?'multi':''}" style="${cv(b.c)}"><span class="big">${n}</span><div><div class="k">${b.tag} · ${s[3]}</div><h1>${s[2]}</h1>${D?`<div class="facts">${D.facts.map(f=>`<span>${f}</span>`).join("")}</div>`:""}${D&&D.fikir?`<p class="idea"><b>Oturumun fikri:</b> ${D.fikir}</p>`:""}</div>${SICON[n]?`<span class="sico">${SICON[n]}</span>`:""}</section>`}
 function seg(n,v){const q=DATA[n]&&DATA[n].quick;
   return `<div class="seg" role="group" aria-label="Kullanım düzeyi"><button type="button" data-mode="hizli" aria-pressed="${v==="hizli"}" ${q?"":"disabled title='Bu oturumun hızlı özeti hazırlanıyor'"}>⚡ Hızlı Hazırlık</button><button type="button" data-mode="rehber" aria-pressed="${v==="rehber"}">☰ Adım Adım Rehber</button></div>`}
 const QI=['<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 3h6v3H9zM9 11h6M9 15h4"/></svg>',

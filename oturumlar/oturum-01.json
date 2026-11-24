@@ -4,6 +4,7 @@
     "Yalnızca aile",
     "Kılavuz s. 11–24"
   ],
+  "fikir": "Hikâye bir ayna. Aile Can'da kendi çocuğunu tanır; verdiği örneklere beceri adı konur ve haritaya yazılır. Ebeveyn oturumdan Koç olarak çıkar.",
   "phases": [
     [
       {
@@ -59,6 +60,7 @@
         "t": "Giriş",
         "dk": 10,
         "ref": "s. 12",
+        "neden": "Aile derdini yargılanmadan anlatır; kullandığı kelimeler hikâyede bağlanacak noktalardır.",
         "i": [
           "\"Evde sizi en çok ne yoruyor?\" Ailenin kelimelerini aynen not et.",
           "Çözüm önerme; dinle ve özetle."
@@ -71,6 +73,7 @@
         "sure": "35–40 dk",
         "ref": "s. 13–16",
         "mat": "Okuma metni, harita",
+        "neden": "Aile \"isteksiz çocuk\" yerine bildiğini gereken anda yapmakta zorlanan bir çocuk görmeye başlar; harita bunu ortak dile çevirir.",
         "i": [
           "Beş bölüm: oku → aynalama sorusu → ailenin örneği → beceriye ad.",
           "Örnekleri haritadaki \"Bizim evde\" sütununa o anda yaz; güçlü yanları atlama.",
@@ -84,6 +87,7 @@
         "sure": "15–20 dk",
         "ref": "s. 17–19",
         "mat": "Bilgi Sayfası, 4 kart",
+        "neden": "Ebeveyn kendini Koç olarak görür; kartlar evdeki ortak dilin başlangıcıdır.",
         "i": [
           "\"Siz Koçsunuz\"; Koçu belirle.",
           "Kartları hikâyeye bağla; ailenin seçtiği kartı not et.",

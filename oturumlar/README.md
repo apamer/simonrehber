@@ -10,6 +10,7 @@ Not: Dosyalar tarayıcıya bir web sunucusu üzerinden gelir (GitHub Pages, Clou
 ```
 {
   "facts":  ["≈ 50 dk", "Uygulayıcı ve çocuk", ...],   // başlıktaki kısa bilgiler
+  "fikir":  "...",                                      // oturumun özü, tek cümle (isteğe bağlı)
   "phases": [ [...], [...], [...] ],                    // 0 Seansa hazırlan · 1 Seansı uygula · 2 Seansı tamamla
   "quick":  { "tot": "...", "once": [...], "flow": [...], "after": [...] }   // yalnızca 1. oturumda: Hızlı Hazırlık
 }
@@ -38,6 +39,7 @@ Sayfa aralığı `facts` içinde "Kılavuz s. 11–24" biçiminde yazılır.
 | `dk` | Süre (dakika, sayı). `sure` varsa yalnızca zaman çubuğundaki genişlik için kullanılır; adımın içinde kalan alt bölümlerde 0 olabilir. |
 | `sure` | Kılavuzda yazdığı gibi süre metni (isteğe bağlı), ör. "35–40 dk", "Adım 2 içinde". Varsa `dk` yerine bu gösterilir. |
 | `ref` | Kılavuz sayfası (kitap sayfa numarası; bkz. CLAUDE.md) |
+| `neden` | Adımın amacı, tek kısa cümle (isteğe bağlı); kartta "Amaç:" olarak görünür |
 | `mat` | Materyal (isteğe bağlı) |
 | `koc` | Koçun durumu (isteğe bağlı, ör. "Koç odada") |
 | `i` | Maddeler |
