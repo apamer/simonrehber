@@ -1,34 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı, çocuk ve Koç",
-    "Koç baştan sona odada"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 3'te",
+    "Kılavuz s. 203–216"
   ],
+  "fikir": "Kazanan gibi düşün: Önceki üç kitabın becerileri (ipucu, durma, sakinleşme) bir plan için birlikte kullanılır. Çocuk bir oyun planı yapar ve izler; uygulayıcı planlama, zaman ve motivasyonda dış destek olur.",
   "phases": [
     [
       {
-        "g": "Kendin için",
+        "g": "Oku",
         "ic": "book",
         "i": [
-          "Roller: sen sunucu, Koç \"Koç\", varsa ikinci yetişkin zaman yöneticisi (yoksa zamanı sen tutarsın).",
-          "Sunucunun becerileri adlandıran cümlelerini (Kılavuz s. 4) gözden geçir.",
-          "Bu bir hız yarışı değil; süreci vurgula."
-        ]
-      },
-      {
-        "g": "Koçla",
-        "ic": "phone",
-        "i": [
-          "Baştan sona odada kalacağını ve oyunda \"Koç\" rolünü oynayacağını söyle.",
-          "Koçun görevi: kuralları okumak, teşvik kartları, DUR! alanında mola. Çocuğun yerine plan yapmaz."
-        ]
-      },
-      {
-        "g": "Görev çantaları",
-        "ic": "box",
-        "i": [
-          "Dört görev çantası hazırla; her biri yaklaşık bir dakikada bitecek kadar kolay.",
-          "Örnekler: küçük yapboz, boncuk dizmek, hamurdan hayvan, bloklardan kule, labirent, kart ayırmak, domino."
+          "Oyunun yönetimi ve uygulayıcının sözleri: s. 205–209",
+          "Oturum akışı: s. 203–210 · Beklenmedik durumlar ve yaş: s. 211"
         ]
       },
       {
@@ -36,23 +20,23 @@
         "ic": "print",
         "i": [
           [
-            "Beceri Kontrol Kartı 4: Bir Planım Var! (Kılavuz s. 7) · iki kart",
+            "Beceri Kontrol Kartı 4 (s. 212)",
             "pdf"
           ],
           [
-            "Oyun planı (Kılavuz s. 8)",
+            "Form 26 · Oyun planı (s. 213)",
             "pdf"
           ],
           [
-            "Saatle Yarış! ve Bir Kazanan Gibi Düşün (Kılavuz s. 9)",
+            "Form 27 · Saatle Yarış! ve Bir Kazanan Gibi Düşün (s. 214)",
             "pdf"
           ],
           [
-            "Koçun ipucu kartları (Kılavuz s. 10) · kesilmiş",
+            "Form 28 · Teşvik edici sözler: ipucu kartları (s. 215)",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 34 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -61,8 +45,8 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Piyon ya da küçük bir figür",
-          "Zamanlayıcı"
+          "Küçük çantalarda 4 basit görev (her biri 2–3 dk)",
+          "İşaretleyici (piyon) · zamanlayıcı · ADAPTA (isteğe bağlı)"
         ]
       },
       {
@@ -72,11 +56,11 @@
         "pf": [
           [
             "enIyi",
-            "En iyi vites değiştirme aracı"
+            "En işe yarayan araç"
           ],
           [
             "takip",
-            "Beceri Takip Formu"
+            "Hedef davranış(lar)"
           ],
           [
             "hazir",
@@ -84,127 +68,67 @@
           ]
         ],
         "i": [
-          "Bravo haftası: ÇK3 Aferin biletleri ve Beceri Takip Formu kayıtları."
+          "Koç getirecek: Form 1, varsa biletler ve Form 11'ler"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Bravo haftası",
+        "t": "Kontrol listesi: Kart 4",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 204–205",
+        "mat": "Kart 4",
+        "neden": "Daha önce öğrenilen beceriler bugün daha büyük bir amaç için, plan yapmak için kullanılacak.",
         "i": [
-          "ÇK3 biletlerine ve Beceri Takip Formuna bak: hangi sakinleşme ya da vites değiştirme anı yazılmış?",
           [
-            "Bir anı adlandır: \"Kardeşin oyununu bozunca durdun, nefes aldın ve başka bir oyuna geçtin.\"",
-            "BE"
-          ],
-          "Koça oyunda \"Koç\" rolünü oynayacağını hatırlat."
+            "Önceki becerileri hatırlat; Kart 4'ü oyunla bağlayarak oku.",
+            "SO"
+          ]
         ]
       },
       {
         "a": 2,
-        "t": "Hazır ol: Son kart, Bir Planım Var",
-        "dk": 5,
-        "ref": "s. 2",
-        "mat": "Beceri Kontrol Kartı 4",
+        "t": "Oyun: Bir Planım Var!",
+        "dk": 38,
+        "sure": "35–40 dk",
+        "ref": "s. 205–209",
+        "mat": "Form 26, Form 27, 4 görev, zamanlayıcı",
+        "neden": "Görsel bir oyun planı, sonuç odaklı düşünmenin aracı olur; uygulayıcı planlamayı, zamanı ve motivasyonu dışarıdan destekler.",
         "i": [
-          "\"Büyük işlerde en iyisi plan yapıp işi küçük adımlara bölmektir.\"",
-          [
-            "Kartı birlikte oku, bir kopyasını ver; beş maddeyi yarışmayla eşleştir.",
-            "SO"
-          ],
-          "1 Plan yap · 2 İlerlemeyi takip et · 3 Sakin ve odaklı kal · 4 İşaretle, sonrakine geç · 5 \"Yaşasın!\""
+          "Sırayı çocuk seçer; 4 görev ve 3. alanda mola, plana ve Saatle Yarış kartına yazılır.",
+          "Görev aralarında kalan süreyi söyle; 3. alanda nefes ve \"kazanan gibi düşündüğü\" anları adlandır.",
+          "Hız yarışı değil: Hızı değil, planı yapmayı ve izlemeyi öv."
         ]
       },
       {
         "a": 3,
-        "t": "Yarışmaya hazırlık: Roller ve oyun planı",
+        "t": "Koç katılır",
         "dk": 10,
-        "ref": "s. 3",
-        "mat": "Oyun planı (s. 8), Saatle Yarış (s. 9)",
-        "koc": "Koç rolünde",
+        "ref": "s. 210",
+        "koc": "Koç odaya gelir (çocuğun onayıyla)",
+        "neden": "Oyun evde Koçla, evdeki malzemelerle sürer.",
         "i": [
-          "Rolleri tanıt: yarışmacı, sunucu, zaman yöneticisi, Koç.",
-          "Dört görev çantasını göster, kısaca açıkla.",
-          [
-            "Sırayı çocuk seçsin; zorlanırsa \"Önce hangisi kolay olur?\" diye sor, sırayı sen belirleme.",
-            "SO"
-          ],
-          "DUR! alanı 2. görevden sonra: mola ve Koçla değerlendirme, görev sayılmaz.",
-          "Koç \"Bir Kazanan Gibi Düşün\" kartını yüksek sesle okusun."
-        ]
-      },
-      {
-        "a": 4,
-        "t": "Yarışma: Hazır ol, Pozisyon al, Başla!",
-        "dk": 15,
-        "ref": "s. 4",
-        "koc": "Koç rolünde",
-        "i": [
-          "Piyon Başlangıç'ta; \"Hazır ol, Pozisyon al, Başla!\" Zamanlayıcı başlar.",
-          "Her görev bitince piyon ilerler; zaman yöneticisi kalan süreyi söyler ve yazar.",
-          "DUR! alanında Koç: üç derin nefes, bir Kar Meleği, iyi gidenleri söyle, bir teşvik kartı oku.",
-          [
-            "Sunucu becerileri adlandırsın: \"Yarışmacımız planını kontrol ediyor.\"",
-            "SO"
-          ],
-          "Görev uzarsa önce planı gözden geçir; gerekirse öğe sayısını azalt.",
-          "Bitişte önce süreci adlandır, sonucu değil."
-        ]
-      },
-      {
-        "a": 5,
-        "t": "Gözden geçir: Kartın üzerinden",
-        "dk": 8,
-        "ref": "s. 5",
-        "mat": "Beceri Kontrol Kartı 4",
-        "i": [
-          "Her madde için yarışmadan somut bir an hatırla.",
-          "Bir iki soru: \"Planın nasıl yardım etti?\" · \"En zor görevde ne yaptın?\" · \"Bir dahaki sefere neyi farklı yapardın?\"",
-          "\"İşte kazanan böyle düşünür!\""
-        ]
-      },
-      {
-        "a": 6,
-        "t": "Kapanış: Kazanan gibi düşün",
-        "dk": 7,
-        "ref": "s. 5",
-        "koc": "Koç odada",
-        "i": [
-          "Çocuk \"Kazanan biri…\" kurallarından en sevdiğini Koça söylesin.",
-          "Koç, yarışmada gördüğü bir anı davranışa özel bir cümleyle söylesin.",
-          "Kartın ikinci kopyası eve gitsin.",
-          "İsteğe bağlı mini bravo: \"Yapboz zorlaşınca durdun, nefes aldın ve plana döndün.\""
+          "Çocuk planını ve oyunu Koça anlatsın.",
+          "16. Oturum hedef davranışlarını değerlendir; bilet toplamını Form 25'in Bölüm Kapanışı sayfasına işle."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Beceri Kontrol Kartı 4 (bir kopya).",
-          "Koçun teşvik kartları: görünür bir yerde dursun."
+          "Görev 1: Oyun evde Koçla; Koç 4 kısa görev hazırlar (yapboz, boncuk, blok), çocuk sırayı seçip plana yazar.",
+          "Zaman planı: 1., 3. ve 5. gün oyun 15 dk (isteğe bağlı ADAPTA 15 dk).",
+          "Koça: Takılınca işi yapmak yerine sor: \"Planında sıradaki ne?\""
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Günlük bir işten önce tek soru: \"Planın ne?\" Plan bir iki adımlık olabilir.",
-          "İsterse yarışma evde üç dört kısa görevle tekrar oynanır; Koç hem sunucu hem koç.",
-          "Hızı değil, plan yapmayı ve planı izlemeyi övsün; karşılaştırma yapmasın."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Çocuğun seçtiği görev sırası.",
-          "Zorlandığı an ve kullandığı araç."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 34 · aferin biletleri"
         ]
       },
       {
@@ -226,11 +150,10 @@
         ]
       },
       {
-        "g": "18. Oturuma hazırlık",
+        "g": "18. Oturum",
         "ic": "next",
         "i": [
-          "Hikâye metninden üç kopya (Kılavuz s. 7–8): Koç büyükanneyi okuyacak.",
-          "Yapışkan notlar, piyon ve zamanlayıcı hazırla."
+          "Hikâye 9 · Bir Kazanan Gibi Düşün; yapışkan notlar hazırla."
         ]
       },
       {

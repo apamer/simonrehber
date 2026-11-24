@@ -34,7 +34,7 @@ Sayfa aralığı `facts` içinde "Kılavuz s. 11–24" biçiminde yazılır.
 | Alan | Anlamı |
 |---|---|
 | `a` | Etkinlik numarası (oturum içinde benzersiz; bağlantılar ve Hızlı Hazırlık bununla çalışır) |
-| `no` | Kılavuzdaki adım numarası (isteğe bağlı). Aynı `no`'ya sahip ardışık etkinlikler kartta aynı numarayı gösterir, zaman çubuğunda tek parça olur. Yoksa `a` kullanılır. |
+| `no` | Kılavuzdaki adım numarası (isteğe bağlı). Aynı `no`'ya sahip ardışık etkinlikler kartta aynı numarayı gösterir, zaman çubuğunda tek parça olur. Yoksa `a` kullanılır. İsteğe bağlı ek adım için `"+"` yazılabilir (20. oturumdaki program kapanışı gibi). |
 | `t` | Etkinlik adı |
 | `dk` | Süre (dakika, sayı). `sure` varsa yalnızca zaman çubuğundaki genişlik için kullanılır; adımın içinde kalan alt bölümlerde 0 olabilir. |
 | `sure` | Kılavuzda yazdığı gibi süre metni (isteğe bağlı), ör. "35–40 dk", "Adım 2 içinde". Varsa `dk` yerine bu gösterilir. |

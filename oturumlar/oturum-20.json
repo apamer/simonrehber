@@ -1,33 +1,49 @@
 {
   "facts": [
-    "≈ 60 dk",
-    "Uygulayıcı, çocuk ve Koç",
-    "Programın kapanışı"
+    "60–70 dk (+ isteğe bağlı kapanış ≈ 18 dk)",
+    "Önce Koç · çocuk Adım 4'te katılır",
+    "Kılavuz s. 245–258"
   ],
+  "fikir": "Planı gör, adını koy, sürdür. Çalışma Kitabı 4 değerlendirilir; isteğe bağlı kapanışta dört beceri tek bir yolculuk olarak bir araya gelir ve Koçla bir sürdürme planı yapılır. Program biter, beceriler bitmez.",
   "phases": [
     [
+      {
+        "g": "Koçla",
+        "ic": "phone",
+        "i": [
+          "Koça önce kendisinin geleceğini, çocuğun sonra katılacağını söyle; kapanış ayrı bir görüşmeye de alınabilir."
+        ]
+      },
+      {
+        "g": "Oku",
+        "ic": "book",
+        "i": [
+          "Oturum akışı: s. 245–251 · İsteğe bağlı kapanış: s. 252 · Beklenmedik durumlar ve yaş: s. 253",
+          "Form 34 kayıtlarına bak; hedef davranış adaylarını not et."
+        ]
+      },
       {
         "g": "Yazdır",
         "ic": "print",
         "i": [
           [
-            "Koç için: Teşvik edici sözler · Bir Planım Var! (Kılavuz s. 8)",
+            "Koç için: Teşvik edici sözler (s. 254)",
             "pdf"
           ],
           [
-            "Beceri Takip Formu, Kart 4'lü (Kılavuz s. 9) · her yetişkin için",
+            "Form 11 · Beceri Takip Formu, Dış Gözlemci (s. 255): ortak form, kutuya Kart 4; her yetişkin için",
             "pdf"
           ],
           [
-            "Aferin biletleri, ÇK4 (Kılavuz s. 10)",
+            "Aferin biletleri (s. 256), kullanılacaksa",
             "pdf"
           ],
           [
-            "Sürdürme planım (Kılavuz s. 11)",
+            "Sürdürme planım (s. 257), kapanış için",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2 ve 34",
             "pdf"
           ]
         ]
@@ -37,16 +53,7 @@
         "ic": "box",
         "i": [
           "ÇK4 araçları: Kart 4, oyun planları, teşvik kartları, Saatle Yarış kartı",
-          "Dört Beceri Kontrol Kartı (Etkinlik 8 için)",
-          "Kesilmiş Aferin biletleri"
-        ]
-      },
-      {
-        "g": "Kendin için",
-        "ic": "book",
-        "i": [
-          "Oturum yaklaşık 60 dk; Etkinlik 8 istenirse ayrı bir seansa alınabilir.",
-          "Planlamanın dilini hatırla: adımlara böldün · plan yaptın · ilerlemeni takip ettin · saate baktın · kendini cesaretlendirdin."
+          "Kapanış için dört Beceri Kontrol Kartı"
         ]
       },
       {
@@ -68,157 +75,106 @@
           ]
         ],
         "i": [
-          "Haftalık plan: oyun planı, teşvik kartları ve Saatle Yarış nasıl gitti?"
+          "Koç getirecek: Form 1 (oyun planı, teşvik kartları, Saatle Yarış)"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Planlar evde nasıl gitti?",
+        "t": "Oturumun görevleri",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 246",
+        "koc": "Koçla",
+        "neden": "Amaç yeni beceri değil; çocuğun planlama bölümünde öğrendiklerini fark etmesi ve sürdürmesi.",
         "i": [
-          "Çocuğa sor: Hangi işin planını yaptın? En çok hangi teşvik kartını seçtin? Tahminin ne kadar yakındı?",
-          "Koçtan planı takip ettiği bir anı iste; Etkinlik 3 için not et.",
-          [
-            "İşe yaradıysa adlandır: \"Kalan süreye baktın ve son adımı yetiştirdin.\"",
-            "SO"
-          ],
-          "Zorlandıysa desteği büyüt: daha kısa plan, daha kolay iş, Koçun daha çok soru sorması."
+          "Koça bugünün akışını ve her katılımcının görevini anlat."
         ]
       },
       {
         "a": 2,
-        "t": "Geriye bakış: Planlama araçlarım",
-        "dk": 7,
-        "ref": "s. 2",
-        "mat": "ÇK4 araçları",
+        "t": "Koç eğitimi: motivasyon",
+        "dk": 28,
+        "sure": "25–30 dk",
+        "ref": "s. 247–249",
+        "koc": "Koçla",
+        "neden": "Çocuk stratejileri sakin anlarda ne kadar çok uygularsa zor anlarda o kadar kolay kullanır; bunu Koçun fark etmesi sürdürür.",
         "i": [
-          "17. Yarışma: \"Sana en çok ne yardım etti?\"",
-          "18. Kazanan Gibi Düşün: \"Arda'nın planından ne öğrendin?\"",
-          "19. Ev görevleri: \"Hangisini bir daha kullanırdın?\"",
-          [
-            "\"En iyi aracın hangisi?\" Kartın hangi maddesine yardım ediyor? Not et.",
-            "SO"
-          ]
+          "Canlı deneme: Koçun anlattığı bir planlama anını davranışa özel övgüye çevirin.",
+          "Yapıcı hata düzeltme: \"Bu sefer zamanlayıcıya bakmanı hatırlatayım.\"",
+          "Form 11 ile çemberi genişlet; bilet kuralları."
         ]
       },
       {
         "a": 3,
-        "t": "Koçla: Planlamaya özel övgü",
-        "dk": 8,
-        "ref": "s. 3",
-        "koc": "Koçla yürütülür",
+        "t": "Teşvik edici sözler",
+        "dk": 5,
+        "ref": "s. 249",
+        "koc": "Koçla",
+        "mat": "Teşvik edici sözler (s. 254)",
+        "neden": "Koç ilerlemenin küçük işaretlerini fark edip çocuğu cesaretlendirir.",
         "i": [
-          "Üç övgü türünü karşılaştır (Mert örneği).",
-          "Planlamanın dilini ver.",
-          "Canlı deneme: Koç, Etkinlik 1'deki anı bu dille söylesin.",
-          "Kalıp: \"… için bir plan yaptın, … ile ilerlemeni izledin ve … bitirdin.\""
+          "Başlarken · sorun giderme · çabayı takdir; s. 254 Koçta kalır."
         ]
       },
       {
         "a": 4,
-        "t": "Koçla: Üç anda teşvik",
-        "dk": 6,
-        "ref": "s. 3",
-        "mat": "Teşvik edici sözler (s. 8)",
-        "koc": "Koçla yürütülür",
+        "t": "Çocukla bölüm değerlendirmesi",
+        "dk": 15,
+        "ref": "s. 250",
+        "koc": "Çocuk katılır · Koç aktif",
+        "neden": "Çocuk hangi durumlarda plan yapabildiğini, ilerlemesini izleyebildiğini ve zamanını kontrol edebildiğini fark eder.",
         "i": [
-          "Başlarken: \"Ben senin zaman yöneticin olacağım.\"",
-          "Zorlanınca: \"Birkaç dakika ayırıp iyi bir plan yaparsak daha rahat bitirirsin.\"",
-          "Başarınca: \"Saate bakıp kendini yönetmen harikaydı!\"",
-          "Koçun en zor anı için bir cümle seçin."
+          "17–19. oturumları hatırlayın: oyun, Arda'nın hikâyesi, kendi planı, teşvik kartları, Saatle Yarış.",
+          "Form 1 ve Form 34 üzerinden herkes görüşünü söylesin; hedef davranışları seçin."
         ]
       },
       {
         "a": 5,
-        "t": "Beceri Takip Formu: Kart 4 ile",
-        "dk": 6,
-        "ref": "s. 4",
-        "mat": "Beceri Takip Formu (s. 9)",
-        "koc": "Koç odada",
+        "t": "Haftalık görev ve kapanış",
+        "dk": 10,
+        "ref": "s. 251",
+        "neden": "Seçilen hedef davranışlar bir hafta boyunca her gün izlenir.",
         "i": [
-          "Hedefi Kart 4'ün bir maddesiyle ilişkili, somut bir cümleyle yaz.",
-          "Kim dolduracak? Bakıcı, büyükanne, öğretmen; Koç planı ya da kartları ona göstersin.",
-          "Yetişkin dolduramazsa Koç dinleyip yazar."
+          "19. Oturum görevlerini Koç Raporu'yla kontrol et.",
+          "Form 2 çocuğa, Form 1 Koça; Form 11'i kimin dolduracağını belirleyin."
         ]
       },
       {
         "a": 6,
-        "t": "Aferin biletleri: ÇK4 maddeleriyle",
-        "dk": 4,
-        "ref": "s. 4",
-        "mat": "Aferin biletleri (s. 10)",
-        "i": [
-          [
-            "Gösterdiği adımı işaretle: Plan · Takip · Odaklan · Geç · \"Başardım, bravo!\"",
-            "SO"
-          ],
-          "Becerinin ortaya çıktığı durumu birlikte konuş.",
-          "Bilet pazarlık konusu olmaz, geri alınmaz."
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Çalışma Kitabı 4'ün kapanışı",
-        "dk": 6,
-        "ref": "s. 5",
-        "koc": "Koç odada",
-        "i": [
-          "Koç, \"en iyi planlama aracını\" davranışa özel bir cümleyle adlandırsın.",
-          "İlk ÇK4 Aferin biletini ver; kocaman bir \"Yaşasın!\"",
-          "Koça özetle: oyun planı, teşvik kartları ve Saatle Yarış birer dış destek; ihtiyaç sürdükçe kullanılır."
-        ]
-      },
-      {
-        "a": 8,
-        "t": "Programın kapanışı: Dört beceri, tek yolculuk",
+        "no": "+",
+        "t": "İsteğe bağlı · Programın kapanışı: Dört beceri, tek yolculuk",
         "dk": 18,
-        "ref": "s. 6",
-        "mat": "Dört Beceri Kontrol Kartı, Sürdürme planı (s. 11)",
-        "koc": "Koç odada",
+        "sure": "≈ 18 dk",
+        "ref": "s. 252",
+        "mat": "Dört Beceri Kontrol Kartı, Sürdürme planım (s. 257)",
+        "koc": "Koç ve çocuk",
+        "neden": "Çocuk dört becerinin hepsine birden bakıp ne kadar yol aldığını görür; Koç araçları program sonrasında da kullanmak için plan yapar.",
         "i": [
           [
-            "Kartları diz (3 dk): çocuk her kart için en sevdiği aracı bir kelimeyle söylesin.",
+            "Kartları dizin (3 dk): Çocuk her kart için en sevdiği aracı bir kelimeyle söylesin.",
             "ALL"
           ],
-          [
-            "Koçun cümleleri (5 dk): her beceri için gördüğü bir değişikliği davranışa özel söylesin.",
-            "ALL"
-          ],
-          "Sürdürme planı (7 dk): Koç ve çocuk s. 11'i birlikte doldursun; çocuk kendi cümlesini yazsın.",
-          "Kutlama (3 dk): programın bitişini kutla; herkes \"Yaşasın!\"",
-          "İsteğe bağlı: birkaç hafta sonrası için izleme görüşmesi planla."
+          "Koçun cümleleri (5 dk) · Sürdürme planı (7 dk): çocuk kendi cümlesini yazsın.",
+          "Kutlama (3 dk): Herkes kocaman bir \"Yaşasın!\" İsteğe bağlı: birkaç hafta sonra izleme görüşmesi."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Sürdürme planı.",
-          "Teşvik edici sözler sayfası (Koça) ve Kart 4'lü Beceri Takip Formu(ları).",
-          "ÇK4 Aferin biletleri ve dört Beceri Kontrol Kartı."
+          "Bu hafta her gün: Koç ve çocuk her akşam yaklaşık 10 dk hedef davranışları konuşur; bilet seçildiyse Koç verir.",
+          "Form 11: Öğretmen ya da büyükanne gibi diğer yetişkinler gözlemlerini yazar.",
+          "Koça: Dış destekleri bir anda geri çekmesin; inişler ve çıkışlar beklenir."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Planlama becerilerini gördüğü doğal fırsatlarda davranışa özel övsün; başta haftada en az üç örnek.",
-          "Oyun planı, teşvik kartları ve Saatle Yarış haftalık işlerde sürsün.",
-          "Dış destekleri bir anda geri çekmesin; inişler ve çıkışlar beklenir."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Çocuğun en iyi planlama aracı ve dört beceri için seçtiği araçlar.",
-          "Sürdürme planındaki kararlar ve varsa izleme görüşmesi tarihi."
+          "Form 34 · Form 1 Koça · Form 2 çocuğa"
         ]
       },
       {
