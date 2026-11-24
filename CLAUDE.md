@@ -12,9 +12,8 @@ Portal basılı kılavuzun **yanında** kullanılır; kılavuzun yerini tutmaz.
 ## Dosya yapısı
 - `index.html`: portalın arayüzü (CSS, JS, gömülü logo ve görseller, oturum adları `SESS`, oturum ikonları `SICON`).
 - `oturumlar/oturum-01.json` … `oturum-20.json`: her oturumun içeriği. Alanların anlamı `oturumlar/README.md`'de. Sayfa açılırken 20 dosya birlikte yüklenir; bu yüzden site bir web sunucusu üzerinden açılmalıdır (`file://` ile çalışmaz).
-- `v2/index.html`: lacivert arayüz pilotu (yalnızca 1–2. oturum; içeriği hâlâ kendi dosyasının içinde).
 - `simon-beyin.png` (şu an kullanılmıyor), `robots.txt` (arama motorlarını engeller), `README.md`.
-- Geçmiş: 21 Ekim 2026'da `main`'de pilot `index.html`'in yerine geçmişti; 20 oturumluk sürüm `28700b4` commit'inden geri getirildi.
+- Geçmiş: 21 Ekim 2026'da `main`'de lacivert pilot `index.html`'in yerine geçmişti; 20 oturumluk sürüm `28700b4` commit'inden geri getirildi. Pilot bir süre `v2/` klasöründe tutuldu, sonra kaldırıldı (kullanıcı kararı; git geçmişinde duruyor). Seans modu ve "plandan sapmalar" özellikleri de bilinçli olarak eklenmedi.
 - Görünümü değiştirmemesi gereken işlerde öncesi/sonrası karşılaştırması yapılır: aynı örnek işaret ve notlarla bütün ekranlar (ana ekran ve 20 oturumun 3 bölümü) oluşturulup HTML çıktısı karşılaştırılır.
 
 ## Terim kuralları
