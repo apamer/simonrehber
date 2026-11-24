@@ -140,42 +140,5 @@
         "done": true
       }
     ]
-  ],
-  "quick": {
-    "tot": "60–70 dk",
-    "once": [
-      "Okuma metnini (s. 21–23) iki kez sesli oku.",
-      "Bilgi Sayfası, Beceri Anları Kayıt Sayfası ve Form 1'i yazdır."
-    ],
-    "flow": [
-      {
-        "t": "Giriş",
-        "a": [
-          1
-        ],
-        "sure": "10 dk",
-        "h": "\"Evde sizi en çok ne yoruyor?\" Kelimeleri aynen not et."
-      },
-      {
-        "t": "Can'ın Hikâyesi ve Harita",
-        "a": [
-          2
-        ],
-        "sure": "35–40 dk",
-        "h": "Beş bölüm; örnekleri haritaya o anda yaz."
-      },
-      {
-        "t": "Bilgilendirme",
-        "a": [
-          3
-        ],
-        "sure": "15–20 dk",
-        "h": "Siz Koçsunuz, kartlar, Form 1–3, ev çalışması."
-      }
-    ],
-    "after": [
-      "Kayıt Sayfası, Bilgi Sayfası ve çocuğa söylenecek cümle aileye.",
-      "Form 1 · Uygulayıcı Notları'nı doldur; aşağıya kaydet."
-    ]
-  }
+  ]
 }

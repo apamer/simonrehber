@@ -15,7 +15,7 @@ Portal basılı kılavuzun **yanında** kullanılır; kılavuzun yerini tutmaz.
 - `v2/index.html`: lacivert arayüz pilotu (yalnızca 1–2. oturum; içeriği hâlâ kendi dosyasının içinde).
 - `simon-beyin.png` (şu an kullanılmıyor), `robots.txt` (arama motorlarını engeller), `README.md`.
 - Geçmiş: 21 Ekim 2026'da `main`'de pilot `index.html`'in yerine geçmişti; 20 oturumluk sürüm `28700b4` commit'inden geri getirildi.
-- Görünümü değiştirmemesi gereken işlerde öncesi/sonrası karşılaştırması yapılır: aynı örnek işaret ve notlarla bütün ekranlar (ana ekran, 20 oturumun giriş ekranı ve 3 bölümü, Hızlı Hazırlık) oluşturulup HTML çıktısı karşılaştırılır.
+- Görünümü değiştirmemesi gereken işlerde öncesi/sonrası karşılaştırması yapılır: aynı örnek işaret ve notlarla bütün ekranlar (ana ekran ve 20 oturumun 3 bölümü) oluşturulup HTML çıktısı karşılaştırılır.
 
 ## Terim kuralları
 - **Koç** (Rehber değil), **Uygulayıcı** (Terapist değil), **çocuk** (Danışan değil).
@@ -50,8 +50,10 @@ Uygulayıcı seans sırasında uzun liste okuyamaz. Portal kılavuzu anlatmaz; n
 
 ## Çalışma kuralları
 - Her değişiklik ayrı dalda yapılır. `main`'e birleştirme ve canlı siteye çıkış yalnızca kullanıcı onayıyla.
-- Bozulmaması gerekenler: logo/ana ekran düğmesi, "kaldığın yere dön", süre notu ("süreler tahminidir"), işaretleri temizle, notların sonraki oturuma aktarımı.
-- Yalnızca 1. oturumda Hızlı Hazırlık var. 7, 11 ve 16. oturumlarda kitap kapanış listeleri, 20. oturumda program sonu notları var.
+- Tek görünüm (kullanıcı kararı): Oturum kartına tıklanınca doğrudan rehber (3 bölüm) açılır; "Hızlı Hazırlık" ve onunla gelen "kaldığın yere dön" kaldırıldı. Her oturumda "Seans planını yazdır" düğmesi tek sayfalık A4 çıktı verir.
+- Bozulmaması gerekenler: logo/ana ekran düğmesi, süre notu ("süreler tahminidir"), işaretleri temizle, notların sonraki oturuma aktarımı, kayıt alanı gizlilik uyarısı, A4 seans planının tek sayfaya sığması.
+- 7, 11 ve 16. oturumlarda bölüm değerlendirmesi (Bölüm Kapanışı), 20. oturumda isteğe bağlı program kapanışı ve program sonu notları var.
+- "PDF" etiketi yalnızca maddede bağlantı (`["metin","pdf","adres"]`) varsa görünür.
 - Her değişiklikten sonra masaüstü ve telefon genişliğinde (≈375 px) test et; görünüm değişmemesi gereken işlerde öncesi/sonrası ekran görüntüsüyle karşılaştır.
 - Kendi başına karar verilebilir: kod yapısı ve teknik çözümler, kılavuza dayalı içerik güncellemeleri, yazım ve terim düzeltmeleri.
 - Önce sorulur: kılavuzla çelişen ya da anlam değiştiren klinik ifade; kılavuzda olmayan yeni özellik ya da metin; `main`'e veya canlı siteye çıkış; silme ya da geri alınamaz işlemler.
