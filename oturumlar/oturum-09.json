@@ -1,18 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı ve çocuk",
-    "Koç açılışta ve kapanışta"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 5'te",
+    "Kılavuz s. 105–118"
   ],
+  "fikir": "Oyundaki fısıltı hayata taşınır. Berk'in hikâyesinde \"Zap!\" sözcüğü bir uzaktan kumanda gibi çalışır; çocuk kendi dikkat dağıtıcısını adlandırır ve kendi sözcüğünü seçer.",
   "phases": [
     [
       {
-        "g": "Kendin için",
+        "g": "Oku",
         "ic": "book",
         "i": [
-          "Hikâyeyi (Kılavuz s. 8–9) bir kez sesli oku; beş rolün sesini düşün.",
-          "İki durağı işaretle: Salı'nın sonu ve Berk şapkayı görmeden hemen önce.",
-          "Hikâye sorularında çekirdek üçlüyü belirle: 2, 4, 6."
+          "Hikâye 7 · Dikkat Dağınıklığını Engelleyici Kumanda (s. 113–114)",
+          "Oturum akışı: s. 105–111 · Beklenmedik durumlar ve yaş: s. 112"
         ]
       },
       {
@@ -20,23 +20,23 @@
         "ic": "print",
         "i": [
           [
-            "Hikâye metni (Kılavuz s. 8–9) · iki kopya",
+            "Hikâye 7 (s. 113–114), iki kopya; çocuğunkinde Berk'in replikleri işaretli",
             "pdf"
           ],
           [
-            "Hikâye soruları (Kılavuz s. 10)",
+            "Hikâye soruları (s. 115)",
             "pdf"
           ],
           [
-            "İnsanlar bu becerileri ne zaman kullanır? (Kılavuz s. 11)",
+            "Form 10 · İnsanlar bu becerileri ne zaman kullanır? (s. 116)",
             "pdf"
           ],
           [
-            "Peki ya sen? (Kılavuz s. 12)",
+            "Form 12 · Peki ya sen? (s. 117)",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 9 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -45,10 +45,7 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 2",
-          "Çocuğun kopyası: Berk'in replikleri fosforlu kalemle işaretli",
-          "İsteğe bağlı oyuncak kumanda ya da kartondan \"ZAP\" düğmesi",
-          "Kalem, boya kalemi"
+          "Kart 2 · isteğe bağlı oyuncak kumanda ya da kâğıt \"ZAP\" düğmesi · ADAPTA (s. 110)"
         ]
       },
       {
@@ -70,136 +67,93 @@
           ]
         ],
         "i": [
-          "Evde oynanan \"Bunu Yapma!\" turları: Simon kim oldu, kim kaç kez başa döndü?"
+          "Koç getirecek: Form 1 (evdeki oyun ve fısıltı anı)"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: \"Bunu yapma!\" haftası",
+        "t": "Kontrol listesi: Kart 2",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 106",
+        "mat": "Kart 2",
+        "neden": "Kart 2, tepki engelleme bölümü boyunca çocuğun her zaman bakacağı hatırlatmalardır.",
         "i": [
-          "Çocuğa sor: Evde oyun oynandı mı? Simon kim oldu?",
           [
-            "Koçtan fısıltının kullanıldığı bir anı iste; adlandır: \"Kendine 'Bunu yapma' dedin ve durdun.\"",
-            "TE"
-          ],
-          "Koç çıkar; kapanışta geri dönecek."
-        ]
-      },
-      {
-        "a": 2,
-        "t": "Hazır ol: Bugün bir tiyatro oyunu var",
-        "dk": 3,
-        "ref": "s. 2",
-        "mat": "Beceri Kontrol Kartı 2",
-        "i": [
-          "Berk'i tanıt: oyun oynamayı seviyor, ödevini bitirmekte zorlanıyor.",
-          "Roller: Berk = çocuk · Anlatıcı, Arda, Efe, Alp = sen.",
-          "Dinleme görevi: \"Berk'in dikkatini neler dağıtıyor, yakala.\""
-        ]
-      },
-      {
-        "a": 3,
-        "t": "Hikâyeyi canlandır: Engelleyici Kumanda",
-        "dk": 12,
-        "ref": "s. 3",
-        "mat": "Hikâye metni (s. 8–9)",
-        "i": [
-          "Pazartesi ve Salı: Berk'in dikkat dağıtıcıları, kaçan oyun saati.",
-          "Durak 1 (Salı sonu): \"Berk şu an ne hissediyor? Neden bitiremedi?\"",
-          "Çarşamba: Alp'in sırrı, görünmez kumanda ve \"Zap!\"",
-          [
-            "Durak 2 (şapkadan önce): Çocuk odadaki bir nesneye kumandasını doğrultup \"Zap!\" desin.",
-            "TE"
-          ],
-          "\"Bu kamptan nefret ediyorum!\" duygusunu hayal kırıklığı olarak adlandır."
-        ]
-      },
-      {
-        "a": 4,
-        "t": "Konuşalım: Hikâye soruları",
-        "dk": 8,
-        "ref": "s. 4",
-        "mat": "Hikâye soruları (s. 10)",
-        "i": [
-          "Zaman kısaysa yalnızca çekirdek sorular: 2, 4, 6.",
-          "Soru 2: Berk bilerek mi yavaştı? Niyet var, durdurmak zor.",
-          "Soru 4: Alp'in iki işareti neydi?",
-          "Soru 6: Çocuğun kendi dikkat dağıtıcısı. Yargılamadan dinle; Etkinlik 6'ya sakla.",
-          [
-            "Kendi \"Zap\" sözcüğünü seçsin: Zap!, Bunu yapma!, Kırmızı ışık!, Dur! ya da kendi bulduğu.",
+            "Kart 2'yi birlikte oku.",
             "TE"
           ]
         ]
       },
       {
-        "a": 5,
-        "t": "Yap mı, yapma mı? Başkalarında",
-        "dk": 8,
-        "ref": "s. 5",
-        "mat": "Çalışma sayfası (s. 11)",
+        "a": 2,
+        "t": "Hikâye ve sorular",
+        "dk": 22,
+        "sure": "20–25 dk",
+        "ref": "s. 107–108",
+        "mat": "Hikâye 7, sorular (s. 115)",
+        "neden": "Çocuk dikkat dağıtıcıların insanı hedeften nasıl saptırdığını ve iç sesin bir kumanda gibi işe yaradığını görür.",
         "i": [
-          "Üç sütun: Yap! · Yapma! · Saparsa ne olur?",
-          "İlk satırı (araba kullanan kişi) sen örnekle; diğerlerinde çocuk önersin.",
-          "Her satırda bir iki fikir yeterli.",
-          "\"Sence şoför o an kendine ne fısıldamalı?\"",
-          "Takılırsa canlandır: \"Hadi ikimiz otobüs şoförü olalım.\""
+          "Rollerle canlandırın: Berk'i çocuk oynar.",
+          "Soru 2: Berk bilerek mi yavaştı? Niyet var, durmak zor.",
+          "Soru 6: kendi dikkat dağıtıcısı; yargılamadan dinle."
         ]
       },
       {
-        "a": 6,
+        "a": 3,
+        "t": "İnsanlar bu becerileri ne zaman kullanır?",
+        "dk": 12,
+        "sure": "10–15 dk",
+        "ref": "s. 109",
+        "mat": "Form 10",
+        "neden": "Kendini durdurmak herkesin her gün kullandığı bir beceridir; başkalarına bakmak güvenli bir ısınmadır.",
+        "i": [
+          "Her kişi için: Yap! · Yapma! · Saparsa ne olur?",
+          "\"Sence şoför o an kendine ne fısıldamalı?\""
+        ]
+      },
+      {
+        "a": 4,
         "t": "Peki ya sen?",
-        "dk": 8,
-        "ref": "s. 6",
-        "mat": "Çalışma sayfası (s. 12)",
+        "dk": 10,
+        "ref": "s. 110",
+        "mat": "Form 12",
+        "neden": "Hikâyeden çocuğun kendi hayatına köprü kurulur.",
         "i": [
-          "Çocuk çok iyi yaptığı bir işi seçsin: futbol, video oyunu, kardeşine bakmak.",
-          "Üç \"yap\", üç \"hedef dışı\" davranış ve sapınca ne olacağını yazın.",
-          "Soru 6'daki örneğine bağla: \"O an senin kumandan ne derdi?\""
+          "\"Seni hedefinden saptıran 'beyzbol kartların' neler?\"",
+          "Form 12'yi çocuğun iyi yaptığı bir işle doldurun; kendi sözcüğünü seçsin."
         ]
       },
       {
-        "a": 7,
-        "t": "Kapanış: Bir anlaşma yapalım",
-        "dk": 6,
-        "ref": "s. 6",
-        "koc": "Koç geri döner",
+        "a": 5,
+        "t": "Koç katılır: hayali kumanda",
+        "dk": 12,
+        "sure": "10–15 dk",
+        "ref": "s. 111",
+        "koc": "Koç odaya gelir (çocuğun onayıyla)",
+        "neden": "Hatırlatmak Koçun, durmak çocuğun işidir; anlaşma Koçun önünde yapılır.",
         "i": [
-          "Çocuk Berk'in kumandasını ve kendi \"Zap\" sözcüğünü Koça anlatsın.",
-          "Koç ve çocuk Alp'in işaretini (kumandayı doğrultmak) gizli işaret yapabilir.",
-          "Zap sayacını tanıt: her Zap için bir daire boyanır.",
-          "İsteğe bağlı mini bravo: \"Şapkaya Zap dedin ve kendi sözcüğünü buldun.\""
+          "Hayali kumanda anlaşması: çocuk sözcüğünü söyler ve işine döner.",
+          "8. Oturum görevlerini Koç Raporu'yla kontrol et."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Zap sayacı: küçük bir kâğıda çizilmiş daireler.",
-          "\"Peki ya sen?\" sayfası."
+          "Görev 1: Hayali kumanda; çocuk sözcüğünü kullanıp işine döner, bir örneği Koçla konuşur.",
+          "Görev 2: Hikâye evde Koçla canlandırılır (çocuk Berk, Koç Alp).",
+          "Zaman planı: 1. gün hikâye · 3. gün Peki ya sen? · 5. gün işe yarayan bir an; her gün sözcük denenir."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Gördüğü bir Zap'ı adlandırsın: \"Tablete baktın, sonra Zap dedin ve ödevine döndün.\"",
-          "Çocuk unutursa kızmasın; sessizce kumanda işaretini yapsın.",
-          "Hatırlatmak Koçun, durmak çocuğun işi."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Çocuğun dikkat dağıtıcıları ve seçtiği sözcük.",
-          "\"Peki ya sen?\"de seçilen güçlü alan; gizli işaret kararı."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 9 · aferin biletleri"
         ]
       },
       {
@@ -208,7 +162,7 @@
         "f": [
           [
             "zap",
-            "Çocuğun \"Zap\" sözcüğü"
+            "Çocuğun sözcüğü (\"Zap!\" ya da başka)"
           ],
           [
             "dagitici",
@@ -221,11 +175,10 @@
         ]
       },
       {
-        "g": "10. Oturuma hazırlık",
+        "g": "10. Oturum",
         "ic": "next",
         "i": [
-          "Koça bir sonraki oturumda baştan sona odada olacağını söyle.",
-          "Oyunlar için engelsiz bir alan ya da koridor ayarla."
+          "Form 13 (s. 127) iki kopya ve Form 14 (s. 128); oyunlar için geniş alan."
         ]
       },
       {

@@ -1,27 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı ve çocuk",
-    "Koç açılışta ve kapanışta"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 4'te",
+    "Kılavuz s. 95–104"
   ],
+  "fikir": "Kendini durdurmaya oyunla başlanır. Bu oyunda ne yapmadığın, ne yaptığından önemlidir; çocuk tuzak komutlarda kendine \"Bunu yapma!\" diye fısıldamayı öğrenir.",
   "phases": [
     [
       {
-        "g": "Kendin için",
+        "g": "Oku",
         "ic": "book",
         "i": [
-          "Oyun 1 komut listesini (Kılavuz s. 4) oku; turuncu satırlar tuzak, 9. komut büyük tuzak.",
-          "Oyun 2 tuzak taktiklerine (Kılavuz s. 6) göz at: benzer kelime, başka fiil, isimle hitap, görsel çeldirici.",
-          "Kartı Oyun 1'de verme; Oyun 2'de \"kazanmak için gereken beceriler\" olarak gelecek."
-        ]
-      },
-      {
-        "g": "Odayı hazırla",
-        "ic": "box",
-        "i": [
-          "Engelsiz, geniş bir alan aç.",
-          "Başlangıç ve bitiş çizgisini bant ya da iple belirle; arası 6–8 büyük adım.",
-          "İstersen bitiş çizgisine küçük bir ödül koy (çıkartma, Aferin bileti)."
+          "Oyun 1 komut listesi (s. 98) ve Oyun 2 tuzakları (s. 100)",
+          "Oturum akışı: s. 95–101 · Beklenmedik durumlar ve yaş: s. 102"
         ]
       },
       {
@@ -29,11 +20,11 @@
         "ic": "print",
         "i": [
           [
-            "Beceri Kontrol Kartı 2: Simon Diyor \"Yapma\" (Kılavuz s. 9) · iki kart",
+            "Beceri Kontrol Kartı 2 (s. 103), çocuğa bir kopya",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 9 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -42,8 +33,8 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 2, Oyun 2'ye kadar kapalı",
-          "Oyun 1 komut listesi ve Oyun 2 tuzak taktikleri"
+          "Engelsiz alan; başlangıç ve bitiş çizgisi (6–8 büyük adım)",
+          "İsteğe bağlı: bitişte küçük bir ödül · ADAPTA (s. 101)"
         ]
       },
       {
@@ -53,11 +44,11 @@
         "pf": [
           [
             "enIyi",
-            "Çocuğun en iyi ipucu"
+            "En işe yarayan ipucu"
           ],
           [
             "takip",
-            "Beceri Takip Formu"
+            "Hedef davranış(lar)"
           ],
           [
             "hazir",
@@ -65,135 +56,80 @@
           ]
         ],
         "i": [
-          "Bravo haftası: kazanılan Aferin biletleri ve Beceri Takip Formu kayıtları."
+          "Koç getirecek: Form 1 ve varsa bilet toplamı"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Bravo haftası nasıl geçti?",
-        "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "t": "Oyuna hazırlık",
+        "dk": 8,
+        "sure": "5–10 dk",
+        "ref": "s. 96",
+        "neden": "Konu bir ders ya da test gibi değil, karşılıklı bir sohbet olarak açılır.",
         "i": [
-          "Kaç Aferin bileti kazanıldı? Beceri Takip Formuna kim, ne yazdı?",
-          "Koç bir bileti çocuğa okusun; beceriyi bir cümleyle adlandır.",
-          "Koça yeni bir kitaba başlandığını söyle; Koç çıkar, kapanışta döner."
+          "Kısa sohbetle karşıla, dikkat düzeyini gözle.",
+          "Kural: Yanlış bir şey yaparsan başlangıca dönersin."
         ]
       },
       {
         "a": 2,
-        "t": "Hazır ol: Yeni kitap, yeni beceri",
-        "dk": 5,
-        "ref": "s. 2",
+        "t": "Oyun 1: Simon diyor ki \"Bunu yapma!\"",
+        "dk": 18,
+        "sure": "15–20 dk",
+        "ref": "s. 97–98",
+        "neden": "Çocuk kendini durdurmakta nerede zorlandığını fark eder ve bu becerinin evde, okulda nasıl devreye girdiğini görür.",
         "i": [
-          [
-            "Yeni beceriyi sade bir dille tanıt: \"Bazen ne yapacağımızı biliriz ama elimiz ayağımız bizden önce davranır.\"",
-            "TE"
-          ],
-          "Oyunu tanıt: \"Bu oyunda ne yapmadığın çok önemli.\"",
-          "Pozisyon al: sen bitişte (Simon), çocuk başlangıçta.",
-          "Kuralı tekrarlat: Yalnızca \"Simon diyor ki…\" ile başlayan komutları yap.",
-          "Bir iki deneme komutuyla ısın."
+          "Komut listesini oku (s. 98); tuzaklarda kıpırdarsa başa döner.",
+          "Son anda kendini durdurursa hemen adlandır: \"Hatırladın ve durdun!\""
         ]
       },
       {
         "a": 3,
-        "t": "Oyun 1: Simon'un dikkat testi",
-        "dk": 12,
-        "ref": "s. 3–4",
-        "mat": "Komut listesi (s. 4)",
+        "t": "Oyun 2: Sihirli fısıltı",
+        "dk": 22,
+        "sure": "20–25 dk",
+        "ref": "s. 99–100",
+        "mat": "Kart 2",
+        "neden": "Çocuk dürtüsel bir hareketi durdurmak için kendi kendine konuşmayı bir araç olarak kullanmayı öğrenir.",
         "i": [
-          "Giriş hikâyesini gizemli bir sesle anlat: Simon dünyanın en dikkatli lideri.",
           [
-            "10 komutu sırayla oku; tuzakta kıpırdarsa başlangıca, durursa \"Aferin!\"",
+            "Önce Kart 2'yi oku; 3. madde: kendine \"Bunu yapma!\" de.",
             "TE"
           ],
-          "9. komut büyük tuzak: \"Koş ve çizgiyi geç!\"",
-          "Zorluğu ayarla: kolaysa tempoyu artır, zorlanıyorsa yavaşla.",
-          "Son anda durursa: \"Tam yapacaktın ama fark ettin ve kendini durdurdun!\""
+          "Fısıltı provası, sonra tuzaklar: benzer sözcük, isimle hitap, görsel çeldirici.",
+          "Kapanış: \"Hangi tuzak seni en çok zorladı? O an kendine ne dedin?\""
         ]
       },
       {
         "a": 4,
-        "t": "Gözden geçir: Yapmadıkların da önemli",
-        "dk": 5,
-        "ref": "s. 4",
-        "i": [
-          "\"Bazen yapmadıklarımız da en az yaptıklarımız kadar önemlidir.\"",
-          "Oyundan somut bir an ver: \"Koş dediğimde ayağın kalktı ama bastırdın.\"",
-          "Başa döndüğü anları suçlamadan geç: \"O tuzak gerçekten zordu.\"",
-          "Geçiş: \"Oyunu biraz daha zorlaştırmaya hazır mısın?\""
-        ]
-      },
-      {
-        "a": 5,
-        "t": "Oyun 2: Sihirli fısıltı",
+        "t": "Koç katılır",
         "dk": 15,
-        "ref": "s. 5–6",
-        "mat": "Beceri Kontrol Kartı 2",
+        "ref": "s. 101",
+        "koc": "Koç odaya gelir (çocuğun onayıyla)",
+        "neden": "Oyun ve fısıltı evde Koçla sürer.",
         "i": [
-          [
-            "Kartı birlikte oku, bir kopyasını ver; 3. maddeyi vurgula: Kendine \"Bunu yapma\" de.",
-            "TE"
-          ],
-          "Üç değişiklik: daha zor · sihirli fısıltı · başa dönüş.",
-          "Fısıltı provası: \"Zıpla!\" deyince durup \"Bunu yapma!\" desin; robot sesi, kalın ses ile eğlendir.",
-          "Tuzak taktiklerini karıştır: Slimon, \"Simon öneriyor ki\", çocuğun adı, komik hareket.",
-          "Anlık geri bildirimi fısıltıya bağla: durdu ve fısıldadı · durdu ama fısıldamadı · duramadı."
-        ]
-      },
-      {
-        "a": 6,
-        "t": "Gözden geçir: İçindeki patron",
-        "dk": 4,
-        "ref": "s. 6",
-        "mat": "Beceri Kontrol Kartı 2",
-        "i": [
-          "\"Kendi kendine konuşmak beynine patronun kim olduğunu hatırlatıyor.\"",
-          "Kartı bir kez daha oku; her madde için oyundan bir an hatırla.",
-          "\"Hangi tuzak seni en çok zorladı? O an kendine ne dedin?\""
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Koça yeni kuralı öğret",
-        "dk": 4,
-        "ref": "s. 7",
-        "koc": "Koç geri döner",
-        "i": [
-          "Çocuk kartı gösterip yeni kuralı Koça kendisi anlatsın.",
-          "Kısa tur: çocuk Simon, Koç oyuncu; Koç bir tuzakta \"Bunu yapma!\" diye fısıldasın.",
-          "Kartın ikinci kopyası çocukla eve gitsin.",
-          "İsteğe bağlı mini bravo: \"Koş dediğimde koşmadın ve kendine 'Bunu yapma' dedin.\""
+          "Çocuk yeni kuralı ve fısıltıyı Koça anlatsın.",
+          "7. Oturum görevlerini kontrol et; bilet toplamını Bölüm Kapanışı sayfasına kaydet."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Beceri Kontrol Kartı 2 (bir kopya).",
-          "Hafta boyunca isteğe bağlı kısa \"Bunu Yapma!\" turları; Simon bazen çocuk, bazen Koç."
+          "Görev 1: Oyun evde Koçla (Simon'u Koç oynar); tuzakta çocuk \"Bunu yapma!\" diye fısıldar.",
+          "Görev 2: Gün içinde fısıltıyı kullandığı bir anı Koça anlatır.",
+          "Zaman planı: 1., 3. ve 5. gün oyun 15 dk ve bir fısıltı anı."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Oyunda kullanılan beceriyi adlandırsın: \"Simon demeden kıpırdamadın, kendine 'Bunu yapma' dedin.\"",
-          "Bu hafta gerçek hayattaki dürtüleri düzeltmeye çalışmasın; amaç stratejiyi oyunda tanımak.",
-          "Başa dönmek başarısızlık değil; iyi niyeti ve denemeyi görsün."
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Oyun 1'de en çok zorlayan tuzak; Oyun 2'de fısıltı kullanımı.",
-          "En çok işe yarayan şaşırtmaca ve Koçla kararlaştırılan."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 9 · aferin biletleri"
         ]
       },
       {
@@ -215,11 +151,10 @@
         ]
       },
       {
-        "g": "9. Oturuma hazırlık",
+        "g": "9. Oturum",
         "ic": "next",
         "i": [
-          "Hikâye metnini (Kılavuz s. 8–9) iki kopya çoğalt; Berk'in repliklerini işaretle.",
-          "İstersen oyuncak ya da kartondan bir \"ZAP\" kumandası hazırla."
+          "Hikâye 7 (s. 113–114): Berk dikkat dağıtıcılara \"Zap!\" der."
         ]
       },
       {

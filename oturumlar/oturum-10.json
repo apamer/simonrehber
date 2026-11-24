@@ -1,25 +1,18 @@
 {
   "facts": [
-    "≈ 50 dk",
-    "Uygulayıcı, çocuk ve Koç",
-    "Koç baştan sona odada"
+    "60–70 dk",
+    "Uygulayıcı ve çocuk · Koç Adım 5'ten itibaren",
+    "Kılavuz s. 119–128"
   ],
+  "fikir": "Dört ipucu, tek beceri: dokunarak (Açma-Kapama), sözle (Kırmızı Işık-Yeşil Işık), kartla (Bunu Yapma) ve haritayla (öz denetim) durmak çalışılır; evde kullanılacak ipucu Koçla kararlaştırılır.",
   "phases": [
     [
       {
-        "g": "Kendin için",
+        "g": "Oku",
         "ic": "book",
         "i": [
-          "Kendi \"Bunu Yapma\" örneğini önceden düşün (basit ve genel; ör. kurabiye dolabı).",
-          "Durma ipucunu çocuğa göre uyarla: hakem düdüğü, buz ışını, Donma! ya da çocuğun \"Zap\" sözcüğü.",
-          "Zaman kısıtlıysa harita sonraki oturumun başına alınabilir."
-        ]
-      },
-      {
-        "g": "Odayı hazırla",
-        "ic": "box",
-        "i": [
-          "Engelsiz bir alan ya da uzun bir koridor; başlangıç çizgisini belirle."
+          "Oturum akışı: s. 119–125 · Beklenmedik durumlar ve yaş: s. 126",
+          "Kendi \"Bunu Yapma\" örneğini önceden düşün (s. 123)."
         ]
       },
       {
@@ -27,15 +20,15 @@
         "ic": "print",
         "i": [
           [
-            "\"Bunu Yapma\" kartları (Kılavuz s. 9) · iki kopya, kesilmiş",
+            "Form 13 · Bunu Yapma kartları (s. 127), iki kopya: çocuk ve Koç",
             "pdf"
           ],
           [
-            "Hedefe Ulaşma Haritası (Kılavuz s. 10)",
+            "Form 14 · Hedefe Ulaşma Haritası (s. 128)",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
+            "Form 1, 2, 9 ve aferin biletleri",
             "pdf"
           ]
         ]
@@ -44,8 +37,7 @@
         "g": "Masaya",
         "ic": "box",
         "i": [
-          "Beceri Kontrol Kartı 2",
-          "Boya kalemleri ve bant"
+          "Kart 2 · boya kalemleri, bant · oyunlar için engelsiz alan ya da koridor"
         ]
       },
       {
@@ -55,7 +47,7 @@
         "pf": [
           [
             "zap",
-            "\"Zap\" sözcüğü"
+            "Çocuğun sözcüğü"
           ],
           [
             "dagitici",
@@ -67,142 +59,101 @@
           ]
         ],
         "i": [
-          "Zap sayacı: kaç daire boyandı?"
+          "Koç getirecek: Form 1 (hayali kumanda ve hikâye)"
         ]
       }
     ],
     [
       {
         "a": 1,
-        "t": "Karşılama: Kaç dikkat dağıtıcıyı Zap'ladın?",
+        "t": "Kontrol listesi: Kart 2",
         "dk": 5,
-        "ref": "s. 2",
-        "koc": "Koç odada",
+        "ref": "s. 120",
+        "mat": "Kart 2",
+        "neden": "Görevler katı kural değil, şablondur; oyunun mantığı (ipucu gelince durmak) korunarak çocuğa uyarlanır.",
         "i": [
-          "Zap sayacına birlikte bak: kaç daire, hangi dağıtıcı, hangi sözcük?",
-          "Koçtan kumanda işaretini kullandığı bir anı iste. İşe yaradı mı?",
           [
-            "Sayı ne olursa olsun denemeyi adlandır: \"Kendi sözcüğünü hatırladın ve kullandın.\"",
+            "Kart 2'yi birlikte oku; 9. Oturumdaki sözcüğünü kullanabilirsin.",
             "TE"
-          ],
-          "Bu oturumda Koç dışarı çıkmaz."
+          ]
         ]
       },
       {
         "a": 2,
-        "t": "Hazır ol: Bugün dört görev var",
-        "dk": 2,
-        "ref": "s. 2",
-        "mat": "Beceri Kontrol Kartı 2",
+        "t": "Görev 1: Açma-Kapama Düğmesi",
+        "dk": 10,
+        "ref": "s. 121",
+        "neden": "Çocuk dokunsal bir ipucuyla hareketini hemen durdurmayı ve bunun bilinçli bir seçim olduğunu fark eder.",
         "i": [
-          "\"İki oyun oynayacağız, sonra bir kart ve bir harita hazırlayacağız.\"",
-          "Hepsinde aynı beceri: doğru anda durmak."
+          "Dokunmadan önce izin iste; rahatsız olursa el çırpma ya da zil kullan.",
+          "Birinci dokunuş: hareket et; ikinci dokunuş: hemen dur."
         ]
       },
       {
         "a": 3,
-        "t": "Görev 1: Açma-Kapama Düğmesi",
-        "dk": 8,
-        "ref": "s. 3",
-        "koc": "Koç da oyuncu",
+        "t": "Görev 2: Kırmızı Işık-Yeşil Işık",
+        "dk": 10,
+        "ref": "s. 122",
+        "neden": "Bu kez sözel ipucuyla durulur; çocuk ne zaman hareket edip ne zaman duracağını kendisi izler.",
         "i": [
-          "Müze oyunu: sen Müze Müdürü, çocuk özel bir heykel.",
-          "Dokunmadan önce izin iste; rahatsız olursa el çırpma ya da zil kullan.",
-          [
-            "1. dokunuş AÇIK: heykel canlanır · 2. dokunuş KAPALI: hareketin ortasında donar.",
-            "TE"
-          ],
-          "Müdür ne heykeli olduğunu tahmin etsin (dansçı, aşçı, trafik polisi…).",
-          "Birkaç tur sonra rolleri değiştir: çocuk müdür olsun."
+          "\"Yeşil ışık\" hareket, \"Kırmızı ışık\" dur; sonra varyasyonla zorlaştır."
         ]
       },
       {
         "a": 4,
-        "t": "Görev 2: Kırmızı Işık-Yeşil Işık",
-        "dk": 8,
-        "ref": "s. 4",
-        "koc": "Koç da oyuncu",
+        "t": "Görev 3: Bunu Yapma kartları",
+        "dk": 15,
+        "ref": "s. 123",
+        "mat": "Form 13",
+        "neden": "Oyundaki beceri günlük yaşama aktarılır; çocuk kendine \"Bunu yapma!\" demeyi hatırlatacak kartını hazırlar.",
         "i": [
-          "Sen Trafik Işığı ol; çocuk ve Koç başlangıçta.",
-          [
-            "Yeşil Işık: yürü, zıpla, sek · Kırmızı Işık: hemen dur; kıpırdayan başa döner.",
-            "TE"
-          ],
-          "Önce donmayı göster, deneme turu yap.",
-          "Varyasyon: \"Yeşil Çimen\", \"Kırmızı Kalem\" gibi benzer sözcükler.",
-          "İlk ulaşan bir sonraki turda Trafik Işığı olur."
+          "Küçük, somut bir davranış; son kararı çocuk verir.",
+          "Kart, davranışın en olası olduğu yere konur.",
+          "Destek: sözlü ipucu ya da gizli işaret (Adım 6'da Koçla netleşir)."
         ]
       },
       {
         "a": 5,
-        "t": "Görev 3: \"Bunu Yapma\" kartları",
-        "dk": 12,
-        "ref": "s. 5",
-        "mat": "\"Bunu Yapma\" kartları (s. 9)",
+        "t": "Görev 4: Hedefe Ulaşma Haritası",
+        "dk": 15,
+        "ref": "s. 124",
+        "mat": "Form 14",
+        "koc": "Koç katılır (çocuğun onayıyla)",
+        "neden": "Çocuk öz denetimle tanışır: hangi davranışların hedefe götürdüğünü, hangilerinin uzaklaştırdığını haritada görür.",
         "i": [
-          "Oyundan hayata: kendi örneğini anlat (kurabiye dolabı gibi).",
-          "Çocuğa sor: \"Kendini tutmakta zorlandığın şeyler oluyor mu?\" En az bir davranış seçsin.",
-          "Her davranış ayrı karta; arkasına bırakmanın yararlarını yaz.",
-          "Koç da kendisi için bir kart yazsın.",
-          "Destek planı: kart nereye asılacak, kim hangi ipucunu verecek (Kırmızı Işık, dokunuş, işaret)?"
+          "Berk'in haritasıyla örnekle; tek bir durum için yapın.",
+          "Hedef · taşlar (yap) · DUR yolları (yapma) · yola döndüren ipucu (sağ alt köşe)."
         ]
       },
       {
         "a": 6,
-        "t": "Görev 4: Hedefe Ulaşma Haritası",
+        "t": "Koç: şifreler ve rol",
         "dk": 10,
-        "ref": "s. 6",
-        "mat": "Harita (s. 10)",
-        "i": [
-          "Berk'in haritasıyla örnekle: hedef, taşlar, DUR yolları, Alp'in işareti.",
-          "Çocuğun zorlandığı tek bir durumu seç: ödev, market, akraba ziyareti.",
-          "Taşlara hedefe götüren adımları, DUR yollarına saptıran davranışları yaz.",
-          [
-            "İpucunda anlaşın: Koçun işareti + çocuğun kendine söyleyeceği söz.",
-            "TE"
-          ],
-          "İlk hafta yalnızca bir durum; kısa ve başarılı deneme."
-        ]
-      },
-      {
-        "a": 7,
-        "t": "Kapanış: Evde dört görev",
-        "dk": 5,
-        "ref": "s. 7",
+        "ref": "s. 125",
         "koc": "Koç odada",
+        "neden": "Oturumda kararlaştırılan ipuçları günlük yaşamda Koçla kullanılır.",
         "i": [
-          "Çocuk kartlarını ve haritasını Koça anlatsın: kart nereye, harita hangi durumda?",
-          "Ev planını birlikte gözden geçir; Koç bir kopyasını alsın.",
-          "\"Bu hafta hangisini en çok kullanacaksın sence?\""
+          "Şifreleri netleştirin: omza dokunma (çocuk kabul ettiyse), sözlü ipucu ya da gizli işaret.",
+          "Koç da kendine bir Bunu Yapma kartı hazırlayabilir.",
+          "9. Oturum görevlerini Koç Raporu'yla kontrol et."
         ]
       }
     ],
     [
       {
-        "g": "Eve gidenler",
+        "g": "Ev çalışması",
         "ic": "hand",
         "i": [
-          "Çocuğun ve Koçun \"Bunu Yapma\" kartları.",
-          "Hedefe Ulaşma Haritası.",
-          "Ev planı: dört görev, nasıl ve ne sıklıkla."
+          "Görev 1: Hedefe Ulaşma Haritası seçilen durumda kullanılır.",
+          "Görev 2: Bunu Yapma kartı yerinde; Koç kararlaştırılan ipucuyla destek olur.",
+          "Zaman planı: Gün aşırı üç kez; her denemeden sonra neyin işe yaradığı kısaca konuşulur."
         ]
       },
       {
-        "g": "Koça söyle",
-        "ic": "hand",
-        "i": [
-          "Açma-Kapama: sık ama kısa (5 dk).",
-          "Kırmızı Işık: önce oyun, sonra çanta hazırlama gibi bir görevde; haftada 2–3 kez.",
-          "Kartlar her gün görünür yerde; harita seçilen durum her olduğunda önceden okunur.",
-          "Çocuk durduğunda hemen adlandırsın: \"Kırmızı Işık deyince durdun, harika zamanlama.\""
-        ]
-      },
-      {
-        "g": "Formu doldur",
+        "g": "Doldur",
         "ic": "form",
         "i": [
-          "Çocuğun kartı (davranış / yer) ve Koçun kartı.",
-          "Harita durumu ve ipucu."
+          "Form 1 (uygulayıcı bölümü) Koça · Form 2 çocuğa · Form 9 · aferin biletleri"
         ]
       },
       {
@@ -215,7 +166,7 @@
           ],
           [
             "harita",
-            "Harita durumu ve ipucu"
+            "Harita: hedef ve ipucu"
           ],
           [
             "koc",
@@ -224,11 +175,10 @@
         ]
       },
       {
-        "g": "11. Oturuma hazırlık",
+        "g": "11. Oturum",
         "ic": "next",
         "i": [
-          "ÇK2'nin kapanışı: Bravo, Başardın! Koç ve çocuk baştan sona odada.",
-          "İsterse büyükanne, bakıcı ya da öğretmen de gelebilir."
+          "Bravo, Başardın! Önce Koç gelir; s. 136–138'i çoğalt."
         ]
       },
       {
