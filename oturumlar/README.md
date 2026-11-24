@@ -45,7 +45,7 @@ Sayfa aralığı `facts` içinde "Kılavuz s. 11–24" biçiminde yazılır.
 ### Maddeler
 - Düz metin: `"Kartları yan yana diz."`
 - Beceri etiketli: `["Sahne 1 · Pijamalı Can", "CB"]`. Etiketler: `CB` Hatırlama, `TE` Durdurma, `BE` Değiştirme, `SO` Planlama, `ALL` Dört beceri.
-- Formlar düz metinle, adı, numarası ve sayfasıyla yazılır: `"Form 5 · İpucu Listesi (s. 54)"`. Portal form dosyası ya da PDF bağlantısı vermez; form PDF'leri depoya konmaz (`formlar/` klasörü `.gitignore`'dadır).
+- Formlar düz metinle, adı, numarası ve sayfasıyla yazılır: `"Form 5 · İpucu Listesi (s. 54 · Formlar Kitapçığı s. 9)"` (ilk sayı kılavuz, ikincisi Formlar Kitapçığı sayfası; ekler envanterinden). Portal form dosyası ya da PDF bağlantısı vermez; form PDF'leri depoya konmaz (`formlar/` klasörü `.gitignore`'dadır).
 
 ## Dikkat
 - Maddelerin sırası işaretlerin kaydına bağlıdır (işaret anahtarı oturum/bölüm/grup/madde sırasından oluşur). Madde eklemek ya da sırayı değiştirmek, o oturumda cihazlarda kayıtlı eski işaretleri kaydırabilir.

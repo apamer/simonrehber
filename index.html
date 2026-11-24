@@ -375,7 +375,8 @@ const PRINT_ICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" str
 /* Tek sayfalık A4 seans planı: oturumun bütün maddeleri, seansta işaretlemek için boş kutularla. */
 function printPlan(n){
   const s=SESS[n-1],b=BOOKS[s[1]],D=DATA[n];if(!D)return;const P=D.phases;
-  const T=x=>Array.isArray(x)?x[0]:x;
+  /* Tek A4'e sığsın diye çıktıda form adları ve "Formlar Kitapçığı s." kısaltılır. */
+  const T=x=>(Array.isArray(x)?x[0]:x).replace(/Formlar Kitapçığı s\./g,"Kitapçık s.").replace(/Form 1 Oturum Değerlendirme ve Takip Formu, Form 2 Yapılacaklar Listesi, Form (\d+) Beceri Takip Formu/g,"Form 1, 2, $1");
   const grp=g=>{let v="";
     if(g.prev){const vals=g.pf.map(f=>[f[1],st(`s${g.prev}f${f[0]}`)]).filter(x=>x[1]);if(vals.length)v=vals.map(x=>`${x[0]}: <b>${esc(x[1])}</b>`).join(" · ")+(g.i?" · ":"")}
     return `<p class="pg"><b>${g.g}:</b> ${g.note||""}${v}${g.i?g.i.map(T).join(" · "):""}</p>`};
