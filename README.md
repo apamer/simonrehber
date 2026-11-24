@@ -1,12 +1,13 @@
 # Simon Says | Seans Rehberim
 
-Simon Says Uygulama Kılavuzu'nu kullanan uygulayıcılar için adım adım seans yardım portalı (APAMER).
+Simon Says Uygulayıcı Kılavuzu'nu kullanan uygulayıcılar için seans yardım portalı (APAMER Psikoloji Yayınları). Basılı kılavuzun yanında kullanılır; kılavuzun yerini tutmaz.
 
 Her oturum üç bölümden oluşur: Seansa hazırlan, Seansı uygula, Seansı tamamla.
 
-- `index.html`: portalın tamamı (ana ekran, 20 oturum, 1. Oturum içeriği)
+- `index.html`: portalın arayüzü (ana ekran, 20 oturum, seans planı çıktısı)
+- `oturumlar/`: her oturumun içeriği (`oturum-01.json` … `oturum-20.json`); alanlar `oturumlar/README.md`'de
 - `robots.txt`: arama motorlarının siteyi listelemesini engeller
 
-Durum: 1. Oturum içerik onayında, diğer oturumlar hazırlanacak.
+Durum: 20 oturum kılavuzun son hâline göre hazır.
 
-Bu depo özeldir (private); site yalnızca izinli kişilerin erişebileceği şekilde Cloudflare Pages ve Cloudflare Access üzerinden yayınlanır.
+Yayın: Cloudflare Pages (`simonrehber.pages.dev`). `main` dalı canlı siteyi, diğer dallar önizlemeyi besler. Site bir web sunucusu üzerinden açılmalıdır (`file://` ile çalışmaz). Form PDF'leri depoya konmaz.
