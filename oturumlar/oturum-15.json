@@ -1,0 +1,256 @@
+{
+  "facts": [
+    "≈ 50 dk",
+    "Uygulayıcı, çocuk ve Koç",
+    "Koç baştan sona odada"
+  ],
+  "phases": [
+    [
+      {
+        "g": "Kendin için",
+        "ic": "book",
+        "i": [
+          "Serdar'ın kendine söylediklerini hatırla: \"Rahatla\", \"Vites değiştirme zamanı\", \"Takım oyuncusu ol\".",
+          "Örnek çalışma sayfasını (Kılavuz s. 8) oku; duygudan düşünceye örnekleri gözden geçir.",
+          "Zaman yetmezse posterin süslemesi evde Koçla tamamlanır."
+        ]
+      },
+      {
+        "g": "Yazdır",
+        "ic": "print",
+        "i": [
+          [
+            "Poster çalışma sayfası (Kılavuz s. 7) · çocuğa ve Koça",
+            "pdf"
+          ],
+          [
+            "Örnek çalışma sayfası (Kılavuz s. 8)",
+            "pdf"
+          ],
+          [
+            "Duygu Dedektifi (Kılavuz s. 9) · çocuğa ve Koça",
+            "pdf"
+          ],
+          [
+            "Düşünce balonları posteri (Kılavuz s. 10) · A4 ya da A3",
+            "pdf"
+          ],
+          [
+            "DUR ve Sakin Ol görseli (Kılavuz s. 11) · renkli",
+            "pdf"
+          ],
+          [
+            "DUR ve Sakinleş kartları (Kılavuz s. 12) · kalın kâğıt",
+            "pdf"
+          ],
+          [
+            "Koç için: Poster ve kart (Kılavuz s. 13)",
+            "pdf"
+          ],
+          [
+            "Oturum Değerlendirme ve Takip Formu",
+            "pdf"
+          ]
+        ]
+      },
+      {
+        "g": "Masaya",
+        "ic": "box",
+        "i": [
+          "Beceri Kontrol Kartı 3",
+          "Rüzgâr gülü ve Sakinleşme Seviyesi Ölçeği",
+          "Renkli kalemler; isteğe bağlı dergi resimleri ve yapıştırıcı",
+          "Takım Oyuncusu hikâyesi (13. Oturum) Koç için bir kopya"
+        ]
+      },
+      {
+        "g": "14. Oturumdan gelen",
+        "ic": "back",
+        "prev": 14,
+        "pf": [
+          [
+            "adim",
+            "Zorlandığı adım"
+          ],
+          [
+            "olcek",
+            "Ölçek puanları"
+          ],
+          [
+            "nefes",
+            "Nefes aracı"
+          ],
+          [
+            "tarih",
+            "Kart tarihleri"
+          ]
+        ],
+        "i": [
+          "Koçun getirdiği ilk Lütfen Dikkat! kartı: kaç √ var?",
+          "Sakin Kedi evde hangi durumlarda uygulandı?"
+        ]
+      }
+    ],
+    [
+      {
+        "a": 1,
+        "t": "Karşılama: Kartlar ve Sakin Kedi",
+        "dk": 5,
+        "ref": "s. 2",
+        "koc": "Koç odada",
+        "i": [
+          "İlk Lütfen Dikkat! kartına bak; dolduysa ödül kabından çekiliş yapılsın.",
+          "Sakin Kedi: önce ve sonra ölçekte fark var mı?",
+          [
+            "Bir anı adlandır: \"Bedeninin gerildiğini fark ettin, Kar Meleği yaptın ve kendini yeniden değerlendirdin.\"",
+            "BE"
+          ],
+          "Puanlarda sorun varsa ipucunun sıklığını ve zamanını ayarla."
+        ]
+      },
+      {
+        "a": 2,
+        "t": "Hazır ol: Nefes, beden ve şimdi beyin",
+        "dk": 3,
+        "ref": "s. 2",
+        "mat": "Beceri Kontrol Kartı 3",
+        "i": [
+          "Nefes ve beden çalışıldı; bugün beyin.",
+          [
+            "Kartın 3. maddesini birlikte oku: Düşüncelerini yeni hedefinle değiştir.",
+            "BE"
+          ]
+        ]
+      },
+      {
+        "a": 3,
+        "t": "Görev 3 · Serdar'ın düşünceleri",
+        "dk": 5,
+        "ref": "s. 3",
+        "i": [
+          "\"Bu adil değil!\" düşüncesi Serdar'ın öfkesini nasıl etkiledi?",
+          "Serdar'ın kendine söylediklerini birlikte say.",
+          "\"İnsanlar sakinleşmek için kendilerine başka neler söyler?\" (Ona kadar sayarım. Bu geçecek.)"
+        ]
+      },
+      {
+        "a": 4,
+        "t": "Görev 3 · Poster çalışma sayfası",
+        "dk": 12,
+        "ref": "s. 3",
+        "mat": "Çalışma sayfası (s. 7), örnek (s. 8), Duygu Dedektifi (s. 9)",
+        "i": [
+          "Vites değiştirmekte zorlandığı tek bir durum seç; örnek sayfayı birlikte oku.",
+          "Duygu Dedektifi ile birden fazla duygu bulmasına yardım et.",
+          "Aklından geçenler: önce yüksek sesle söylediklerinden başla; zorlarsa benzer durumdan örnek ver.",
+          [
+            "Her düşüncenin karşısına daha yararlı olanı yazın; çocuk en çok işe yarayanları seçsin.",
+            "BE"
+          ]
+        ]
+      },
+      {
+        "a": 5,
+        "t": "Görev 3 · Posterini yap ve yerini seç",
+        "dk": 8,
+        "ref": "s. 4",
+        "mat": "Düşünce balonları posteri (s. 10)",
+        "i": [
+          "Yardımcı düşünceleri balonlara yazsın; isterse çizsin ya da yapıştırsın.",
+          "Koçla yer seçin: zor anın yaşandığı yere yakın (masa, kapı, buzdolabı).",
+          [
+            "Cümleleri aralarda nefes alarak sesli okusun; önce ve sonra ölçek.",
+            "BE"
+          ],
+          "Süsleme evde de tamamlanabilir."
+        ]
+      },
+      {
+        "a": 6,
+        "t": "Görev 4 · DUR ve Sakin Ol",
+        "dk": 12,
+        "ref": "s. 4",
+        "mat": "Görsel (s. 11), kartlar (s. 12)",
+        "i": [
+          "Yanlış alarm: Serdar'ın beyni \"Bu adil değil!\" diye alarm verdi.",
+          "Görsele bakarak üç adımı çocuğun ağzından topla: Nefes · Beden · Beyin.",
+          "Çocuğa bir DUR ve Sakinleş kartı, Koça bir iki tane daha ver.",
+          "İpucunu çocuk seçsin; iyi niyeti hatırlatan bir söz daha iyi çalışır (\"Takım oyuncusu ol\").",
+          [
+            "Canlandırın: üzücü olay → üzülme → Koçun ipucu → kart ve NBB. Sonra rolleri değiştirin.",
+            "BE"
+          ]
+        ]
+      },
+      {
+        "a": 7,
+        "t": "Kapanış: Benim posterim, benim kartım",
+        "dk": 5,
+        "ref": "s. 5",
+        "koc": "Koç odada",
+        "i": [
+          "Çocuk posterini Koça anlatsın: hangi durum, hangi yardımcı düşünceler.",
+          "Kartın yerine ve ipucuna son kez bakın.",
+          "Koça çalışma sayfası, Duygu Dedektifi ve yönerge (s. 13) kopyalarını ver."
+        ]
+      }
+    ],
+    [
+      {
+        "g": "Eve gidenler",
+        "ic": "hand",
+        "i": [
+          "DUR, Sakinleş, Düşün posteri.",
+          "DUR ve Sakinleş kartları (çocuğa ve Koça).",
+          "Kalan iki Lütfen Dikkat! kartı."
+        ]
+      },
+      {
+        "g": "Koça söyle",
+        "ic": "hand",
+        "i": [
+          "Poster: zor durumdan hemen önce ve sakin bir anda, aralarda nefesle sesli okunur.",
+          "Kart: önce sakin anlarda kısa canlandırmalar; alıştıkça zor anlarda ipucu.",
+          "İpucu görmezden gelinirse hemen müdahale etme; sakinleşince hikâyeyi hatırlat, niyet belirle, pratik yap, çabayı gör."
+        ]
+      },
+      {
+        "g": "Formu doldur",
+        "ic": "form",
+        "i": [
+          "Posterin durumu ve fark ettiği düşünce.",
+          "Seçilen ipucu."
+        ]
+      },
+      {
+        "g": "Sonraki oturum için kaydet",
+        "ic": "save",
+        "f": [
+          [
+            "durum",
+            "Posterin durumu"
+          ],
+          [
+            "dusunce",
+            "Fark ettiği düşünce → yardımcı düşünce"
+          ],
+          [
+            "ipucu",
+            "Seçilen ipucu"
+          ]
+        ]
+      },
+      {
+        "g": "16. Oturuma hazırlık",
+        "ic": "next",
+        "i": [
+          "Koçtan posteri, kartı ve Lütfen Dikkat! kartlarını getirmesini iste.",
+          "ÇK3'ün kapanışı: Bravo, Başardın!"
+        ]
+      },
+      {
+        "done": true
+      }
+    ]
+  ]
+}

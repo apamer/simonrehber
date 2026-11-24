@@ -1,0 +1,235 @@
+{
+  "facts": [
+    "≈ 50 dk",
+    "Uygulayıcı, çocuk ve Koç",
+    "Herkes baştan sona odada"
+  ],
+  "phases": [
+    [
+      {
+        "g": "Yazdır",
+        "ic": "print",
+        "i": [
+          [
+            "Koç için: Teşvik edici sözler · Bunu Yapma! (Kılavuz s. 7)",
+            "pdf"
+          ],
+          [
+            "Beceri Takip Formu, Kart 2'li (Kılavuz s. 8) · her yetişkin için",
+            "pdf"
+          ],
+          [
+            "Aferin biletleri, ÇK2 (Kılavuz s. 9)",
+            "pdf"
+          ],
+          [
+            "Oturum Değerlendirme ve Takip Formu",
+            "pdf"
+          ]
+        ]
+      },
+      {
+        "g": "Masaya",
+        "ic": "box",
+        "i": [
+          "ÇK2 araçları: Kart 2, Zap sayacı, \"Bunu Yapma\" kartları, harita",
+          "Kesilmiş Aferin biletleri",
+          "İsteğe bağlı \"hazine kutusu\""
+        ]
+      },
+      {
+        "g": "Kendin için",
+        "ic": "book",
+        "i": [
+          "ÇK2 özetini gözden geçir: 8. Oyun · 9. Kumanda · 10. Ev görevleri.",
+          "Durdurma becerisinin dilini hatırla: kendini durdurdun · hedefte kaldın · saptığını fark ettin."
+        ]
+      },
+      {
+        "g": "10. Oturumdan gelen",
+        "ic": "back",
+        "prev": 10,
+        "pf": [
+          [
+            "kart",
+            "Çocuğun kartı"
+          ],
+          [
+            "harita",
+            "Harita durumu"
+          ],
+          [
+            "koc",
+            "Koçun kartı"
+          ]
+        ],
+        "i": [
+          "Kartların ve haritanın haftası: başarı mı, zorlanma mı?"
+        ]
+      }
+    ],
+    [
+      {
+        "a": 1,
+        "t": "Karşılama: Kartlar ve harita",
+        "dk": 5,
+        "ref": "s. 2",
+        "koc": "Koç odada",
+        "i": [
+          "Çocuğa sor: Kartın nerede asılı, kaç kez hatırlattı? Harita hangi durumda işe yaradı?",
+          "Koçtan çocuğun kendini durdurduğu bir anı iste; Etkinlik 3 için not et.",
+          [
+            "İşe yaradıysa ipucunu adlandır: \"Kart dolabın üstündeydi, gördün ve durdun.\"",
+            "TE"
+          ],
+          "Zorlandıysa suçlamadan güçlendir: kartın yeri, Koçun işareti ya da daha küçük hedef."
+        ]
+      },
+      {
+        "a": 2,
+        "t": "Geriye bakış: Durdurma araçlarım",
+        "dk": 8,
+        "ref": "s. 2",
+        "mat": "ÇK2 araçları",
+        "i": [
+          "8. Oyun: \"En zor tuzak hangisiydi?\"",
+          "9. Kumanda: \"Senin sözcüğün neydi, kullandın mı?\"",
+          "10. Ev görevleri: \"Hangi ipucu seni en hızlı durduruyor?\"",
+          [
+            "\"Hangisi senin en iyi aracın?\" Kartın hangi maddesine yardım ediyor? Not et.",
+            "TE"
+          ]
+        ]
+      },
+      {
+        "a": 3,
+        "t": "Koçla: Durdurma becerisine özel övgü",
+        "dk": 8,
+        "ref": "s. 3",
+        "koc": "Koçla yürütülür",
+        "i": [
+          "Üç övgü türünü karşılaştır: genel · zorlanınca teşvik · başarınca özel övgü (Selin örneği).",
+          "Durdurma dilini ver: kendini durdurdun, ipucunu duyar duymaz durdun, hedefine geri döndün.",
+          "Canlı deneme: Koç, Etkinlik 1'deki anı bu dille çocuğa söylesin.",
+          "Gerekirse kalıp: \"… olduğunda, … ipucuyla kendini durdurdun ve … yapabildin.\""
+        ]
+      },
+      {
+        "a": 4,
+        "t": "Koçla: Üç anda teşvik",
+        "dk": 7,
+        "ref": "s. 3",
+        "mat": "Teşvik edici sözler (s. 7)",
+        "koc": "Koçla yürütülür",
+        "i": [
+          "Başlarken: \"Ne yapacağımızı ve ne yapmayacağımızı biliyoruz.\"",
+          "Zorlanınca: \"İpucunun dikkatini daha çok çekmesi için ne yapabiliriz?\"",
+          "Başarınca: \"Hedeften saptığını fark etmekte giderek daha iyi oluyorsun.\"",
+          "Koçun en zor anı için bir cümleyi şimdi birlikte seçin."
+        ]
+      },
+      {
+        "a": 5,
+        "t": "Beceri Takip Formu: Yeni kartla",
+        "dk": 7,
+        "ref": "s. 4",
+        "mat": "Beceri Takip Formu (s. 8)",
+        "i": [
+          "Hedefi çocukla somut bir durdurma cümlesiyle yaz (ör. \"Kırmızı Işık ipucunu duyunca durmak\").",
+          "Formu kim dolduracak? Büyükanne, bakıcı, öğretmen; eski form kullananlara yeni kopya.",
+          "İlk satırı Koçun anlattığı anla birlikte doldur."
+        ]
+      },
+      {
+        "a": 6,
+        "t": "Aferin biletleri: ÇK2 maddeleriyle",
+        "dk": 5,
+        "ref": "s. 4",
+        "mat": "Aferin biletleri (s. 9)",
+        "i": [
+          [
+            "Çocuğun gösterdiği Kart 2 maddesini işaretle.",
+            "TE"
+          ],
+          "Becerinin ortaya çıktığı durumu birlikte konuş.",
+          "Kurallar: çocuk istemez, yetişkin fark edince verir; geri alınmaz, ceza değildir."
+        ]
+      },
+      {
+        "a": 7,
+        "t": "Kapanış: Bravo, Başardın!",
+        "dk": 10,
+        "ref": "s. 5",
+        "koc": "Koç odada",
+        "i": [
+          "Koç, çocuğun \"en iyi durdurma aracını\" davranışa özel bir cümleyle adlandırsın.",
+          "İlk ÇK2 Aferin biletini ver; kocaman bir \"Bravo!\"",
+          "ÇK2 özetini Koçla paylaş: iç konuşma · kendini izleme · ipuçları.",
+          "ÇK3'e köprü: çok üzülünce ya da öfkelenince bu araçlar tek başına yetmeyebilir; sırada Değiştirme var."
+        ]
+      }
+    ],
+    [
+      {
+        "g": "Eve gidenler",
+        "ic": "hand",
+        "i": [
+          "Teşvik edici sözler sayfası (Koça).",
+          "Kart 2'li Beceri Takip Formu(ları): her yetişkine bir kopya.",
+          "ÇK2 Aferin biletleri."
+        ]
+      },
+      {
+        "g": "Koça söyle",
+        "ic": "hand",
+        "i": [
+          "Haftada en az üç kez durdurma becerisine özel övgü söylesin.",
+          "\"Bunu Yapma\" kartları ve harita yerinde kalsın; Kırmızı Işık ve Açma-Kapama ipuçları sürsün.",
+          "ÇK1 ve ÇK2 araçları ÇK3 boyunca da kullanılacak."
+        ]
+      },
+      {
+        "g": "ÇK3'e geçmeden kontrol et",
+        "ic": "form",
+        "i": [
+          "Çocuk en az bir durdurma aracını (fısıltı, Zap, kart) hatırlatmayla da olsa kendisi başlatabiliyor.",
+          "Koç kararlaştırılan ipucunu tutarlı veriyor ve davranışa özel övgüyü kullanıyor.",
+          "Aile ÇK1 ve ÇK2 araçlarını ÇK3 boyunca sürdürmeye hazır.",
+          "Eksik varsa ilgili ev çalışmalarını sürdür."
+        ]
+      },
+      {
+        "g": "Sonraki oturum için kaydet",
+        "ic": "save",
+        "f": [
+          [
+            "enIyi",
+            "Çocuğun en iyi durdurma aracı"
+          ],
+          [
+            "takip",
+            "Beceri Takip Formu: hedef ve yetişkin(ler)"
+          ],
+          [
+            "hazir",
+            "ÇK3'e hazır mı?"
+          ]
+        ]
+      },
+      {
+        "g": "12. Oturuma hazırlık",
+        "ic": "next",
+        "i": [
+          [
+            "Sırada Çalışma Kitabı 3 · Dur… Odaklan… Değiştir! (Bilişsel Esneklik).",
+            "BE"
+          ],
+          "Beceri Kontrol Kartı 3'ü hazırla."
+        ]
+      },
+      {
+        "done": true
+      }
+    ]
+  ]
+}

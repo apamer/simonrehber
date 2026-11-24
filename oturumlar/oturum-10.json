@@ -1,0 +1,239 @@
+{
+  "facts": [
+    "≈ 50 dk",
+    "Uygulayıcı, çocuk ve Koç",
+    "Koç baştan sona odada"
+  ],
+  "phases": [
+    [
+      {
+        "g": "Kendin için",
+        "ic": "book",
+        "i": [
+          "Kendi \"Bunu Yapma\" örneğini önceden düşün (basit ve genel; ör. kurabiye dolabı).",
+          "Durma ipucunu çocuğa göre uyarla: hakem düdüğü, buz ışını, Donma! ya da çocuğun \"Zap\" sözcüğü.",
+          "Zaman kısıtlıysa harita sonraki oturumun başına alınabilir."
+        ]
+      },
+      {
+        "g": "Odayı hazırla",
+        "ic": "box",
+        "i": [
+          "Engelsiz bir alan ya da uzun bir koridor; başlangıç çizgisini belirle."
+        ]
+      },
+      {
+        "g": "Yazdır",
+        "ic": "print",
+        "i": [
+          [
+            "\"Bunu Yapma\" kartları (Kılavuz s. 9) · iki kopya, kesilmiş",
+            "pdf"
+          ],
+          [
+            "Hedefe Ulaşma Haritası (Kılavuz s. 10)",
+            "pdf"
+          ],
+          [
+            "Oturum Değerlendirme ve Takip Formu",
+            "pdf"
+          ]
+        ]
+      },
+      {
+        "g": "Masaya",
+        "ic": "box",
+        "i": [
+          "Beceri Kontrol Kartı 2",
+          "Boya kalemleri ve bant"
+        ]
+      },
+      {
+        "g": "9. Oturumdan gelen",
+        "ic": "back",
+        "prev": 9,
+        "pf": [
+          [
+            "zap",
+            "\"Zap\" sözcüğü"
+          ],
+          [
+            "dagitici",
+            "Dikkat dağıtıcısı"
+          ],
+          [
+            "isaret",
+            "Kumanda işareti"
+          ]
+        ],
+        "i": [
+          "Zap sayacı: kaç daire boyandı?"
+        ]
+      }
+    ],
+    [
+      {
+        "a": 1,
+        "t": "Karşılama: Kaç dikkat dağıtıcıyı Zap'ladın?",
+        "dk": 5,
+        "ref": "s. 2",
+        "koc": "Koç odada",
+        "i": [
+          "Zap sayacına birlikte bak: kaç daire, hangi dağıtıcı, hangi sözcük?",
+          "Koçtan kumanda işaretini kullandığı bir anı iste. İşe yaradı mı?",
+          [
+            "Sayı ne olursa olsun denemeyi adlandır: \"Kendi sözcüğünü hatırladın ve kullandın.\"",
+            "TE"
+          ],
+          "Bu oturumda Koç dışarı çıkmaz."
+        ]
+      },
+      {
+        "a": 2,
+        "t": "Hazır ol: Bugün dört görev var",
+        "dk": 2,
+        "ref": "s. 2",
+        "mat": "Beceri Kontrol Kartı 2",
+        "i": [
+          "\"İki oyun oynayacağız, sonra bir kart ve bir harita hazırlayacağız.\"",
+          "Hepsinde aynı beceri: doğru anda durmak."
+        ]
+      },
+      {
+        "a": 3,
+        "t": "Görev 1: Açma-Kapama Düğmesi",
+        "dk": 8,
+        "ref": "s. 3",
+        "koc": "Koç da oyuncu",
+        "i": [
+          "Müze oyunu: sen Müze Müdürü, çocuk özel bir heykel.",
+          "Dokunmadan önce izin iste; rahatsız olursa el çırpma ya da zil kullan.",
+          [
+            "1. dokunuş AÇIK: heykel canlanır · 2. dokunuş KAPALI: hareketin ortasında donar.",
+            "TE"
+          ],
+          "Müdür ne heykeli olduğunu tahmin etsin (dansçı, aşçı, trafik polisi…).",
+          "Birkaç tur sonra rolleri değiştir: çocuk müdür olsun."
+        ]
+      },
+      {
+        "a": 4,
+        "t": "Görev 2: Kırmızı Işık-Yeşil Işık",
+        "dk": 8,
+        "ref": "s. 4",
+        "koc": "Koç da oyuncu",
+        "i": [
+          "Sen Trafik Işığı ol; çocuk ve Koç başlangıçta.",
+          [
+            "Yeşil Işık: yürü, zıpla, sek · Kırmızı Işık: hemen dur; kıpırdayan başa döner.",
+            "TE"
+          ],
+          "Önce donmayı göster, deneme turu yap.",
+          "Varyasyon: \"Yeşil Çimen\", \"Kırmızı Kalem\" gibi benzer sözcükler.",
+          "İlk ulaşan bir sonraki turda Trafik Işığı olur."
+        ]
+      },
+      {
+        "a": 5,
+        "t": "Görev 3: \"Bunu Yapma\" kartları",
+        "dk": 12,
+        "ref": "s. 5",
+        "mat": "\"Bunu Yapma\" kartları (s. 9)",
+        "i": [
+          "Oyundan hayata: kendi örneğini anlat (kurabiye dolabı gibi).",
+          "Çocuğa sor: \"Kendini tutmakta zorlandığın şeyler oluyor mu?\" En az bir davranış seçsin.",
+          "Her davranış ayrı karta; arkasına bırakmanın yararlarını yaz.",
+          "Koç da kendisi için bir kart yazsın.",
+          "Destek planı: kart nereye asılacak, kim hangi ipucunu verecek (Kırmızı Işık, dokunuş, işaret)?"
+        ]
+      },
+      {
+        "a": 6,
+        "t": "Görev 4: Hedefe Ulaşma Haritası",
+        "dk": 10,
+        "ref": "s. 6",
+        "mat": "Harita (s. 10)",
+        "i": [
+          "Berk'in haritasıyla örnekle: hedef, taşlar, DUR yolları, Alp'in işareti.",
+          "Çocuğun zorlandığı tek bir durumu seç: ödev, market, akraba ziyareti.",
+          "Taşlara hedefe götüren adımları, DUR yollarına saptıran davranışları yaz.",
+          [
+            "İpucunda anlaşın: Koçun işareti + çocuğun kendine söyleyeceği söz.",
+            "TE"
+          ],
+          "İlk hafta yalnızca bir durum; kısa ve başarılı deneme."
+        ]
+      },
+      {
+        "a": 7,
+        "t": "Kapanış: Evde dört görev",
+        "dk": 5,
+        "ref": "s. 7",
+        "koc": "Koç odada",
+        "i": [
+          "Çocuk kartlarını ve haritasını Koça anlatsın: kart nereye, harita hangi durumda?",
+          "Ev planını birlikte gözden geçir; Koç bir kopyasını alsın.",
+          "\"Bu hafta hangisini en çok kullanacaksın sence?\""
+        ]
+      }
+    ],
+    [
+      {
+        "g": "Eve gidenler",
+        "ic": "hand",
+        "i": [
+          "Çocuğun ve Koçun \"Bunu Yapma\" kartları.",
+          "Hedefe Ulaşma Haritası.",
+          "Ev planı: dört görev, nasıl ve ne sıklıkla."
+        ]
+      },
+      {
+        "g": "Koça söyle",
+        "ic": "hand",
+        "i": [
+          "Açma-Kapama: sık ama kısa (5 dk).",
+          "Kırmızı Işık: önce oyun, sonra çanta hazırlama gibi bir görevde; haftada 2–3 kez.",
+          "Kartlar her gün görünür yerde; harita seçilen durum her olduğunda önceden okunur.",
+          "Çocuk durduğunda hemen adlandırsın: \"Kırmızı Işık deyince durdun, harika zamanlama.\""
+        ]
+      },
+      {
+        "g": "Formu doldur",
+        "ic": "form",
+        "i": [
+          "Çocuğun kartı (davranış / yer) ve Koçun kartı.",
+          "Harita durumu ve ipucu."
+        ]
+      },
+      {
+        "g": "Sonraki oturum için kaydet",
+        "ic": "save",
+        "f": [
+          [
+            "kart",
+            "Çocuğun kartı (davranış / yer)"
+          ],
+          [
+            "harita",
+            "Harita durumu ve ipucu"
+          ],
+          [
+            "koc",
+            "Koçun kartı"
+          ]
+        ]
+      },
+      {
+        "g": "11. Oturuma hazırlık",
+        "ic": "next",
+        "i": [
+          "ÇK2'nin kapanışı: Bravo, Başardın! Koç ve çocuk baştan sona odada.",
+          "İsterse büyükanne, bakıcı ya da öğretmen de gelebilir."
+        ]
+      },
+      {
+        "done": true
+      }
+    ]
+  ]
+}

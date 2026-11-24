@@ -1,0 +1,232 @@
+{
+  "facts": [
+    "≈ 50 dk",
+    "Uygulayıcı, çocuk ve Koç",
+    "Koç büyükanneyi canlandırır"
+  ],
+  "phases": [
+    [
+      {
+        "g": "Kendin için",
+        "ic": "book",
+        "i": [
+          "Hikâyeyi (Kılavuz s. 7–8) oku; dört duraklama noktasını işaretle.",
+          "Oyun planının desteklediği becerileri hatırla: hedef, planlama, çalışma belleği, zaman, kendini izleme.",
+          "Büyükanne işi Arda'nın yerine yapmaz; sen de öyle."
+        ]
+      },
+      {
+        "g": "Yazdır",
+        "ic": "print",
+        "i": [
+          [
+            "Hikâye metni (Kılavuz s. 7–8) · üç kopya, rolleri işaretli",
+            "pdf"
+          ],
+          [
+            "Tartışma soruları (Kılavuz s. 9)",
+            "pdf"
+          ],
+          [
+            "İnsanlar bu becerileri ne zaman kullanır? (Kılavuz s. 10)",
+            "pdf"
+          ],
+          [
+            "Peki ya sen? (Kılavuz s. 11)",
+            "pdf"
+          ],
+          [
+            "Oturum Değerlendirme ve Takip Formu",
+            "pdf"
+          ]
+        ]
+      },
+      {
+        "g": "Masaya",
+        "ic": "box",
+        "i": [
+          "Beceri Kontrol Kartı 4",
+          "Oyun planı (17. Oturum) ya da kâğıda çizilmiş Başlangıç–Bitiş yolu",
+          "Yapışkan notlar, kalem, piyon, zamanlayıcı"
+        ]
+      },
+      {
+        "g": "17. Oturumdan gelen",
+        "ic": "back",
+        "prev": 17,
+        "pf": [
+          [
+            "sira",
+            "Görev sırası"
+          ],
+          [
+            "zor",
+            "Zorlandığı an ve araç"
+          ],
+          [
+            "kural",
+            "En sevdiği kural"
+          ]
+        ],
+        "i": [
+          "\"Planın ne?\" haftası: hangi işte soruldu?"
+        ]
+      }
+    ],
+    [
+      {
+        "a": 1,
+        "t": "Karşılama: \"Planın ne?\" haftası",
+        "dk": 5,
+        "ref": "s. 2",
+        "koc": "Koç odada",
+        "i": [
+          "Koça sor: \"Planın ne?\" hangi işte soruldu? Yarışma evde oynandı mı?",
+          [
+            "Bir anı adlandır: \"Çantanı hazırlarken önce kitapları, sonra kalemliği koydun.\"",
+            "SO"
+          ],
+          "Geçen haftaki yarışmayı kısaca hatırlat."
+        ]
+      },
+      {
+        "a": 2,
+        "t": "Hazır ol: Kart 4 ve bugünün konusu",
+        "dk": 5,
+        "ref": "s. 2",
+        "mat": "Beceri Kontrol Kartı 4",
+        "i": [
+          "Kart masada; hikâye boyunca maddeleri Arda'nın yaptıklarıyla eşleştireceksiniz.",
+          "Sor: \"Sana da hiç bir iş o kadar büyük göründü mü ki nereden başlayacağını bilemedin?\" Cevabı not et (Etkinlik 6)."
+        ]
+      },
+      {
+        "a": 3,
+        "t": "Hikâyeyi canlandır: Bir Kazanan Gibi Düşün",
+        "dk": 12,
+        "ref": "s. 3",
+        "mat": "Hikâye (s. 7–8), oyun planı, yapışkan notlar",
+        "koc": "Koç büyükanne",
+        "i": [
+          "Roller: Anlatıcı = sen · Arda = çocuk · Büyükanne = Koç.",
+          [
+            "Hikâyeyi masada kur: Arda nota yazdıkça çocuk da yazıp yola yapıştırsın, görev bittikçe piyonu ilerletsin.",
+            "SO"
+          ],
+          "\"Asla bitiremem!\": \"Arda ne hissediyor?\"",
+          "\"Bir oyun planı yapacağız\": \"Oyun planı ne işe yarar?\"",
+          "\"Sadece altı şey varmış\": \"İş mi küçüldü, bakışı mı?\"",
+          "Sonda: \"Kartın hangi maddelerini kullandı?\""
+        ]
+      },
+      {
+        "a": 4,
+        "t": "Konuşalım: Tartışma soruları",
+        "dk": 10,
+        "ref": "s. 4",
+        "mat": "Tartışma soruları (s. 9)",
+        "i": [
+          "Anlamak (1) → Değişim (2) → Beceriler (3–4) → Teşvik (5) → Kendi hayatı (6).",
+          "Soru 2: İş azalmadı; ona bakışı değişti.",
+          "Soru 6'yı Etkinlik 2'deki cevabına bağla.",
+          [
+            "Çocuğun cevabını şu cümleye bağla: \"Büyük bir işi yapabilmek için önce plan yaparım, küçük adımlara bölerim.\"",
+            "SO"
+          ]
+        ]
+      },
+      {
+        "a": 5,
+        "t": "İnsanlar ne zaman plan yapar?",
+        "dk": 8,
+        "ref": "s. 4",
+        "mat": "İnsanlar tablosu (s. 10)",
+        "i": [
+          "Her kişi için önce hedefi birlikte oku.",
+          "Çocuk üç dört adım söylesin; sırası önemli: \"Önce hangisi gelmeli?\"",
+          "Son sütun: Hedefe ulaşınca kendini nasıl kutlar?"
+        ]
+      },
+      {
+        "a": 6,
+        "t": "Peki ya sen?",
+        "dk": 5,
+        "ref": "s. 5",
+        "mat": "Peki ya sen? (s. 11)",
+        "i": [
+          "A ve B'den birini seç; çocuk dört adımı söylesin ve sıraya koysun.",
+          "Etkinlik 2'deki \"büyük iş\" daha anlamlıysa onu dört adıma bölün.",
+          "İkinci bölüm eve kalabilir."
+        ]
+      },
+      {
+        "a": 7,
+        "t": "Kapanış: Bir kazanan gibi düşün",
+        "dk": 5,
+        "ref": "s. 5",
+        "koc": "Koç odada",
+        "i": [
+          "Çocuk tek cümle söylesin: \"Büyük bir iş görünce ilk ne yaparsın?\"",
+          "Koç, büyükanne gibi, bugünkü çalışmaya bir teşvik edici söz söylesin.",
+          "Sonraki oturumda kendi oyun planını yapacağını söyle; evden hangi işi getireceğini birlikte düşünün."
+        ]
+      }
+    ],
+    [
+      {
+        "g": "Eve gidenler",
+        "ic": "hand",
+        "i": [
+          "Peki ya sen? sayfası (ikinci bölüm evde tamamlanabilir).",
+          "Yapışkan notlar ve piyon."
+        ]
+      },
+      {
+        "g": "Koça söyle",
+        "ic": "hand",
+        "i": [
+          "Hafta içinde gerçek bir işi (oda, çanta, ödev) yapışkan notlarla dört beş adıma bölsün; adımları çocuk söylesin.",
+          "Çocuk her adımda piyonu ilerletsin; Koç kalan süreyi arada hatırlatsın.",
+          "Büyükanne gibi iki üç teşvik edici söz; bitince hep birlikte \"Yaşasın!\""
+        ]
+      },
+      {
+        "g": "Formu doldur",
+        "ic": "form",
+        "i": [
+          "Çocuğun \"büyük iş\" örneği.",
+          "Adımlara bölmede zorlandığı yer."
+        ]
+      },
+      {
+        "g": "Sonraki oturum için kaydet",
+        "ic": "save",
+        "f": [
+          [
+            "buyukIs",
+            "Çocuğun \"büyük iş\" örneği"
+          ],
+          [
+            "zor",
+            "Adımlara bölmede zorlandığı yer"
+          ],
+          [
+            "evIsi",
+            "Gelecek oturuma getirilecek ev işi"
+          ]
+        ]
+      },
+      {
+        "g": "19. Oturuma hazırlık",
+        "ic": "next",
+        "i": [
+          "Teşvik edici sözler kartlarını (Kılavuz s. 10–13) kes.",
+          "Zamanlayıcı, zil ve oturumda yapılacak kısa bir iş hazırla."
+        ]
+      },
+      {
+        "done": true
+      }
+    ]
+  ]
+}

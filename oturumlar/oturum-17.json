@@ -1,0 +1,241 @@
+{
+  "facts": [
+    "≈ 50 dk",
+    "Uygulayıcı, çocuk ve Koç",
+    "Koç baştan sona odada"
+  ],
+  "phases": [
+    [
+      {
+        "g": "Kendin için",
+        "ic": "book",
+        "i": [
+          "Roller: sen sunucu, Koç \"Koç\", varsa ikinci yetişkin zaman yöneticisi (yoksa zamanı sen tutarsın).",
+          "Sunucunun becerileri adlandıran cümlelerini (Kılavuz s. 4) gözden geçir.",
+          "Bu bir hız yarışı değil; süreci vurgula."
+        ]
+      },
+      {
+        "g": "Koçla",
+        "ic": "phone",
+        "i": [
+          "Baştan sona odada kalacağını ve oyunda \"Koç\" rolünü oynayacağını söyle.",
+          "Koçun görevi: kuralları okumak, teşvik kartları, DUR! alanında mola. Çocuğun yerine plan yapmaz."
+        ]
+      },
+      {
+        "g": "Görev çantaları",
+        "ic": "box",
+        "i": [
+          "Dört görev çantası hazırla; her biri yaklaşık bir dakikada bitecek kadar kolay.",
+          "Örnekler: küçük yapboz, boncuk dizmek, hamurdan hayvan, bloklardan kule, labirent, kart ayırmak, domino."
+        ]
+      },
+      {
+        "g": "Yazdır",
+        "ic": "print",
+        "i": [
+          [
+            "Beceri Kontrol Kartı 4: Bir Planım Var! (Kılavuz s. 7) · iki kart",
+            "pdf"
+          ],
+          [
+            "Oyun planı (Kılavuz s. 8)",
+            "pdf"
+          ],
+          [
+            "Saatle Yarış! ve Bir Kazanan Gibi Düşün (Kılavuz s. 9)",
+            "pdf"
+          ],
+          [
+            "Koçun ipucu kartları (Kılavuz s. 10) · kesilmiş",
+            "pdf"
+          ],
+          [
+            "Oturum Değerlendirme ve Takip Formu",
+            "pdf"
+          ]
+        ]
+      },
+      {
+        "g": "Masaya",
+        "ic": "box",
+        "i": [
+          "Piyon ya da küçük bir figür",
+          "Zamanlayıcı"
+        ]
+      },
+      {
+        "g": "16. Oturumdan gelen",
+        "ic": "back",
+        "prev": 16,
+        "pf": [
+          [
+            "enIyi",
+            "En iyi vites değiştirme aracı"
+          ],
+          [
+            "takip",
+            "Beceri Takip Formu"
+          ],
+          [
+            "hazir",
+            "ÇK4'e hazır mı?"
+          ]
+        ],
+        "i": [
+          "Bravo haftası: ÇK3 Aferin biletleri ve Beceri Takip Formu kayıtları."
+        ]
+      }
+    ],
+    [
+      {
+        "a": 1,
+        "t": "Karşılama: Bravo haftası",
+        "dk": 5,
+        "ref": "s. 2",
+        "koc": "Koç odada",
+        "i": [
+          "ÇK3 biletlerine ve Beceri Takip Formuna bak: hangi sakinleşme ya da vites değiştirme anı yazılmış?",
+          [
+            "Bir anı adlandır: \"Kardeşin oyununu bozunca durdun, nefes aldın ve başka bir oyuna geçtin.\"",
+            "BE"
+          ],
+          "Koça oyunda \"Koç\" rolünü oynayacağını hatırlat."
+        ]
+      },
+      {
+        "a": 2,
+        "t": "Hazır ol: Son kart, Bir Planım Var",
+        "dk": 5,
+        "ref": "s. 2",
+        "mat": "Beceri Kontrol Kartı 4",
+        "i": [
+          "\"Büyük işlerde en iyisi plan yapıp işi küçük adımlara bölmektir.\"",
+          [
+            "Kartı birlikte oku, bir kopyasını ver; beş maddeyi yarışmayla eşleştir.",
+            "SO"
+          ],
+          "1 Plan yap · 2 İlerlemeyi takip et · 3 Sakin ve odaklı kal · 4 İşaretle, sonrakine geç · 5 \"Yaşasın!\""
+        ]
+      },
+      {
+        "a": 3,
+        "t": "Yarışmaya hazırlık: Roller ve oyun planı",
+        "dk": 10,
+        "ref": "s. 3",
+        "mat": "Oyun planı (s. 8), Saatle Yarış (s. 9)",
+        "koc": "Koç rolünde",
+        "i": [
+          "Rolleri tanıt: yarışmacı, sunucu, zaman yöneticisi, Koç.",
+          "Dört görev çantasını göster, kısaca açıkla.",
+          [
+            "Sırayı çocuk seçsin; zorlanırsa \"Önce hangisi kolay olur?\" diye sor, sırayı sen belirleme.",
+            "SO"
+          ],
+          "DUR! alanı 2. görevden sonra: mola ve Koçla değerlendirme, görev sayılmaz.",
+          "Koç \"Bir Kazanan Gibi Düşün\" kartını yüksek sesle okusun."
+        ]
+      },
+      {
+        "a": 4,
+        "t": "Yarışma: Hazır ol, Pozisyon al, Başla!",
+        "dk": 15,
+        "ref": "s. 4",
+        "koc": "Koç rolünde",
+        "i": [
+          "Piyon Başlangıç'ta; \"Hazır ol, Pozisyon al, Başla!\" Zamanlayıcı başlar.",
+          "Her görev bitince piyon ilerler; zaman yöneticisi kalan süreyi söyler ve yazar.",
+          "DUR! alanında Koç: üç derin nefes, bir Kar Meleği, iyi gidenleri söyle, bir teşvik kartı oku.",
+          [
+            "Sunucu becerileri adlandırsın: \"Yarışmacımız planını kontrol ediyor.\"",
+            "SO"
+          ],
+          "Görev uzarsa önce planı gözden geçir; gerekirse öğe sayısını azalt.",
+          "Bitişte önce süreci adlandır, sonucu değil."
+        ]
+      },
+      {
+        "a": 5,
+        "t": "Gözden geçir: Kartın üzerinden",
+        "dk": 8,
+        "ref": "s. 5",
+        "mat": "Beceri Kontrol Kartı 4",
+        "i": [
+          "Her madde için yarışmadan somut bir an hatırla.",
+          "Bir iki soru: \"Planın nasıl yardım etti?\" · \"En zor görevde ne yaptın?\" · \"Bir dahaki sefere neyi farklı yapardın?\"",
+          "\"İşte kazanan böyle düşünür!\""
+        ]
+      },
+      {
+        "a": 6,
+        "t": "Kapanış: Kazanan gibi düşün",
+        "dk": 7,
+        "ref": "s. 5",
+        "koc": "Koç odada",
+        "i": [
+          "Çocuk \"Kazanan biri…\" kurallarından en sevdiğini Koça söylesin.",
+          "Koç, yarışmada gördüğü bir anı davranışa özel bir cümleyle söylesin.",
+          "Kartın ikinci kopyası eve gitsin.",
+          "İsteğe bağlı mini bravo: \"Yapboz zorlaşınca durdun, nefes aldın ve plana döndün.\""
+        ]
+      }
+    ],
+    [
+      {
+        "g": "Eve gidenler",
+        "ic": "hand",
+        "i": [
+          "Beceri Kontrol Kartı 4 (bir kopya).",
+          "Koçun teşvik kartları: görünür bir yerde dursun."
+        ]
+      },
+      {
+        "g": "Koça söyle",
+        "ic": "hand",
+        "i": [
+          "Günlük bir işten önce tek soru: \"Planın ne?\" Plan bir iki adımlık olabilir.",
+          "İsterse yarışma evde üç dört kısa görevle tekrar oynanır; Koç hem sunucu hem koç.",
+          "Hızı değil, plan yapmayı ve planı izlemeyi övsün; karşılaştırma yapmasın."
+        ]
+      },
+      {
+        "g": "Formu doldur",
+        "ic": "form",
+        "i": [
+          "Çocuğun seçtiği görev sırası.",
+          "Zorlandığı an ve kullandığı araç."
+        ]
+      },
+      {
+        "g": "Sonraki oturum için kaydet",
+        "ic": "save",
+        "f": [
+          [
+            "sira",
+            "Seçtiği görev sırası"
+          ],
+          [
+            "zor",
+            "Zorlandığı an ve kullandığı araç"
+          ],
+          [
+            "kural",
+            "En sevdiği \"Kazanan biri…\" kuralı"
+          ]
+        ]
+      },
+      {
+        "g": "18. Oturuma hazırlık",
+        "ic": "next",
+        "i": [
+          "Hikâye metninden üç kopya (Kılavuz s. 7–8): Koç büyükanneyi okuyacak.",
+          "Yapışkan notlar, piyon ve zamanlayıcı hazırla."
+        ]
+      },
+      {
+        "done": true
+      }
+    ]
+  ]
+}

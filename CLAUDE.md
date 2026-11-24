@@ -10,9 +10,12 @@ Portal basılı kılavuzun **yanında** kullanılır; kılavuzun yerini tutmaz.
 - Veriler yalnızca tarayıcıda (localStorage, `ssr:` önekiyle) saklanır. Sunucu, hesap ya da veri gönderimi yok.
 
 ## Dosya yapısı
-- `index.html`: portalın tamamı (CSS, JS, oturum verisi ve gömülü logo tek dosyada). Oturum içeriği `const DATA={...}` nesnesinde.
-- `simon-beyin.png`, `robots.txt` (arama motorlarını engeller), `README.md`.
-- Not: 21 Ekim 2026'da lacivert arayüz pilotu (yalnızca 1–2. oturum) `index.html`'in yerine geçti. 20 oturumluk önceki sürüm git geçmişinde `28700b4` commit'inde duruyor; içerik oradan alınacak.
+- `index.html`: portalın arayüzü (CSS, JS, gömülü logo ve görseller, oturum adları `SESS`, oturum ikonları `SICON`).
+- `oturumlar/oturum-01.json` … `oturum-20.json`: her oturumun içeriği. Alanların anlamı `oturumlar/README.md`'de. Sayfa açılırken 20 dosya birlikte yüklenir; bu yüzden site bir web sunucusu üzerinden açılmalıdır (`file://` ile çalışmaz).
+- `v2/index.html`: lacivert arayüz pilotu (yalnızca 1–2. oturum; içeriği hâlâ kendi dosyasının içinde).
+- `simon-beyin.png` (şu an kullanılmıyor), `robots.txt` (arama motorlarını engeller), `README.md`.
+- Geçmiş: 21 Ekim 2026'da `main`'de pilot `index.html`'in yerine geçmişti; 20 oturumluk sürüm `28700b4` commit'inden geri getirildi.
+- Görünümü değiştirmemesi gereken işlerde öncesi/sonrası karşılaştırması yapılır: aynı örnek işaret ve notlarla bütün ekranlar (ana ekran, 20 oturumun giriş ekranı ve 3 bölümü, Hızlı Hazırlık) oluşturulup HTML çıktısı karşılaştırılır.
 
 ## Terim kuralları
 - **Koç** (Rehber değil), **Uygulayıcı** (Terapist değil), **çocuk** (Danışan değil).

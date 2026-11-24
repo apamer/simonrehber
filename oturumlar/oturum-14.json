@@ -1,0 +1,245 @@
+{
+  "facts": [
+    "≈ 50 dk",
+    "Uygulayıcı, çocuk ve Koç",
+    "Koç baştan sona odada"
+  ],
+  "phases": [
+    [
+      {
+        "g": "Kendin için",
+        "ic": "book",
+        "i": [
+          "Lütfen Dikkat!'in dört adımını göstermeye hazırlan: durdur · beden dili · sessiz bekle · isteneni yap.",
+          "Beden dilinde önce uygun olmayanı abartarak göstereceksin; çocuk farkı bulsun.",
+          "Kar Meleği hareketlerini bir kez kendin dene."
+        ]
+      },
+      {
+        "g": "Yazdır",
+        "ic": "print",
+        "i": [
+          [
+            "Lütfen Dikkat! ipucu kartları (Kılavuz s. 8) · üçü Koça, biri oturuma; kesilmiş, katlanmış",
+            "pdf"
+          ],
+          [
+            "Sakinleşme Seviyesi Ölçeği (Kılavuz s. 9) · kalın kâğıt",
+            "pdf"
+          ],
+          [
+            "Koç için: Evde iki görev (Kılavuz s. 10)",
+            "pdf"
+          ],
+          [
+            "Oturum Değerlendirme ve Takip Formu",
+            "pdf"
+          ]
+        ]
+      },
+      {
+        "g": "Masaya",
+        "ic": "box",
+        "i": [
+          "Beceri Kontrol Kartı 3 ve DUR işareti",
+          "Küçük bir rüzgâr gülü (yoksa baloncuk ya da \"hayali mum\")",
+          "Saniyeli bir saat",
+          "Çocuğun oynayacağı küçük bir oyuncak ya da top",
+          "Ödül kabı için küçük kâğıtlar"
+        ]
+      },
+      {
+        "g": "13. Oturumdan gelen",
+        "ic": "back",
+        "prev": 13,
+        "pf": [
+          [
+            "gecis",
+            "Zor geçiş"
+          ],
+          [
+            "cumle",
+            "Kendi cümlesi"
+          ],
+          [
+            "bayrak",
+            "Bayrağı"
+          ],
+          [
+            "uyari",
+            "Koçun uyarısı"
+          ]
+        ],
+        "i": [
+          "Bayrak planının haftası: Koç uyarı verdi mi, çocuk bayrağına baktı mı?"
+        ]
+      }
+    ],
+    [
+      {
+        "a": 1,
+        "t": "Karşılama: Bayrak planı nasıl gitti?",
+        "dk": 5,
+        "ref": "s. 2",
+        "koc": "Koç odada",
+        "i": [
+          "13. Oturumdaki zor geçişi sor: uyarı, bayrak, cümle.",
+          [
+            "İşe yarayan anı adlandır: \"Bayrağına baktın, nefes aldın ve tableti kapattın.\"",
+            "BE"
+          ],
+          "Zorlandıysa bak: ipucu çok mu geç, yeterince güçlü mü?",
+          "Koç bu oturumda odada kalır."
+        ]
+      },
+      {
+        "a": 2,
+        "t": "Hazır ol: İki ipucu",
+        "dk": 3,
+        "ref": "s. 2",
+        "mat": "Lütfen Dikkat! kartı",
+        "i": [
+          "Hatırlat: oyunda söz ipucu (\"Dur\"), Serdar'da işaret ipucu (bayrak).",
+          "Bugün ikisi birlikte: Koç \"Lütfen Dikkat!\" der ve DUR kartını gösterir.",
+          "Puan kartını göster: 10 antrenman, 10 puana kadar."
+        ]
+      },
+      {
+        "a": 3,
+        "t": "Görev 1 · Lütfen Dikkat! Göster ve prova et",
+        "dk": 12,
+        "ref": "s. 3",
+        "koc": "Koç prova eder",
+        "i": [
+          "Koçun işini sen göster: kartı kaldır, \"Lütfen Dikkat!\" de.",
+          [
+            "Dört adımı göster, sonra çocuk göstersin: durdur · beden dili · sessiz bekle · isteneni yap.",
+            "BE"
+          ],
+          "Beden dilinde önce uygun olmayanı abart; çocuk farkı bulsun. Göz teması zorunlu değil.",
+          "Koçla prova: çocuk oynarken Koç ipucunu verir, davranışa özel geri bildirir, puan kartına √ ya da O koyar.",
+          "İki üç tur; bir turda adım atlansın, Koçun düzeltmesini prova et."
+        ]
+      },
+      {
+        "a": 4,
+        "t": "Görev 1 eve: Plan ve ödül kabı",
+        "dk": 5,
+        "ref": "s. 4",
+        "koc": "Koçla",
+        "i": [
+          "Koça üç Lütfen Dikkat! kartı ve yönergeyi (s. 10) ver.",
+          "Başlangıç ve bitiş tarihini ilk kartın arkasına yaz.",
+          "Önce kolayca ara verilebilen anlarda; beceri geliştikçe farklı anlarda.",
+          "Ödül kabı: çocuk ve Koç üç dört basit etkinlik yazsın; kart dolunca √ sayısından bağımsız çekiliş."
+        ]
+      },
+      {
+        "a": 5,
+        "t": "Görev 2 · Bir Sorun Var Kedisi → Sakin Kedi",
+        "dk": 7,
+        "ref": "s. 4",
+        "i": [
+          "Alarmı anlat: köpek gören kedi kamburlaşır, pençelerini çıkarır, tıslar.",
+          "\"Bir sorun var!\" dediğinde ikiniz de kedi gibi kasılıp tıslayın.",
+          "Sakin Kediye geç: yavaşça gerin, esne, kasları gevşet, sakin nefes.",
+          [
+            "Takdir et: \"Bir Sorun Var Kedisi'nden Sakin Kedi'ye geçtin. İşte bu bir vites değiştirme!\"",
+            "BE"
+          ]
+        ]
+      },
+      {
+        "a": 6,
+        "t": "Görev 2 · Nefes, gevşeme ve ölçek",
+        "dk": 13,
+        "ref": "s. 5",
+        "mat": "Rüzgâr gülü, Sakinleşme Seviyesi Ölçeği (s. 9)",
+        "i": [
+          "Derin nefes: rüzgâr gülü ne kadar uzun dönüyor? (Baloncuk ya da hayali mum da olur.)",
+          "Kar Meleği: avuçlar birleşik, eller başın üstüne, parmak uçlarında uzan, kollar kanat gibi yavaşça iner.",
+          [
+            "Ölçek (5 çok gergin → 1 çok rahat): önce ve sonra ikiniz de kendinizi değerlendirin.",
+            "BE"
+          ],
+          "Puanın düşmemesi de doğal; amaç bedeni fark etmek.",
+          "Ölçek şeridini çocuğa ver."
+        ]
+      },
+      {
+        "a": 7,
+        "t": "Kapanış: Sakin Kedi Koça öğretiyor",
+        "dk": 5,
+        "ref": "s. 6",
+        "koc": "Koç odada",
+        "i": [
+          "Çocuk Koça kedi geçişini, rüzgâr gülünü ve Kar Meleğini göstersin; Koç da yapsın.",
+          "İkisi de ölçekte kendini değerlendirsin.",
+          "Ev planını gözden geçir; tarihlerin kartın arkasında olduğundan emin ol."
+        ]
+      }
+    ],
+    [
+      {
+        "g": "Eve gidenler",
+        "ic": "hand",
+        "i": [
+          "Üç Lütfen Dikkat! kartı (puan kartlı) ve Koç yönergesi.",
+          "Sakinleşme Seviyesi Ölçeği şeridi.",
+          "Ödül kabı kâğıtları."
+        ]
+      },
+      {
+        "g": "Koça söyle",
+        "ic": "hand",
+        "i": [
+          "Lütfen Dikkat!: günde bir iki kısa antrenman; ipucunu bir kez ver ve bekle, tekrar tekrar söyleme.",
+          "O ceza değildir; hangi adımda desteğe ihtiyaç olduğunu gösterir.",
+          "Sakinleşme her gün sakin bir anda (ör. yatmadan önce): rüzgâr gülü, Kar Meleği, ölçek.",
+          "İlk kart dolunca bir sonraki oturuma getirsin."
+        ]
+      },
+      {
+        "g": "Formu doldur",
+        "ic": "form",
+        "i": [
+          "Dört adımdan zorlandığı; ölçekte başlangıç ve son puan.",
+          "Tercih ettiği nefes aracı; kart tarihleri ve ödül kabı."
+        ]
+      },
+      {
+        "g": "Sonraki oturum için kaydet",
+        "ic": "save",
+        "f": [
+          [
+            "adim",
+            "Zorlandığı adım"
+          ],
+          [
+            "olcek",
+            "Ölçek: başlangıç / son"
+          ],
+          [
+            "nefes",
+            "Tercih ettiği nefes aracı"
+          ],
+          [
+            "tarih",
+            "Kart tarihleri"
+          ]
+        ]
+      },
+      {
+        "g": "15. Oturuma hazırlık",
+        "ic": "next",
+        "i": [
+          "Koçtan ilk Lütfen Dikkat! kartını getirmesini iste.",
+          "Poster çalışma sayfası, Duygu Dedektifi ve DUR ve Sakinleş kartlarını hazırla."
+        ]
+      },
+      {
+        "done": true
+      }
+    ]
+  ]
+}

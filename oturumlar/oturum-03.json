@@ -1,0 +1,251 @@
+{
+  "facts": [
+    "≈ 50 dk",
+    "Uygulayıcı ve çocuk",
+    "Koç açılışta ve kapanışta"
+  ],
+  "phases": [
+    [
+      {
+        "g": "Kendin için",
+        "ic": "book",
+        "i": [
+          "Oyun 1 ve Oyun 2 hikâyelerini (Kılavuz s. 4 ve 6) iki kez sesli oku; ipucu sözcüklerini vurgulamayı dene.",
+          "Oyun 2'nin tuzaklarını işaretle: \"ileri\" ve \"solucan\" ipucu değil, \"geri kalmıyor\" (10) ipucu.",
+          "Oyun 2'ye geçiş kuralını hatırla: Oyun 1'de 11 ipucunun 9'u ya da fazlası doğruysa."
+        ]
+      },
+      {
+        "g": "Odayı hazırla",
+        "ic": "box",
+        "i": [
+          "Yaklaşık 12 adımlık boş bir şerit aç; başlangıç çizgisini bantla işaretle.",
+          "Oyun 2'de çocuk 18 adım ilerler; alan yetmezse adımları küçültmeyi ya da geriye yer değiştirmeyi planla."
+        ]
+      },
+      {
+        "g": "Yazdır",
+        "ic": "print",
+        "i": [
+          [
+            "Beceri Kontrol Kartı 1 (çocuğa bir kopya)",
+            "pdf"
+          ],
+          [
+            "İpucu kaydı satırı (Oyun 1: 11 kutu)",
+            "pdf"
+          ],
+          [
+            "Oturum Değerlendirme ve Takip Formu",
+            "pdf"
+          ]
+        ]
+      },
+      {
+        "g": "Masaya",
+        "ic": "box",
+        "i": [
+          "Beceri Kontrol Kartı 1: Simon Diyor: Dikkat Et, Rotada Kal",
+          "Oyun 1 ve Oyun 2 hikâye metinleri (Kılavuz s. 4 ve 6)",
+          "Bant ya da yere konan işaretler",
+          "Boş kartlar, kalın kalem, boya kalemleri",
+          "Çocuğun 2. Oturumda doldurduğu Peki Ya Sen? sayfasının kopyası"
+        ]
+      },
+      {
+        "g": "2. Oturumdan gelen",
+        "ic": "back",
+        "prev": 2,
+        "pf": [
+          [
+            "sorun",
+            "Durak 1'de seçilen sorun"
+          ],
+          [
+            "beceri",
+            "Çocuğun seçtiği beceri"
+          ],
+          [
+            "amac",
+            "Haftanın amacı"
+          ],
+          [
+            "kontrol",
+            "Kontrol zamanı"
+          ]
+        ],
+        "i": [
+          "Koçun getirdiği Koç Raporu (Görev 1, −2 ile +2 arası işaretli)",
+          "Peki Ya Sen? sayfasındaki amaç: Etkinlik 6'da ipucu bu amaç için tasarlanacak."
+        ]
+      }
+    ],
+    [
+      {
+        "a": 1,
+        "t": "Karşılama: Kontrol zamanı nasıl geçti?",
+        "dk": 5,
+        "ref": "s. 2",
+        "koc": "Koç odada",
+        "i": [
+          "Koç Raporu'nu al; Görev 1 değerine birlikte bak.",
+          "Önce çocuğa sor, sonra Koçtan bir \"denediği an\" anlatmasını iste.",
+          "Sonuç ne olursa olsun denemeyi takdir et; işe yaramadıysa bugünün konusuna bağla.",
+          "Kontrol zamanı hiç yapılmadıysa suçlama; engeli not et (Etkinlik 6'da kullanılacak).",
+          "Koç dışarıda bekler; sonda geri gelecek."
+        ]
+      },
+      {
+        "a": 2,
+        "t": "Hazır ol: Kart ve oyun alanı",
+        "dk": 5,
+        "ref": "s. 3",
+        "mat": "Beceri Kontrol Kartı 1",
+        "i": [
+          [
+            "Kartın kopyasını çocuğa ver; dört maddeyi birlikte oku ve oyunla ilişkilendir.",
+            "CB"
+          ],
+          "Çocuk başlangıç çizgisinde, senden yaklaşık 12 adım uzakta dursun.",
+          "İki üç deneme adımı at: ne çok büyük ne çok küçük.",
+          "Üç kuralı söyle ve çocuğa tekrarlat: erken adım, kaçırılan adım, yanlış boyda adım → başa dön."
+        ]
+      },
+      {
+        "a": 3,
+        "t": "Oyun 1: Dikkat Et",
+        "dk": 7,
+        "ref": "s. 4",
+        "mat": "Oyun 1 hikâyesi · 11 ipucu",
+        "i": [
+          "İpucu sözcükleri: Simon · diyor · dikkat → bir adım ileri.",
+          "Yavaş ve net oku; ilk turda ipucu sözcüklerini ayrıca vurgulama.",
+          [
+            "Her ipucu için ✓ ya da ✗ kaydet; ilk turda yardım etme.",
+            "CB"
+          ],
+          "Başa dönerse kaldığın yerden devam et; puan sıfırlanmaz.",
+          "\"İleri, geri, sağa, sola\"da hareket ederse \"ipucu olmayan sözcükte hareket\" satırına işle."
+        ]
+      },
+      {
+        "a": 4,
+        "t": "Gözden geçir, gerekirse ipucunu düzenle",
+        "dk": 8,
+        "ref": "s. 5",
+        "mat": "Beceri Kontrol Kartı 1",
+        "i": [
+          "Önce güçlü yanı adlandır: \"Aklında tuttun, ipucunu bekledin.\"",
+          "9/11 ya da üstü → kartı kısaca geç, Oyun 2'ye geç.",
+          "Zorlandıysa → kartın 4. maddesini hatırlat, ipucunu birlikte düzenle, Oyun 1'i tekrar oyna.",
+          "Düzenleme seçenekleri: ses, göz teması, görsel kart, el çırpma, özel işaret. Seçimi çocuk yapsın.",
+          "Bitince adlandır: \"Kendi ipucunu kendin düzenledin.\""
+        ]
+      },
+      {
+        "a": 5,
+        "t": "Oyun 2: Dikkat Et, Rotada Kal",
+        "dk": 10,
+        "ref": "s. 6–7",
+        "mat": "Oyun 2 hikâyesi · 36 ipucu",
+        "i": [
+          "Yalnızca Oyun 1'de başarılı olduysa oyna; değilse bu süreyi Oyun 1 tekrarına ayır.",
+          "Kurallar: Simon/diyor/dikkat → ileri · geri → geri · sağ/sağa → sağa · sol/sola → sola.",
+          "Okumadan önce dört kuralı birer kez dene.",
+          [
+            "Kayıt ve \"ilk turda yardım etme\" kuralı Oyun 1 ile aynı.",
+            "CB"
+          ],
+          "Bitince güçlü yanı adlandır; zorlandıysa bir düzenleme seçip tekrar oyna, sonra \"Bravo!\" de."
+        ]
+      },
+      {
+        "a": 6,
+        "t": "Bu Benim İpucum",
+        "dk": 10,
+        "ref": "s. 7",
+        "mat": "Boş kart, kalın kalem, Peki Ya Sen? (2. Oturum)",
+        "i": [
+          "Hedef: Peki Ya Sen?'deki amaç (Etkinlik 1'deki engeli de dikkate al).",
+          "Köprü: \"Oyunda hangi ipucu işine yaradı?\" İşe yarayan türden başla.",
+          "Tür seç (görsel / işitsel / dokunsal); kartı çocuk çizsin ya da yazsın.",
+          "Performans noktası: \"Nerede ve ne zaman görürsün?\"",
+          "B planı: \"İşe yaramazsa türünü ya da yerini değiştiririz.\"",
+          "Üç soru: Dikkat çekiyor mu? Tek şey mi söylüyor? Doğru yerde mi?"
+        ]
+      },
+      {
+        "a": 7,
+        "t": "Kapanış: Bravo Başardın!",
+        "dk": 5,
+        "ref": "s. 8",
+        "koc": "Koç geri döner",
+        "i": [
+          "Koçu davet et; çocuk oyunu ve ipucunu Koça kendisi anlatsın.",
+          "İpucunun evde nereye konacağına çocuk ve Koç birlikte karar versin.",
+          "Kart 1'i son kez birlikte oku; kocaman bir \"Bravo!\""
+        ]
+      }
+    ],
+    [
+      {
+        "g": "Eve gidenler",
+        "ic": "hand",
+        "i": [
+          "Çocuğun ipucu kartı, kararlaştırılan yere konmak üzere eve gider; bir hafta denenir.",
+          "Beceri Kontrol Kartı 1'in kopyası çocukta kalır."
+        ]
+      },
+      {
+        "g": "Koça söyle",
+        "ic": "hand",
+        "i": [
+          "İşe yaramazsa vazgeçilmez; türü ya da yeri değiştirilir (kartın 4. maddesi).",
+          "İşe yaradığında adlandırsın: \"İpucun sana hatırlattı ve sen de yaptın.\"",
+          "İpucunu yeniden söylemek ya da işi çocuğun yerine yapmak yerine biraz beklesin; unutursa kızmasın."
+        ]
+      },
+      {
+        "g": "Formu doldur",
+        "ic": "form",
+        "i": [
+          "Uygulayıcı Notları: Oyun 1 doğru sayısı, Oyun 2 oynandı mı, kullanılan düzenleme.",
+          "Çocuğun ipucu (tür / yer / hedef) ve Koç Raporu Görev 1."
+        ]
+      },
+      {
+        "g": "Sonraki oturum için kaydet",
+        "ic": "save",
+        "f": [
+          [
+            "oyun1",
+            "Oyun 1 doğru ipucu (/11)"
+          ],
+          [
+            "oyun2",
+            "Oyun 2 oynandı mı?"
+          ],
+          [
+            "duzen",
+            "Kullanılan düzenleme"
+          ],
+          [
+            "ipucu",
+            "Çocuğun ipucu (tür / yer / hedef)"
+          ]
+        ]
+      },
+      {
+        "g": "4. Oturuma hazırlık",
+        "ic": "next",
+        "i": [
+          "Sabah DJ'i hikâyesini (ÇK1 s. 64–66) oku.",
+          "Oyun 2 bu oturumda oynanmadıysa 4. Oturumun başında kısa bir tur planla."
+        ]
+      },
+      {
+        "done": true
+      }
+    ]
+  ]
+}
