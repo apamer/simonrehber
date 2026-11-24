@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Simon Says Seans Rehberim</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@500;700&family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: lacivert, noktalı zemin üstünde siyah çerçeveli, kaydırılmış gölgeli kâğıt kartlar.
+   Kitap renkleri: Giriş mor · ÇK1 sarı · ÇK2 pembe · ÇK3 turkuaz · ÇK4 kırmızı. Bölüm renkleri: Hazırlan turkuaz · Uygula pembe · Tamamla sarı.
+   Tek görünüm (koyu zemin + açık kâğıt yüzeyler), her renk açıkça tanımlı. */
+:root{
+  --navy:#111C38; --navy-2:#1A2750; --navy-3:#24335F; --dot:rgba(255,255,255,.06);
+  --ink:#0E1222; --paper:#FFFFFF; --cream:#F7F2E9; --muted:#5A6177; --soft:#C3CBE0; --line:#D9D3C7;
+  --yellow:#FFD23F; --pink:#FF5FA2; --teal:#16B3A2; --red:#E8412E; --plum:#8A2A8C;
+  --yellow-s:#FFF5D1; --pink-s:#FFE3EF; --teal-s:#DDF5F1; --red-s:#FDE3DE; --plum-s:#F3E2F3;
+  --f-display:"Archivo Black","Arial Black",Impact,sans-serif;
+  --f-body:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-hand:"Caveat","Segoe Print","Bradley Hand",cursive;
+  --r:18px; --bw:2px; --sh:6px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--navy);background-image:radial-gradient(var(--dot) 1.2px,transparent 1.3px);background-size:22px 22px;color:var(--paper);font-family:var(--f-body);font-size:16px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--navy)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px;border-radius:8px}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1180px;margin:0 auto}
+h1,h2,h3{text-wrap:balance}
+
+/* üst bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--navy);border-bottom:2px solid var(--navy-3)}
+.top .wrap{display:flex;align-items:center;gap:16px;padding-block:16px 18px}
+.brand{display:flex;align-items:center;gap:14px;background:none;border:0;padding:0;cursor:pointer;min-width:0}
+.logo{background:var(--paper);border:var(--bw) solid var(--ink);border-radius:14px;padding:6px 12px;box-shadow:4px 4px 0 var(--pink);display:block;transform:rotate(-2deg)}
+.logo img{height:46px;width:auto;display:block}
+.brand b{font-family:var(--f-display);font-weight:400;font-size:24px;line-height:1;letter-spacing:.01em;white-space:nowrap;color:var(--ink);background:var(--yellow);border:var(--bw) solid var(--ink);border-radius:14px;padding:12px 18px 13px;box-shadow:4px 4px 0 var(--teal);transform:rotate(1.2deg)}
+.brand b span{color:var(--plum)}
+.back{margin-left:auto;background:var(--paper);color:var(--ink);border:var(--bw) solid var(--ink);border-radius:999px;padding:7px 14px;font-weight:700;font-size:14px;cursor:pointer;box-shadow:3px 3px 0 var(--yellow);white-space:nowrap}
+.back:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--yellow)}
+@media (max-width:560px){.top .wrap{gap:10px;padding-block:12px 14px}.brand{gap:10px}.brand b{font-size:15px;padding:8px 10px 9px;border-radius:11px;box-shadow:3px 3px 0 var(--teal)}.logo{padding:4px 8px;border-radius:11px;box-shadow:3px 3px 0 var(--pink)}.logo img{height:30px}.back{padding:6px 11px;font-size:13px}}
+@media (max-width:380px){.brand b{font-size:13px}}
+
+/* ortak kâğıt kart */
+.paper{background:var(--paper);color:var(--ink);border:var(--bw) solid var(--ink);border-radius:var(--r);box-shadow:var(--sh) var(--sh) 0 var(--shc,var(--ink))}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--teal)}
+.eyebrow::before{content:"";width:26px;height:2px;background:currentColor}
+
+/* ana ekran */
+.hero{padding-block:44px 30px}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:40px;align-items:center}
+.hero h1{font-family:var(--f-display);font-weight:400;font-size:clamp(36px,6vw,64px);line-height:1.02;margin:14px 0 18px;letter-spacing:-.01em}
+.hl{display:inline-block;background:var(--pink);color:var(--paper);padding:2px 14px 6px;border:var(--bw) solid var(--ink);box-shadow:5px 5px 0 var(--ink);transform:rotate(-1.5deg);margin-top:6px}
+.hero p{color:var(--soft);max-width:52ch;margin:0 0 20px;font-size:17px}
+.steps{display:flex;flex-wrap:wrap;gap:10px}
+.steps span{display:inline-flex;align-items:center;gap:8px;background:var(--navy-2);border:2px solid var(--navy-3);border-radius:999px;padding:6px 14px 6px 6px;font-weight:600;font-size:14px}
+.steps i{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-style:normal;font-family:var(--f-display);font-size:13px;color:var(--ink);border:2px solid var(--ink)}
+.note-card{padding:22px 24px;--shc:var(--teal);transform:rotate(1deg)}
+.note-card h3{font-family:var(--f-display);font-weight:400;font-size:20px;margin:0 0 4px}
+.note-card .sub{color:var(--muted);font-size:14px;margin:0}
+.hand{list-style:none;margin:14px 0 0;padding:14px 0 0;border-top:2px dashed var(--line);display:grid;gap:8px;font-family:var(--f-hand);font-size:25px;line-height:1.1}
+.hand li{display:flex;align-items:center;gap:12px}
+.hand li::before{content:"";width:20px;height:20px;border:2px solid var(--ink);border-radius:4px;flex-shrink:0}
+.hand li.x{color:#7a7a7a;text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:2px}
+.hand li.x::before{background:repeating-linear-gradient(135deg,var(--red) 0 3px,var(--paper) 3px 6px);border-color:var(--red)}
+.note-card .tip{margin:14px 0 0;font-family:var(--f-hand);font-size:21px;color:var(--teal);line-height:1.2}
+.note-card .tip b{font-family:var(--f-body);font-size:15px}
+@media (max-width:820px){.hero .wrap{grid-template-columns:1fr;gap:28px}.note-card{transform:none}}
+
+.sec-h{display:flex;align-items:end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:8px 0 18px}
+.sec-h h2{font-family:var(--f-display);font-weight:400;font-size:clamp(24px,3.2vw,34px);margin:6px 0 0;line-height:1.1}
+.sec-h p{color:var(--soft);margin:0;max-width:46ch;font-size:15px}
+.book{margin-bottom:30px}
+.bookh{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.bookh .tag{font-family:var(--f-display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;background:var(--bc);color:var(--bt);border:var(--bw) solid var(--ink);border-radius:8px;padding:4px 10px}
+.bookh h3{font-family:var(--f-display);font-weight:400;font-size:21px;margin:0}
+.bookh .sk{margin-left:auto;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;border:2px solid var(--soft);color:var(--soft);border-radius:999px;padding:3px 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:18px}
+.card{display:flex;gap:14px;align-items:flex-start;text-align:left;padding:16px;cursor:pointer;--shc:var(--bc);transition:transform .12s,box-shadow .12s;min-width:0}
+.card:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--bc)}
+.card .num{font-family:var(--f-display);font-size:26px;line-height:1;width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:var(--bc);color:var(--bt);border:var(--bw) solid var(--ink);flex-shrink:0}
+.card .ct{display:flex;flex-direction:column;gap:3px;min-width:0}
+.card b{font-size:16px;line-height:1.3}
+.card .meta{font-size:13px;color:var(--muted)}
+.pill{align-self:flex-start;margin-top:6px;font-size:12px;font-weight:700;border-radius:999px;padding:2px 10px;border:2px solid var(--ink)}
+.pill.ok{background:var(--teal-s)}.pill.go{background:var(--yellow)}
+.card.off{background:var(--navy-2);color:var(--soft);border-color:var(--navy-3);box-shadow:none;cursor:default}
+.card.off:hover{transform:none;box-shadow:none}
+.card.off .num{background:transparent;color:var(--soft);border-color:var(--navy-3)}
+.card.off .meta{color:var(--soft);opacity:.8}
+.card.off .pill{border-color:var(--navy-3);color:var(--soft);background:transparent}
+
+.loop{background:var(--cream);color:var(--ink);border:var(--bw) solid var(--ink);border-radius:24px;box-shadow:8px 8px 0 var(--yellow);padding:30px clamp(18px,3vw,36px);margin-block:12px 30px}
+.loop h2{font-family:var(--f-display);font-weight:400;font-size:clamp(24px,3.4vw,38px);line-height:1.1;margin:0 0 6px}
+.loop h2 .hl{font-size:.92em}
+.loop>p{color:var(--muted);margin:14px 0 22px;max-width:60ch}
+.lsteps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;counter-reset:s}
+.lstep{background:var(--paper);border:var(--bw) solid var(--ink);border-radius:16px;padding:16px;position:relative;min-width:0}
+.lstep:not(:last-child)::after{content:"→";position:absolute;right:-17px;top:28px;font-weight:700;font-size:18px}
+.lstep i{counter-increment:s;width:40px;height:40px;border-radius:50%;border:var(--bw) solid var(--ink);display:grid;place-items:center;font-style:normal;font-family:var(--f-display);font-size:14px;background:var(--c);color:var(--t,var(--ink))}
+.lstep i::before{content:"0" counter(s)}
+.lstep b{display:block;font-size:17px;margin:12px 0 4px}
+.lstep span{font-size:14px;color:var(--muted)}
+@media (max-width:820px){.lsteps{grid-template-columns:repeat(2,minmax(0,1fr))}.lstep::after{display:none}}
+@media (max-width:440px){.lsteps{grid-template-columns:1fr}}
+
+.team{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;margin-bottom:34px}
+.team .ycard{background:var(--yellow);color:var(--ink);border:var(--bw) solid var(--ink);border-radius:24px;box-shadow:8px 8px 0 #000;padding:26px}
+.team .ycard .badge{display:inline-block;background:var(--ink);color:var(--yellow);font-size:11px;font-weight:700;letter-spacing:.14em;border-radius:999px;padding:5px 12px}
+.team h2{font-family:var(--f-display);font-weight:400;font-size:clamp(24px,3vw,32px);margin:12px 0 16px;line-height:1.1}
+.who{display:grid;gap:10px}
+.who div{background:var(--paper);border:var(--bw) solid var(--ink);border-radius:14px;padding:12px 14px;display:flex;gap:12px;align-items:center}
+.who i{width:38px;height:38px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-style:normal;font-family:var(--f-display);font-size:15px;flex-shrink:0}
+.who b{display:block}.who span{font-size:14px;color:var(--muted)}
+.team .dcard{background:var(--navy-2);border:2px solid var(--navy-3);border-radius:24px;padding:26px;display:flex;flex-direction:column;gap:12px}
+.team .dcard h2 em{font-style:normal;color:var(--teal)}
+.team .dcard p{color:var(--soft);margin:0}
+.team .dcard ul{margin:0;padding-left:20px;color:var(--soft);display:grid;gap:6px}
+@media (max-width:820px){.team{grid-template-columns:1fr}}
+.foot{font-size:13px;color:var(--soft);padding-block:6px 30px}
+
+/* oturum */
+.sv{padding-block:22px 40px}
+.shead{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:20px;align-items:center;padding:20px 22px;--shc:var(--bc)}
+.shead .big{font-family:var(--f-display);font-size:56px;line-height:1;width:84px;height:84px;border-radius:20px;display:grid;place-items:center;background:var(--bc);color:var(--bt);border:var(--bw) solid var(--ink)}
+.shead .k{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.shead h1{font-family:var(--f-display);font-weight:400;font-size:clamp(22px,3.2vw,32px);line-height:1.12;margin:4px 0 10px}
+.facts{display:flex;gap:8px;flex-wrap:wrap}
+.facts span{background:var(--cream);border:2px solid var(--ink);border-radius:999px;padding:2px 11px;font-size:13px;font-weight:600}
+.sico{width:120px;height:120px;border:var(--bw) solid var(--ink);border-radius:20px;padding:8px;background:var(--paper)}
+.sico svg{width:100%;height:100%;display:block}
+@media (max-width:640px){.shead{grid-template-columns:auto minmax(0,1fr)}.shead .big{width:64px;height:64px;font-size:40px;border-radius:16px}.sico{display:none}}
+
+.tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:26px 0 22px}
+.tab{display:flex;align-items:center;gap:12px;padding:12px 14px;border:var(--bw) solid var(--ink);border-radius:16px;background:var(--navy-2);color:var(--paper);cursor:pointer;text-align:left;min-width:0;border-color:var(--navy-3)}
+.tab .ring{--p:0;width:44px;height:44px;border-radius:50%;flex-shrink:0;background:conic-gradient(var(--pc) calc(var(--p)*1%),var(--navy-3) 0);display:grid;place-items:center}
+.tab .ring b{width:32px;height:32px;border-radius:50%;background:var(--navy-2);display:grid;place-items:center;font-family:var(--f-display);font-size:14px}
+.tab .tx{display:flex;flex-direction:column;min-width:0}
+.tab small{font-size:11px;font-weight:700;letter-spacing:.14em;opacity:.75}
+.tab strong{font-size:16px;line-height:1.2}
+.tab[aria-selected="true"]{background:var(--pc);color:var(--ink);border-color:var(--ink);box-shadow:5px 5px 0 var(--ink)}
+.tab[aria-selected="true"] .ring{background:conic-gradient(var(--ink) calc(var(--p)*1%),rgba(14,18,34,.2) 0)}
+.tab[aria-selected="true"] .ring b{background:var(--pc)}
+@media (max-width:620px){.tabs{gap:8px}.tab{flex-direction:column;align-items:flex-start;gap:6px;padding:10px}.tab strong{font-size:14px}}
+
+.panel{padding:22px clamp(16px,3vw,28px);--shc:var(--pc)}
+.grp{padding-block:16px;border-bottom:2px dashed var(--line);display:flex;flex-direction:column;gap:4px}
+.grp:first-child{padding-top:4px}.grp:last-of-type{border-bottom:0}
+.gh{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.gi{width:36px;height:36px;border-radius:10px;border:2px solid var(--ink);background:var(--ps);display:grid;place-items:center;flex-shrink:0}
+.gi svg{width:19px;height:19px}
+.gh h4{margin:0;font-size:17px;font-weight:700}
+.chk{display:flex;gap:12px;align-items:flex-start;padding:7px 10px;border-radius:10px;cursor:pointer;max-width:76ch}
+.chk:hover{background:var(--ps)}
+.chk input{appearance:none;width:24px;height:24px;border:2px solid var(--ink);border-radius:6px;margin:1px 0 0;flex-shrink:0;cursor:pointer;display:grid;place-content:center;background:var(--paper)}
+.chk input:checked{background:var(--pc)}
+.chk input:checked::after{content:"";width:6px;height:12px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.chk input:checked~.lt{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--pc);text-decoration-thickness:2px}
+.lt{flex:1;min-width:0}
+.sk{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:1.5px solid var(--ink);border-radius:999px;padding:0 8px;margin-left:6px;vertical-align:2px;background:var(--skc)}
+.pdf{font-size:12px;font-weight:700;background:var(--yellow);border:2px solid var(--ink);border-radius:999px;padding:1px 10px;white-space:nowrap;align-self:center;color:var(--ink);text-decoration:none}
+.note{margin:2px 10px;color:var(--muted)}
+.prevbox{margin:4px 10px 6px;border:2px dashed var(--ink);border-radius:12px;background:var(--cream);padding:10px 14px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:8px 16px;font-size:15px}
+.prevbox span{display:block;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.prevbox p{margin:0}
+.warn{margin:2px 10px 8px;background:var(--yellow-s);border:2px solid var(--ink);border-radius:12px;padding:9px 12px;font-size:14px;display:flex;gap:10px;align-items:flex-start}
+.warn b{flex-shrink:0}
+.field{display:flex;flex-direction:column;gap:4px;max-width:76ch;padding:6px 10px}
+.field label{font-weight:600;font-size:15px}
+.field input{font:inherit;color:var(--ink);background:var(--paper);border:2px solid var(--ink);border-radius:10px;padding:9px 12px}
+.field input:focus{outline:none;box-shadow:3px 3px 0 var(--pc)}
+.nextp{display:flex;justify-content:flex-end;margin-top:16px}
+.btn{border:var(--bw) solid var(--ink);border-radius:12px;padding:11px 18px;font-weight:700;cursor:pointer;background:var(--bg,var(--paper));color:var(--ink);box-shadow:4px 4px 0 var(--ink)}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 var(--ink)}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.btn[disabled]{opacity:.4;cursor:not-allowed;transform:none;box-shadow:2px 2px 0 var(--ink)}
+.pfoot{font-size:13px;color:var(--muted);margin:16px 0 0}
+
+/* uygula */
+.ubar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.seg{display:inline-flex;border:var(--bw) solid var(--ink);border-radius:12px;overflow:hidden}
+.seg button{border:0;background:var(--paper);padding:8px 14px;font-weight:700;font-size:14px;cursor:pointer;color:var(--ink)}
+.seg button+button{border-left:var(--bw) solid var(--ink)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.wake{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;cursor:pointer;margin-left:auto;color:var(--ink)}
+.wake input{width:18px;height:18px;accent-color:var(--pink)}
+.tl{display:flex;gap:4px;margin:2px 0 6px}
+.tl button{border:2px solid var(--ink);border-radius:8px;padding:5px 7px;font-size:12px;cursor:pointer;min-width:0;display:flex;flex-direction:column;line-height:1.15;text-align:left;background:var(--paper);color:var(--ink)}
+.tl button b{font-family:var(--f-display);font-weight:400;font-size:15px}
+.tl button span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tl button[aria-current="true"]{background:var(--pink);box-shadow:3px 3px 0 var(--ink)}
+.tlnote{font-size:13px;color:var(--muted);margin:0 0 16px}
+.stage{border:var(--bw) solid var(--ink);border-radius:20px;background:var(--cream);padding:clamp(18px,3vw,30px)}
+.stage .k{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.stage h2{font-family:var(--f-display);font-weight:400;font-size:clamp(26px,4.4vw,44px);line-height:1.08;margin:6px 0 14px}
+.tags{display:flex;gap:8px;flex-wrap:wrap}
+.tags span{border:2px solid var(--ink);border-radius:999px;padding:2px 11px;font-size:13px;font-weight:600;background:var(--paper)}
+.tags .t-dk{background:var(--pink)}.tags .t-koc{background:var(--teal-s)}.tags .t-mat{background:var(--yellow-s)}
+.key{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:12px;counter-reset:k}
+.key li{display:flex;gap:14px;align-items:flex-start;font-size:clamp(18px,2.4vw,22px);line-height:1.4;font-weight:500}
+.key li::before{counter-increment:k;content:counter(k);width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);background:var(--paper);display:grid;place-items:center;font-family:var(--f-display);font-size:14px;flex-shrink:0;margin-top:2px}
+.more{background:none;border:0;padding:0;margin-top:16px;font-weight:700;color:var(--ink);text-decoration:underline;text-decoration-color:var(--pink);text-decoration-thickness:3px;text-underline-offset:4px;cursor:pointer}
+.nav{display:flex;justify-content:space-between;gap:12px;margin-top:18px}
+.nav .btn{min-width:min(46%,220px);font-size:17px;padding:14px 18px}
+.nav .nx{--bg:var(--pink)}
+.act{border:var(--bw) solid var(--ink);border-radius:16px;overflow:hidden;scroll-margin-top:90px}
+.act+.act{margin-top:14px}
+.acth{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--cream);border-bottom:2px solid var(--ink)}
+.acth .an{width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);background:var(--pink);display:grid;place-items:center;font-family:var(--f-display);font-size:14px;flex-shrink:0}
+.acth b{flex:1;min-width:0;font-size:17px}
+.acth .ok{font-size:13px;font-weight:700}
+.act .tags{padding:12px 16px 0}
+.act .items{padding:6px 6px 10px}
+.act .chk input:checked~.lt{text-decoration:none;color:var(--ink);font-weight:600}
+.act .chk:has(input:checked){background:var(--pink-s)}
+
+.done{margin-top:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;border:var(--bw) solid var(--ink);border-radius:16px;padding:14px 16px;background:var(--yellow-s)}
+.done .btn{--bg:var(--yellow)}
+.done.is .btn{--bg:var(--teal)}
+.done span{font-size:14px}
+.reset{margin-top:12px;border:2px dashed var(--ink);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.reset h4{margin:0;font-size:16px}
+.reset p{margin:0;color:var(--muted);font-size:14px}
+.reset label{display:flex;gap:8px;align-items:center;font-size:14px;cursor:pointer}
+.reset label input{width:18px;height:18px;accent-color:var(--red)}
+.reset .rb{display:flex;gap:10px;flex-wrap:wrap}
+.reset .ry{--bg:var(--red);color:var(--paper)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:10;background:var(--yellow);color:var(--ink);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);border-radius:999px;padding:10px 20px;font-weight:700}
+/* bilgi bandı */
+.info{padding-block:22px 0}
+.info .wrap{background:var(--navy-2);border:2px solid var(--navy-3);border-radius:20px;padding:18px 20px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr);gap:18px;align-items:start}
+.info h2{font-family:var(--f-display);font-weight:400;font-size:19px;margin:6px 0 6px;line-height:1.2}
+.info p{margin:0;color:var(--soft);font-size:14.5px}
+.info .m{border:2px solid var(--navy-3);border-radius:14px;padding:12px 14px;background:var(--navy)}
+.info .m b{display:inline-block;font-size:13px;font-weight:700;color:var(--ink);background:var(--mc);border:2px solid var(--ink);border-radius:8px;padding:1px 9px;margin-bottom:6px}
+@media (max-width:900px){.info .wrap{grid-template-columns:1fr}}
+.pbtn{--bg:var(--yellow);display:inline-flex;align-items:center;gap:8px;font-size:14px;padding:9px 14px}
+.pbtn svg{width:18px;height:18px}
+.selc{font-size:13px;font-weight:700;border:2px solid var(--ink);border-radius:999px;padding:3px 10px;background:var(--pink-s);color:var(--ink)}
+.uhint{font-size:14px;color:var(--muted);margin:-4px 0 14px;max-width:80ch}
+.ubar .pbtn{margin-left:auto}
+.ubar .wake{margin-left:0}
+
+/* yazdırma: A4 seans planı (kenar boşluğu sayfa ayarından bağımsız: üst/alt @page, yanlar iç boşluk) */
+#print{display:none}
+@media print{
+  @page{size:A4;margin:12mm 0 11mm}
+  :root{color-scheme:light;background:#fff!important}
+  html,body{background:#fff!important;background-image:none!important;color:#111;padding:0!important;margin:0!important}
+  body::before{display:none}
+  body>*:not(#print){display:none!important}
+  #print{display:block;padding:0 17mm;font-family:var(--f-body);font-size:10pt;line-height:1.4;color:#111;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .pr-h{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;padding:10px 14px;border:2px solid #111;border-radius:12px}
+  .pr-h img{height:34px;display:block}
+  .pr-h small{display:block;font-size:7.5pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#555}
+  .pr-h strong{display:block;font-family:var(--f-display);font-weight:400;font-size:15pt;line-height:1.15;margin-top:2px}
+  .pr-h .n{font-family:var(--f-display);font-size:22pt;line-height:1;width:46px;height:46px;border-radius:10px;display:grid;place-items:center;background:var(--bcp);color:var(--btp);border:2px solid #111}
+  .pr-stripe{display:flex;height:4px;margin:6px 4px 0;border-radius:4px;overflow:hidden}
+  .pr-stripe i{flex:1}
+  .pr-f{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:14px;margin:12px 0 2px}
+  .pr-f div{font-size:7.5pt;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#555;border-bottom:1.2px solid #111;padding-bottom:10px}
+  .pr-sec{margin-top:10px}
+  .pr-sec h3{display:flex;align-items:center;gap:8px;font-size:8.5pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin:0 0 7px}
+  .pr-sec h3 i{width:12px;height:12px;border-radius:3px;border:1.5px solid #111;background:var(--sc)}
+  .pr-sec h3::after{content:"";flex:1;height:1px;background:#bbb}
+  .pr-take{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px}
+  .pr-take div{break-inside:avoid}
+  .pr-take b,.pr-k{display:block;font-size:8pt;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#555;margin-bottom:2px}
+  .pr-take ul{margin:0;padding-left:14px}
+  .pr-take li{margin:1px 0}
+  .pr-prev{border:1.2px dashed #111;border-radius:8px;padding:6px 10px}
+  .pr-prev p{margin:1px 0}
+  .pr-act{display:grid;grid-template-columns:22px 1fr;gap:2px 9px;padding:5px 0;border-bottom:1px dotted #bbb;break-inside:avoid}
+  .pr-act:last-child{border-bottom:0}
+  .pr-act .no{width:22px;height:22px;border-radius:50%;border:1.5px solid #111;display:grid;place-items:center;font-weight:700;font-size:9pt;background:var(--pink-s)}
+  .pr-act .t{font-weight:700;font-size:10.5pt;padding-top:1px}
+  .pr-act .meta{grid-column:2;font-size:8.5pt;color:#555;margin-top:-2px}
+  .pr-box{grid-column:2;display:flex;gap:8px;align-items:flex-start}
+  .pr-box::before{content:"";width:11px;height:11px;border:1.4px solid #111;border-radius:3px;flex-shrink:0;margin-top:2px;background:#fff}
+  .pr-after p{margin:2px 0}
+  .pr-fields{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:8px}
+  .pr-fields div{font-size:7.5pt;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#555;border-bottom:1.2px solid #111;padding-bottom:12px}
+  .pr-lines div{border-bottom:1px solid #bbb;height:20px}
+  .pr-foot{margin-top:10px;display:flex;justify-content:space-between;gap:10px;font-size:7.5pt;color:#666;border-top:1px solid #bbb;padding-top:5px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}.card:hover,.btn:hover{transform:none}}
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}</style>
+</head>
+<body>
+<header class="top"><div class="wrap gut">
+  <button class="brand" id="brand" type="button" aria-label="Ana ekran"><span class="logo"><img src="data:image/png;base64,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" alt="Simon Says" width="49" height="34"></span><b>Seans <span>Rehberim</span></b></button>
+  <button class="back" id="home" type="button" hidden>← Tüm oturumlar</button>
+</div></header>
+<div id="view"></div>
+<div id="print" aria-hidden="true"></div>
+
+<script>
+const BOOKS=[
+  {c:"slate",tag:"Giriş",name:"Programa başlangıç",sk:"Aile ve çocukla tanışma"},
+  {c:"teal",tag:"Çalışma Kitabı 1",name:"Bu Benim İpucum",sk:"Hatırlama · Çalışma Belleği"},
+  {c:"rust",tag:"Çalışma Kitabı 2",name:"Bunu Yapma!",sk:"Durdurma · Tepki Engelleme"},
+  {c:"plum",tag:"Çalışma Kitabı 3",name:"Dur… Odaklan… Değiştir",sk:"Değiştirme · Bilişsel Esneklik"},
+  {c:"blue",tag:"Çalışma Kitabı 4",name:"Bir Planım Var!",sk:"Planlama · Sonuç Odaklı Düşünme"}];
+const BK=[{c:"plum",t:"var(--paper)"},{c:"yellow",t:"var(--ink)"},{c:"pink",t:"var(--ink)"},{c:"teal",t:"var(--ink)"},{c:"red",t:"var(--paper)"}];
+const PH=[{t:"Seansa hazırlan",c:"teal"},{t:"Seansı uygula",c:"pink"},{t:"Seansı tamamla",c:"yellow"}];
+const SESS=[
+  [1,0,"Aileyle Tanışma: Can'ın Hikâyesi","Yalnızca aile"],[2,0,"Simon'un Hikâyesi","Çocukla ilk oturum"],
+  [3,1,"Simon Diyor ki: Dikkat Et, Rotada Kal","Adım 1 · Oyun"],[4,1,"Sabah DJ'i: İpuçları Her Yerde","Adım 2 · Bağlantı Kurma"],
+  [5,1,"İpucu Atölyesi: Kartlar ve Gizli İşaretler","Adım 3 · Ev Çalışmaları"],[6,1,"Bilek Listeleri ve Hafıza Oyunları","Adım 3 · Ev Çalışmaları"],
+  [7,1,"Bravo, Başardın!","Adım 4 · Bravo"],[8,2,"Simon Diyor ki: Bunu Yapma!","Adım 1 · Oyun"],
+  [9,2,"Dikkat Dağınıklığı Engelleyici Kumanda","Adım 2 · Bağlantı Kurma"],[10,2,"Durmayı Eve Taşımak","Adım 3 · Ev Çalışmaları"],
+  [11,2,"Bravo, Başardın!","Adım 4 · Bravo"],[12,3,"Dur… Odaklan… Değiştir!","Adım 1 · Oyun"],
+  [13,3,"Takım Oyuncusu","Adım 2 · Bağlantı Kurma"],[14,3,"Lütfen Dikkat! ve Sakin Kedi","Adım 3 · Ev Çalışmaları"],
+  [15,3,"Dur, Sakinleş, Düşün","Adım 3 · Ev Çalışmaları"],[16,3,"Bravo, Başardın!","Adım 4 · Bravo"],
+  [17,4,"Bir Planım Var!","Adım 1 · Oyun"],[18,4,"Bir Kazanan Gibi Düşün","Adım 2 · Bağlantı Kurma"],
+  [19,4,"Kendi Oyun Planım","Adım 3 · Ev Çalışmaları"],[20,4,"Bravo, Başardın! ve programın kapanışı","Adım 4 · Bravo"]];
+const ICON={
+ phone:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>',
+ book:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21h15"/></svg>',
+ print:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8V3h10v5"/><rect x="3" y="8" width="18" height="9" rx="2"/><path d="M7 14h10v7H7z"/></svg>',
+ box:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4-9 4z"/><path d="M3 7v10l9 4 9-4V7M12 11v10"/></svg>',
+ back:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14l-5-5 5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg>',
+ hand:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v6a3 3 0 0 1-3 3H7l-4-4 4-4h10"/><path d="M14 3l4 4-4 4"/></svg>',
+ form:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 13h8M9 17h6"/></svg>',
+ save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>',
+ next:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'};
+const SK={CB:["Hatırlama","yellow"],TE:["Durdurma","pink"],BE:["Değiştirme","teal-s"],SO:["Planlama","red-s"],ALL:["Dört beceri","cream"]};
+const sk=k=>`<span class="sk" style="--skc:var(--${SK[k][1]})">${SK[k][0]}</span>`;
+const SICON={1:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Aile birlikte hikâye okuyor"> <circle cx="60" cy="60" r="58" fill="#EAF4F5"/> <circle cx="42" cy="33" r="11" fill="#B8521C"/> <path d="M24 66c0-12 8-20 18-20s18 8 18 20z" fill="#B8521C"/> <circle cx="78" cy="35" r="10" fill="#8A3C8C"/> <path d="M61 66c0-11 7.5-18 17-18s17 7 17 18z" fill="#8A3C8C"/> <path d="M60 64c-9-6-21-7-34-4v34c13-3 25-2 34 4z" fill="#1F6F7A"/> <path d="M60 64c9-6 21-7 34-4v34c-13-3-25-2-34 4z" fill="#2E5C9A"/> <path d="M60 64v34" stroke="#FFFFFF" stroke-width="2.5"/> <path d="M33 70c7-1.5 14-1 21 2M33 78c7-1.5 14-1 21 2M33 86c7-1.5 14-1 21 2" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".85"/> <path d="M87 70c-7-1.5-14-1-21 2M87 78c-7-1.5-14-1-21 2M87 86c-7-1.5-14-1-21 2" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".85"/> <path d="M60 30c-2.5-4-9-3.5-9 1.5 0 4 9 9.5 9 9.5s9-5.5 9-9.5c0-5-6.5-5.5-9-1.5z" fill="#E0A21B"/> </svg>`,2:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Simon kendi hikâyesini anlatıyor"> <circle cx="60" cy="60" r="58" fill="#EAF4F5"/> <path d="M38 34v-9" stroke="#56636A" stroke-width="3" stroke-linecap="round"/><circle cx="38" cy="23" r="4" fill="#B8521C"/> <rect x="18" y="34" width="42" height="38" rx="8" fill="#56636A"/> <rect x="24" y="40" width="30" height="20" rx="5" fill="#FFFFFF"/> <circle cx="33" cy="49" r="3.2" fill="#1E2427"/><circle cx="45" cy="49" r="3.2" fill="#1E2427"/> <path d="M33 55c3 2.5 9 2.5 12 0" stroke="#1E2427" stroke-width="2.4" fill="none" stroke-linecap="round"/> <rect x="26" y="74" width="26" height="22" rx="6" fill="#56636A"/> <rect x="33" y="79" width="12" height="9" rx="2" fill="#E0A21B"/> <path d="M64 22h38a8 8 0 0 1 8 8v26a8 8 0 0 1-8 8H82l-10 9v-9h-8a8 8 0 0 1-8-8V30a8 8 0 0 1 8-8z" fill="#FFFFFF" stroke="#D7E0E2" stroke-width="2"/> <circle cx="74" cy="36" r="6" fill="#1F6F7A"/><circle cx="92" cy="36" r="6" fill="#B8521C"/> <circle cx="74" cy="51" r="6" fill="#8A3C8C"/><circle cx="92" cy="51" r="6" fill="#2E5C9A"/> </svg>`};
+const DATA={1:{
+  facts:["≈ 60 dk","Yalnızca aile","Çocuk katılmaz"],
+  phases:[
+   [ {g:"Randevuda",ic:"phone",i:["Aileden çocuksuz gelmesini iste; mümkünse iki ebeveyn birlikte gelsin.","Hikâyeyi önceden verme. \"Bir annenin hikâyesi üzerinden konuşacağız\" demen yeterli."]},
+     {g:"Kendin için",ic:"book",i:["Okuma metnini (s. 11–12) iki kez sesli oku.","5 durağı ve ailenin durumuna en yakın sahneyi işaretle."]},
+     {g:"Yazdır",ic:"print",i:[["Beyin Becerileri Haritası","pdf"],["Beceri Anları Kayıt Sayfası (aileye verilecek)","pdf"],["Oturum Değerlendirme ve Takip Formu","pdf"],["Can'ın Hikâyesi okuma metni (senin kopyan)","pdf"]]},
+     {g:"Masaya",ic:"box",i:["4 Beceri Kontrol Kartı (Etkinlik 5'e kadar kapalı dursun)","Simon'un Dört Beyin Becerisi görseli","Çalışma Kitapları 1–4","Kalem"]},
+     {g:"Önceki oturumdan gelen",ic:"back",note:"Yok, bu programın ilk oturumu."} ],
+   [ {a:1,t:"Karşılama",dk:5,ref:"s. 2",i:["\"Evde sizi en çok ne yoruyor?\" diye sor.","Ailenin kullandığı kelimeleri aynen not et.","Bu aşamada çözüm önerme; dinle ve özetle."]},
+     {a:2,t:"Can'ın Hikâyesi",dk:30,ref:"s. 3–5 · okuma metni s. 11–12",mat:"Okuma metni",i:["Her sahnede: oku → aynalama sorusunu sor → ailenin örneğini dinle → beceriye ad ver.",["Sahne 1 · Pijamalı Can","CB"],["Sahne 2 · \"Bu çocuk şımarık\""],["Sahne 3 · Annenin akşamı","ALL"],["Sahne 4 · Video oyunu ve cepteki liste"],["Sahne 5 · Bilek listesi"],"\"Bu tam bizim çocuk\" cümlesini duyarsan aynen not et."]},
+     {a:3,t:"Beyin Becerileri Haritası",dk:8,ref:"s. 6",mat:"Görsel ve harita",i:["Simon'un Dört Beyin Becerisi görselini göster.","\"Bizim evde\" sütununu ailenin kelimeleriyle doldur.","Güçlü yanlar satırını mutlaka doldur."]},
+     {a:4,t:"Programı tanıt: Siz Koçsunuz",dk:7,ref:"s. 7",mat:"Çalışma Kitapları 1–4",i:["\"Siz Koçsunuz\" mesajını ver.","Kitapları masaya koy.","Koçun iki kuralını anlat.","Koçu belirle ve adını forma yaz."]},
+     {a:5,t:"Beceri Kontrol Kartları",dk:5,ref:"s. 8",mat:"4 Beceri Kontrol Kartı",i:["Kartları yan yana diz.","Her kartı hikâyeye bağla.","\"Hangi kart en çok işimize yarar?\" diye sor, cevabı forma yaz."]},
+     {a:6,t:"Kapanış",dk:3,ref:"s. 9",i:["Dört temel mesajı söyle.","Ev görevini ver.","Çocuğa söylenecek cümleyi yaşına göre seç (6–8 ya da 9–12)."]} ],
+   [ {g:"Aileye ver",ic:"hand",i:["Beceri Anları Kayıt Sayfası (3 an; en az biri başarı anı olsun)","Çocuğa söylenecek cümle"]},
+     {g:"Formu doldur",ic:"form",i:["Uygulayıcı Notları: öne çıkan beceriler, tanıma cümlesi, hedef adayı ve seçilen kart.","Koç Raporu bu hafta doldurulmaz; aileye yalnızca gösterilir."]},
+     {g:"Sonraki oturum için kaydet",ic:"save",f:[["koc","Koçun adı"],["kart","Seçilen Beceri Kontrol Kartı"],["hedef","Hedef adayı (Sahne 5)"]]},
+     {g:"2. Oturuma hazırlık",ic:"next",i:["Aile getirecek: Beceri Anları Kayıt Sayfası ve doldurulmuş harita.","Sen hazırlayacaksın: Simon'un Hikâyesi, Bölüm I."]},
+     {done:true} ]
+  ]},
+2:{
+  facts:["≈ 50 dk","Uygulayıcı ve çocuk","Koç açılışta ve kapanışta"],
+  phases:[
+   [ {g:"Kendin için",ic:"book",i:["Simon'un Hikâyesi'ni (ÇK Giriş s. 32–42) iki kez sesli oku; Simon'un sesiyle anlatmayı dene.","Üç durağı (s. 33, 34, 35) ve dört beceri sayfasını (s. 38–41) işaretle."]},
+     {g:"Koçla",ic:"phone",i:["Koçun getirdiği Beceri Anları Kayıt Sayfası'nı çocuk odaya girmeden oku; bir \"başarı anı\" seç.","Koçun oturum sırasında bekleyeceği yeri ayarla."]},
+     {g:"Yazdır",ic:"print",i:[["Peki Ya Sen? çalışma sayfası (ÇK s. 45)","pdf"],["Oturum Değerlendirme ve Takip Formu","pdf"]]},
+     {g:"Masaya",ic:"box",i:["Simon'un Hikâyesi (ÇK Giriş s. 32–42)","Simon'un Dört Beyin Becerisi görseli (s. 36)","Yürütücü İşlevler Kontrol Listem (s. 43–44)","Boş kâğıt, kalem, boya kalemleri","Beceri Kontrol Kartları (isteğe bağlı)"]},
+     {g:"1. Oturumdan gelen",ic:"back",prev:1,pf:[["koc","Koçun adı"],["kart","Ailenin seçtiği kart"],["hedef","Hedef adayı"]],i:["Ailenin getirdiği Beceri Anları Kayıt Sayfası","1. Oturumda doldurulan Beyin Becerileri Haritası"]} ],
+   [ {a:1,t:"Karşılama: Koçla birlikte",dk:5,ref:"s. 2",koc:"Koç odada",i:["Çocuğu ve Koçu birlikte karşıla.","Koçtan seçtiğin başarı anını çocuğun yanında anlatmasını iste. Zorlanılan anlar konuşulmaz.","Koça teşekkür et; dışarıda bekleyeceğini ve sonunda döneceğini çocuğun duyacağı biçimde söyle."]},
+     {a:2,t:"Simon'la tanışma",dk:3,ref:"s. 3",mat:"Simon'un resmi (ÇK s. 32)",i:["Simon'un kaykaylı resmini göster ve Simon'u tanıt.","Sınav olmadığını, yanlış cevabın da olmadığını söyle.","Hikâyeyi Simon'un ağzından, \"ben\" diliyle anlat."]},
+     {a:3,t:"Simon'un Hikâyesi: Ben neden yapamıyordum?",dk:10,ref:"s. 4",mat:"ÇK s. 33–35",i:[["Durak 1 · Simon'un dört sorunu: \"Hangisi sana en tanıdık geldi?\" Cevabı not et.","ALL"],"Durak 2 · \"Belki de beceriksiz biriyim\": \"Sence Simon beceriksiz mi?\"","Durak 3 · Oyun tahtası: kâğıda BAŞLA, BİTİŞ ve kıvrımlı bir yol çiz.","Çizimi sakla; Etkinlik 6'da kullanılacak."]},
+     {a:4,t:"Simon'un dört beyin becerisi",dk:15,ref:"s. 5–6",mat:"ÇK s. 36–42",i:["Görseli göster; kısa adları söyle: Hatırlama, Durdurma, Değiştirme, Planlama.",["Hatırlama (s. 38): ipucu aracı ve köprü sorusu","CB"],["Durdurma (s. 39): durma oyunları ve köprü sorusu","TE"],["Değiştirme (s. 40): isterse bir kez yavaş nefes, köprü sorusu","BE"],["Planlama (s. 41): oyun tahtasıyla bağla, köprü sorusu","SO"],"Çocuğun Durak 1'de seçtiği becerinin üzerinde daha uzun dur.","Hikâyenin sonu (s. 42): \"Hangisi senin işine en çok yarardı?\" Cevabı not et."]},
+     {a:5,t:"Simon'un Kontrol Listesi",dk:4,ref:"s. 7",mat:"ÇK s. 43–44",i:["Sayfayı Simon'un yol haritası olarak göster; doldurulmaz.","Üç yolu hikâyeden bir örnekle bağla: becerileri uygula, araç kullan, yardım iste."]},
+     {a:6,t:"Peki Ya Sen?",dk:7,ref:"s. 7",mat:"Peki Ya Sen? (ÇK s. 45)",i:["Küçük, somut ve bu hafta denenebilir bir amaç yazın.","Bir beceriyi daire içine alın.","Kontrol listesinden bir yol seçip nasıl yapacağını yazın.","Amaç büyükse küçültün: \"Bu hafta onun küçük bir parçası ne olabilir?\""]},
+     {a:7,t:"Kapanış: Koç geri döner",dk:6,ref:"s. 8",koc:"Koç geri döner",i:["Koçu içeri al; çocuk Simon'u ve amacını Koça anlatsın.","\"Bir Şey Daha Var!\": Koçla kontrol zamanını belirleyin (tarih, saat, yer).","Koça rolünü söyle: o anda yanında olsun, \"Nasıl gitti?\" diye sorsun; puan vermesin.","Sayfadaki üç mesajı çocuğa oku.","Bravo, Başardın!: çabayı ve dürüstlüğü adlandır."]} ],
+   [ {g:"Eve gidenler",ic:"hand",i:["Peki Ya Sen? sayfası eve gider; amacın yaşandığı yere asılır (kapı, buzdolabı).","Koça hatırlat: Koç Raporu'nda Görev 1 kontrol zamanında çocukla birlikte işaretlenecek (−2 ile +2)."]},
+     {g:"Formu doldur",ic:"form",i:["Uygulayıcı Notları: Durak 1'de seçilen sorun, seçilen beceri, çocuğun amacı ve yolu.","\"Görev / Öneri 1\" alanına amacı ve kontrol zamanını yaz."]},
+     {g:"Sonraki oturum için kaydet",ic:"save",f:[["sorun","Durak 1'de seçilen sorun"],["beceri","Çocuğun seçtiği beceri"],["amac","Bu haftanın amacı"],["kontrol","Kontrol zamanı"]]},
+     {g:"3. Oturuma hazırlık",ic:"next",i:["Koç getirecek: Koç Raporu (Görev 1 işaretlenmiş).","3. Oturumda Çalışma Kitabı 1 başlıyor; Beceri Kontrol Kartı 1'i hazırla."]},
+     {done:true} ]
+  ]}};
+/* Seans modunda gösterilecek en kritik maddeler (etkinlik no → madde sırası). Kılavuza dayanır; onaya sunuldu. */
+const KEY={1:{1:[0,2],2:[0,6],3:[1,2],4:[0,3],5:[1,2],6:[0,1]},2:{1:[1,2],2:[0,2],3:[0,1],4:[0,5],5:[0,1],6:[0,3],7:[1,2]}};
+
+const mem={};
+const st=k=>{if(k in mem)return mem[k];try{const v=localStorage.getItem("ssr:"+k);return v===null?null:JSON.parse(v)}catch(e){return null}};
+const put=(k,v)=>{mem[k]=v;try{localStorage.setItem("ssr:"+k,JSON.stringify(v))}catch(e){}};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
+const bv=bi=>`--bc:var(--${BK[bi].c});--bt:${BK[bi].t}`;
+const pv=p=>`--pc:var(--${PH[p].c});--ps:var(--${PH[p].c}-s)`;
+const txt=x=>Array.isArray(x)?x[0]:x;
+function keys(n,p){const o=[];DATA[n].phases[p].forEach((b,bi)=>(b.i||[]).forEach((_,i)=>o.push(`s${n}p${p}b${bi}i${i}`)));return o}
+function pct(n,p){const k=keys(n,p);return k.length?Math.round(100*k.filter(x=>st(x)).length/k.length):0}
+
+let curS=0,curP=0,uMode="seans",curA=0,noReset={},wakeLock=null;
+
+function home(){
+  $("home").hidden=true;relWake();
+  const cards=bi=>SESS.filter(s=>s[1]===bi).map(s=>{const r=!!DATA[s[0]],d=st(`s${s[0]}done`);
+    return r?`<button class="card paper" type="button" data-s="${s[0]}"><span class="num">${s[0]}</span><span class="ct"><b>${s[2]}</b><span class="meta">${s[3]}</span><span class="pill ${d?'ok':'go'}">${d?"✓ Tamamlandı (bu cihaz)":"Hazır"}</span></span></button>`
+      :`<button class="card paper off" type="button" disabled aria-disabled="true"><span class="num">${s[0]}</span><span class="ct"><b>${s[2]}</b><span class="meta">${s[3]}</span><span class="pill">Hazırlanacak</span></span></button>`}).join("");
+  $("view").innerHTML=`
+  <section class="info gut"><div class="wrap">
+    <div><div class="eyebrow">Bu portal hakkında</div><h2>Kılavuzun yanında bir destek alanı</h2>
+      <p>Eğitimde öğrendiğiniz ve kılavuzda yer alan uygulamayı tekrar etmez; seansa hazırlanmanızı kolaylaştırır. Tablet kullanıyorsanız oturumu buradan izleyebilirsiniz, ancak seans sırasında ekranda işaretleme yapmak pratikte zordur. Önerimiz: seanstan önce hatırlatıcı olarak ihtiyaç duyduğunuz maddeleri seçin, seans planını yazdırın ve seansta notluğunuzda kullanın.</p></div>
+    <div class="m" style="--mc:var(--pink)"><b>Seans modu</b><p>Oturum akışının özeti: her etkinlik için süre, materyal, Koç durumu ve en önemli yönlendirmeler.</p></div>
+    <div class="m" style="--mc:var(--yellow)"><b>Ayrıntılı liste</b><p>Seçim alanı: seansta kullanmak istediğiniz maddeleri işaretleyin; seçtikleriniz yazdırılabilir seans planına aktarılır.</p></div>
+  </div></section>
+  <section class="hero gut"><div class="wrap">
+    <div>
+      <div class="eyebrow">Uygulayıcı için</div>
+      <h1>Her seansa<br><span class="hl">hazır gir.</span></h1>
+      <p>Basılı Uygulama Kılavuzu'nun yanında kullanılır. Her oturumu üç bölümde gösterir; ayrıntı için kılavuzun ilgili sayfasına yönlendirir.</p>
+      <div class="steps">${PH.map((p,i)=>`<span><i style="background:var(--${p.c})">${i+1}</i>${p.t}</span>`).join("")}</div>
+    </div>
+    <aside class="note-card paper" aria-label="Performans noktası örneği">
+      <h3>Bir bilek listesi</h3>
+      <p class="sub">Sabah hazırlığı için, işin yapıldığı anda destek.</p>
+      <ul class="hand"><li class="x">Pijamanı çıkar</li><li class="x">Yatağını topla</li><li>Kahvaltını yap</li><li>Çantanı al</li></ul>
+      <p class="tip"><b>Performans noktası:</b> liste bilekteyse işe yarar, çekmecede kaldıysa yaramaz.</p>
+    </aside>
+  </div></section>
+  <main class="gut"><div class="wrap">
+    <div class="sec-h"><div><div class="eyebrow">20 oturum</div><h2>Hangi oturuma hazırlanıyorsun?</h2></div><p>İlk iki oturum yeni tasarımla hazır. Diğer oturumlar aynı düzenle eklenecek.</p></div>
+    ${BOOKS.map((b,bi)=>`<section class="book" style="${bv(bi)}"><div class="bookh"><span class="tag">${b.tag}</span><h3>${b.name}</h3><span class="sk">${b.sk}</span></div><div class="grid">${cards(bi)}</div></section>`).join("")}
+    <section class="loop">
+      <h2>Her çalışma kitabı<br><span class="hl">dört adımlı bir döngü</span> izler.</h2>
+      <p>Önce oyunda dener, sonra hikâyede başkasında görür, ardından evde ve okulda uygular; en sonda çabası fark edilir.</p>
+      <div class="lsteps">
+        <div class="lstep" style="--c:var(--yellow)"><i></i><b>Oyun</b><span>Beceri bir oyunla tanıtılır; çocuk yapabildiğini görür.</span></div>
+        <div class="lstep" style="--c:var(--pink)"><i></i><b>Bağlantı Kurma</b><span>Hikâye ve çalışma sayfalarıyla gerçek hayata bağlanır.</span></div>
+        <div class="lstep" style="--c:var(--teal)"><i></i><b>Ev Çalışmaları</b><span>Koçla evde ve okulda, performans noktasında denenir.</span></div>
+        <div class="lstep" style="--c:var(--red);--t:var(--paper)"><i></i><b>Bravo, Başardın!</b><span>Çaba davranışa özel övgüyle fark edilir, pekiştirilir.</span></div>
+      </div>
+    </section>
+    <section class="team">
+      <div class="dcard"><div class="eyebrow">Yöntem</div><h2>İskelet <em>(scaffolding)</em> kurmak</h2>
+        <p>Çocuğun henüz tek başına yapamadığı bir beceri için geçici dış destek sunulur; destek, ihtiyaç azaldıkça geri çekilir.</p>
+        <ul><li>Destek, davranışın gerektiği an ve yerde olmalı.</li><li>Dış destek kullanmak zayıflık değil, akıllıca bir yoldur.</li><li>Geri çekme çocuğun hızına göre yapılır.</li></ul></div>
+      <div class="ycard"><span class="badge">EKİP</span><h2>Herkes aynı sayfada.</h2>
+        <div class="who">
+          <div><i style="background:var(--paper)">U</i><p style="margin:0"><b>Uygulayıcı</b><span>Oturumları yürütür, planı kurar, Koçla iletişimi düzenler.</span></p></div>
+          <div><i style="background:var(--pink)">K</i><p style="margin:0"><b>Koç</b><span>Ebeveyn, öğretmen ya da başka bir yetişkin; günlük yaşamda destek olur.</span></p></div>
+          <div><i style="background:var(--teal)">Ç</i><p style="margin:0"><b>Çocuk</b><span>Aktif katılımcı; kendi ipuçlarını ve araçlarını seçer.</span></p></div>
+        </div></div>
+    </section>
+    <p class="foot">İşaretler ve notlar sunucuya gönderilmez; yalnızca bu cihazdaki tarayıcıda saklanır.</p>
+  </div></main>`;
+  try{history.replaceState(null,"","#ana")}catch(e){}
+}
+
+function item(id,x,p){const on=st(id)?"checked":"";const t=txt(x),e=Array.isArray(x)?x[1]:null,u=Array.isArray(x)?x[2]:null;
+  return `<label class="chk"><input type="checkbox" data-k="${id}" ${on}><span class="lt">${t}${e&&e!=="pdf"?sk(e):""}</span>${e==="pdf"&&u?`<a class="pdf" href="${u}" target="_blank" rel="noopener">PDF</a>`:""}</label>`}
+
+function resetHTML(n){
+  if(!st(`s${n}done`)||noReset[n])return "";
+  return `<div class="reset"><h4>Seans bitti. Başka bir seans için işaretler kaldırılsın mı?</h4>
+  <p>Aynı oturumu başka bir çocukla uygulayacaksan işaretleri temizle. Bu oturumdaki bütün işaretler ve "tamamlandı" durumu silinir.</p>
+  <label><input type="checkbox" id="rNotes"> Kayıt alanlarındaki notları da sil (bir sonraki oturumda görünmez)</label>
+  <div class="rb"><button type="button" class="btn ry" data-reset="yes">Evet, temizle</button><button type="button" class="btn" data-reset="no">Hayır</button></div></div>`}
+
+function groups(n,p){
+  const P=DATA[n].phases[p];let h="";
+  P.forEach((b,bi)=>{const base=`s${n}p${p}b${bi}`;
+    if(b.a)return;
+    if(b.done){const d=st(`s${n}done`);h+=`<div class="done ${d?'is':''}"><button type="button" class="btn" id="doneBtn">${d?"✓ Seans tamamlandı":"Seansı tamamlandı olarak işaretle"}</button><span>${d?"Bu işaret yalnızca bu cihazda görünür.":"Bütün maddeleri bitirdiğinde işaretle."}</span></div>`+resetHTML(n);return}
+    h+=`<div class="grp"><div class="gh"><span class="gi">${ICON[b.ic]||""}</span><h4>${b.g}</h4></div>`;
+    if(b.note)h+=`<p class="note">${b.note}</p>`;
+    if(b.prev){const v=b.pf.map(f=>[f[1],st(`s${b.prev}f${f[0]}`)]);h+=`<div class="prevbox">${v.some(x=>x[1])?v.map(x=>`<div><span>${x[0]}</span><b>${x[1]?esc(x[1]):"—"}</b></div>`).join(""):`<p>${b.prev}. Oturumda bu cihazda not kaydedilmedi.</p>`}</div>`}
+    if(b.i)h+=b.i.map((x,i)=>item(base+"i"+i,x)).join("");
+    if(b.f){h+=`<div class="warn"><b>Dikkat:</b><span>Çocuğun ya da ailenin adını, kimlik bilgisini yazma; kısaltma kullan (ör. "Koç: anne"). Notlar yalnızca bu cihazda saklanır, ortak bilgisayarda başkaları görebilir.</span></div>`;
+      h+=b.f.map(f=>`<div class="field"><label for="f${n}${f[0]}">${f[1]}</label><input id="f${n}${f[0]}" data-f="s${n}f${f[0]}" autocomplete="off" value="${esc(st(`s${n}f${f[0]}`)||"")}"></div>`).join("")}
+    h+=`</div>`});
+  return h}
+
+function apply(n){
+  const P=DATA[n].phases[1],acts=P.map((b,bi)=>[b,bi]).filter(x=>x[0].a);
+  if(curA>=acts.length)curA=0;
+  const tl=`<div class="tl" aria-label="Oturum akışı">${acts.map(([b],i)=>`<button type="button" data-act="${i}" style="flex:${b.dk}" title="${esc(b.t)}" aria-current="${uMode==="seans"&&i===curA}"><b>${b.a}</b><span>${b.dk} dk</span></button>`).join("")}</div><p class="tlnote">Süreler kesin değil, tahmini öneridir.</p>`;
+  const tags=b=>`<div class="tags"><span class="t-dk">${b.dk} dk</span>${b.mat?`<span class="t-mat">Materyal: ${b.mat}</span>`:""}${b.koc?`<span class="t-koc">${b.koc}</span>`:""}<span>Kılavuz ${b.ref}</span></div>`;
+  const nSel=keys(n,1).filter(k=>st(k)).length;
+  const bar=`<div class="ubar"><div class="seg" role="group" aria-label="Görünüm"><button type="button" data-um="seans" aria-pressed="${uMode==="seans"}">Seans modu</button><button type="button" data-um="liste" aria-pressed="${uMode==="liste"}">Ayrıntılı liste</button></div><span class="selc" id="selc">${nSel} madde seçildi</span>${"wakeLock" in navigator?`<label class="wake"><input type="checkbox" id="wakeT" ${wakeLock?"checked":""}> Ekran açık kalsın</label>`:""}<button type="button" class="btn pbtn" id="printBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 8V3h10v5"/><rect x="3" y="8" width="18" height="9" rx="2"/><path d="M7 14h10v7H7z"/></svg>Yazdır / PDF olarak kaydet</button></div>
+  <p class="uhint">${uMode==="liste"?"Seansta hatırlatıcı olarak kullanmak istediğin maddeleri seç. Yalnızca seçtiklerin, başında boş kutuyla seans planına aktarılır.":"Akışın özeti. Seans planına madde eklemek için Ayrıntılı liste'ye geç."} Yazdır penceresinde hedef olarak "PDF olarak kaydet"i seçebilirsin.</p>`;
+  let body="";
+  if(uMode==="seans"){
+    const [b]=acts[curA],ki=(KEY[n]&&KEY[n][b.a])||[0];
+    body=`<article class="stage" aria-live="polite"><div class="k">Etkinlik ${b.a} / ${acts.length}</div><h2>${b.t}</h2>${tags(b)}
+      <ol class="key">${ki.map(i=>b.i[i]).filter(Boolean).map(x=>`<li>${txt(x)}</li>`).join("")}</ol>
+      <button class="more" type="button" data-full="a${b.a}">Bu etkinliğin ayrıntılı listesi (${b.i.length} madde)</button></article>
+      <div class="nav"><button class="btn" type="button" data-step="-1" ${curA===0?"disabled":""}>← Önceki</button><button class="btn nx" type="button" data-step="1" ${curA===acts.length-1?"disabled":""}>${curA===acts.length-1?"Son etkinlik":"Sonraki →"}</button></div>`;
+  }else{
+    body=acts.map(([b,bi])=>{const base=`s${n}p1b${bi}`,ks=b.i.map((_,i)=>base+"i"+i),dn=ks.filter(k=>st(k)).length;
+      return `<article class="act" id="a${b.a}"><div class="acth"><span class="an">${b.a}</span><b>${b.t}</b><span class="ok" data-ok="${base}">${dn}/${ks.length} seçili</span></div>${tags(b)}<div class="items">${b.i.map((x,i)=>item(base+"i"+i,x)).join("")}</div></article>`}).join("");
+  }
+  return bar+tl+body}
+
+function session(n,p=0){
+  curS=n;curP=p;
+  const s=SESS[n-1],bi=s[1],b=BOOKS[bi],D=DATA[n];
+  $("home").hidden=false;
+  const tabs=PH.map((ph,i)=>`<button class="tab" role="tab" type="button" data-ph="${i}" aria-selected="${i===p}" style="${pv(i)}"><span class="ring" style="--p:${pct(n,i)}"><b>${i+1}</b></span><span class="tx"><small>BÖLÜM ${i+1}</small><strong>${ph.t}</strong></span></button>`).join("");
+  const inner=p===1?apply(n):groups(n,p);
+  const nxt=p<2?`<div class="nextp"><button class="btn" type="button" data-ph="${p+1}" style="--bg:var(--${PH[p+1].c})">Sonraki: ${PH[p+1].t} →</button></div>`:"";
+  $("view").innerHTML=`<main class="sv gut"><div class="wrap">
+    <section class="shead paper" style="${bv(bi)}"><span class="big">${n}</span><div style="min-width:0"><div class="k">${b.tag} · ${s[3]}</div><h1>${s[2]}</h1><div class="facts">${D.facts.map(f=>`<span>${f}</span>`).join("")}</div></div>${SICON[n]?`<span class="sico">${SICON[n]}</span>`:""}</section>
+    <div class="tabs" role="tablist">${tabs}</div>
+    <section class="panel paper" style="${pv(p)}">${inner}${nxt}<p class="pfoot">İşaretler ve notlar yalnızca bu cihazda saklanır.</p></section>
+  </div></main>`;
+  try{history.replaceState(null,"","#oturum-"+n)}catch(e){}
+}
+function printPlan(n){
+  const s=SESS[n-1],bi=s[1],b=BOOKS[bi],D=DATA[n],P=D.phases;
+  const plain=x=>txt(x);
+  const g0=P[0].filter(x=>(x.ic==="print"||x.ic==="box")&&x.i);
+  const take=g0.map(g=>`<div><b>${g.g}</b><ul>${g.i.map(x=>`<li>${plain(x)}</li>`).join("")}</ul></div>`).join("");
+  const sec=(c,title,body)=>`<div class="pr-sec" style="--sc:var(--${c})"><h3><i></i>${title}</h3>${body}</div>`;
+  const pg=P[0].find(x=>x.prev);
+  let prev="";
+  if(pg){const v=pg.pf.map(f=>[f[1],st(`s${pg.prev}f${f[0]}`)]).filter(x=>x[1]);
+    prev=sec("cream",`${pg.prev}. Oturumdan gelen`,`<div class="pr-prev">${v.map(x=>`<p>${x[0]}: <b>${esc(x[1])}</b></p>`).join("")}${(pg.i||[]).map(x=>`<p>• ${plain(x)}</p>`).join("")}</div>`)}
+  const acts=P[1].map((x,i)=>[x,i]).filter(x=>x[0].a);
+  const flow=acts.map(([a,bi2])=>{const sel=a.i.map((x,i)=>[x,i]).filter(([x,i])=>st(`s${n}p1b${bi2}i${i}`));
+    const meta=[`${a.dk} dk`,`Kılavuz ${a.ref}`,a.koc,a.mat?"Materyal: "+a.mat:""].filter(Boolean).join(" · ");
+    return `<div class="pr-act"><span class="no">${a.a}</span><span class="t">${a.t}</span><span class="meta">${meta}</span>${sel.map(([x])=>`<span class="pr-box">${plain(x)}</span>`).join("")}</div>`}).join("");
+  const after=P[2].filter(x=>x.i&&!x.f&&x.ic!=="form").map(g=>`<p><b>${g.g}:</b> ${g.i.map(plain).join(" · ")}</p>`).join("");
+  const sv=P[2].find(x=>x.f);
+  const fields=sv?`<div class="pr-fields">${sv.f.map(f=>`<div>${f[1]}</div>`).join("")}</div>`:"";
+  const tot=acts.reduce((t,[a])=>t+a.dk,0);
+  $("print").innerHTML=`<div class="pr-h" style="--bcp:var(--${BK[bi].c});--btp:${BK[bi].t}"><img src="${document.querySelector('.logo img').src}" alt=""><div><small>Seans planı · ${b.tag} · ${s[3]}</small><strong>${s[2]}</strong></div><span class="n">${n}</span></div>
+   <div class="pr-stripe"><i style="background:var(--yellow)"></i><i style="background:var(--pink)"></i><i style="background:var(--teal)"></i><i style="background:var(--red)"></i></div>
+   <div class="pr-f"><div>Tarih</div><div>Çocuk kodu</div><div>Koç</div></div>
+   ${sec("teal","Seanstan önce · yanına al",`<div class="pr-take">${take}</div>`)}${prev}
+   ${sec("pink",`Seans akışı · ≈ ${tot} dk (süreler tahminidir)`,flow)}
+   ${sec("yellow","Seans sonrası",`<div class="pr-after">${after}</div>${fields}`)}
+   ${sec("paper","Notlar",`<div class="pr-lines"><div></div><div></div><div></div></div>`)}
+   <div class="pr-foot"><span>Simon Says · Seans Rehberim · ${n}. Oturum</span><span>Ayrıntılar için basılı Uygulama Kılavuzu</span></div>`;
+  try{window.print()}catch(e){}
+}
+function refresh(){
+  document.querySelectorAll(".tab").forEach((t,i)=>t.querySelector(".ring").style.setProperty("--p",pct(curS,i)));
+  document.querySelectorAll("[data-ok]").forEach(el=>{const a=[...document.querySelectorAll(`[data-k^="${el.dataset.ok}i"]`)];el.textContent=a.filter(x=>x.checked).length+"/"+a.length+" seçili"});
+  const sc=$("selc");if(sc)sc.textContent=keys(curS,1).filter(k=>st(k)).length+" madde seçildi";
+}
+function clearSession(n,notes){
+  const re=new RegExp(`^s${n}(p\\d|q\\d|done${notes?"|f":""})`);
+  Object.keys(mem).forEach(k=>{if(re.test(k))delete mem[k]});
+  try{Object.keys(localStorage).forEach(k=>{if(k.startsWith("ssr:")&&re.test(k.slice(4)))localStorage.removeItem(k)})}catch(e){}
+}
+function toast(m){const d=document.createElement("div");d.className="toast";d.setAttribute("role","status");d.textContent=m;document.body.appendChild(d);setTimeout(()=>d.remove(),2600)}
+async function setWake(on){
+  if(on){try{wakeLock=await navigator.wakeLock.request("screen");wakeLock.addEventListener("release",()=>{wakeLock=null;const w=$("wakeT");if(w)w.checked=false})}catch(e){wakeLock=null;const w=$("wakeT");if(w)w.checked=false;toast("Bu tarayıcı ekranı açık tutmaya izin vermedi")}}
+  else relWake()}
+function relWake(){if(wakeLock){try{wakeLock.release()}catch(e){}wakeLock=null}}
+const top0=()=>window.scrollTo({top:0});
+const toPanel=()=>{const t=document.querySelector(".tabs");if(t)t.scrollIntoView({block:"start"})};
+
+document.addEventListener("click",e=>{
+  const c=e.target.closest("[data-s]");if(c){curA=0;uMode="seans";session(+c.dataset.s);top0();return}
+  const t=e.target.closest("[data-ph]");if(t){session(curS,+t.dataset.ph);toPanel();return}
+  const um=e.target.closest("[data-um]");if(um){uMode=um.dataset.um;session(curS,1);return}
+  const a=e.target.closest("[data-act]");if(a){if(uMode==="seans"){curA=+a.dataset.act;session(curS,1)}else{const el=document.querySelectorAll(".act")[+a.dataset.act];if(el)el.scrollIntoView({block:"start"})}return}
+  const s=e.target.closest("[data-step]");if(s){curA+=+s.dataset.step;session(curS,1);toPanel();return}
+  const f=e.target.closest("[data-full]");if(f){uMode="liste";session(curS,1);const el=$(f.dataset.full);if(el)el.scrollIntoView({block:"start"});return}
+  const r=e.target.closest("[data-reset]");if(r){const n=curS;
+    if(r.dataset.reset==="yes"){const notes=$("rNotes")&&$("rNotes").checked;clearSession(n,notes);curA=0;session(n,0);top0();toast(notes?"İşaretler ve notlar temizlendi":"İşaretler temizlendi")}
+    else{noReset[n]=true;r.closest(".reset").remove()}return}
+  if(e.target.closest("#printBtn")){if(!keys(curS,1).some(k=>st(k)))toast("Henüz madde seçmedin; plan yalnızca akışla yazdırılır");printPlan(curS);return}
+  if(e.target.id==="doneBtn"){const k=`s${curS}done`;put(k,!st(k));delete noReset[curS];session(curS,curP);return}
+});
+document.addEventListener("change",e=>{const k=e.target.dataset.k;if(k){put(k,e.target.checked);refresh();return}if(e.target.id==="wakeT")setWake(e.target.checked)});
+document.addEventListener("input",e=>{if(e.target.dataset.f)put(e.target.dataset.f,e.target.value)});
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&$("wakeT")&&$("wakeT").checked&&!wakeLock)setWake(true)});
+$("home").onclick=()=>{home();top0()};
+$("brand").onclick=()=>{home();top0()};
+const m=location.hash.match(/^#oturum-(\d+)$/);
+if(m&&DATA[+m[1]])session(+m[1]);else home();
+</script>
+</body>
+</html>
