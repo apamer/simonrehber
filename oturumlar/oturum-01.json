@@ -1,8 +1,9 @@
 {
   "facts": [
-    "≈ 60 dk",
-    "Yalnızca aile",
-    "Çocuk katılmaz"
+    "60–70 dk (önerilen)",
+    "Uygulayıcı ve ebeveyn(ler)",
+    "Çocuk katılmaz",
+    "Kılavuz s. 11–24"
   ],
   "phases": [
     [
@@ -18,38 +19,37 @@
         "g": "Kendin için",
         "ic": "book",
         "i": [
-          "Okuma metnini (s. 11–12) iki kez sesli oku.",
-          "5 durağı ve ailenin durumuna en yakın sahneyi işaretle."
+          "Okuma metnini (s. 21–23) iki kez sesli oku; durakları ve ailenin durumuna en yakın bölümü işaretle.",
+          "Önerilen okuma: Çalışma Kitapları referans sayfaları R-1–R-8 (s. 11).",
+          "Beklenmedik durumlar tablosuna göz at (s. 20)."
         ]
       },
       {
-        "g": "Yazdır",
+        "g": "Çoğalt",
         "ic": "print",
         "i": [
           [
-            "Beyin Becerileri Haritası",
+            "Aileler İçin Bilgi Sayfası (s. 24): oturum sonunda aileye verilecek",
             "pdf"
           ],
           [
-            "Beceri Anları Kayıt Sayfası (aileye verilecek)",
+            "Beceri Anları Kayıt Sayfası: ev çalışması",
             "pdf"
           ],
           [
-            "Oturum Değerlendirme ve Takip Formu",
-            "pdf"
-          ],
-          [
-            "Can'ın Hikâyesi okuma metni (senin kopyan)",
+            "Form 1 · Oturum Değerlendirme ve Takip Formu",
             "pdf"
           ]
         ]
       },
       {
-        "g": "Masaya",
+        "g": "Materyal kutusu (s. 12)",
         "ic": "box",
         "i": [
-          "4 Beceri Kontrol Kartı (Etkinlik 5'e kadar kapalı dursun)",
-          "Simon'un Dört Beyin Becerisi görseli",
+          "Can'ın Hikâyesi okuma metni (s. 21–23, R-3)",
+          "Beyin Becerileri Haritası ve Simon'un Dört Beyin Becerisi görseli",
+          "4 Beceri Kontrol Kartı (Adım 3'e kadar kapalı dursun)",
+          "Form 1, Form 2 ve Form 3 (tanıtılacak)",
           "Çalışma Kitapları 1–4",
           "Kalem"
         ]
@@ -63,107 +63,140 @@
     [
       {
         "a": 1,
-        "t": "Karşılama",
-        "dk": 5,
-        "ref": "s. 2",
+        "no": 1,
+        "t": "Giriş: Bu oturum ve sizi buraya getiren",
+        "dk": 10,
+        "ref": "s. 12",
         "i": [
+          "Kısa çerçeveyi aileye maddeler hâlinde oku (yaklaşık 2 dk), sonra sözü onlara ver.",
+          "Ana fikir: sorun bilmemek değil, bildiğini gereken an ve yerde yapabilmek (performans noktası).",
+          "Çocuğun tanısı yoksa \"DEHB\" yerine \"dikkat ve yürütücü işlev güçlükleri\" de.",
           "\"Evde sizi en çok ne yoruyor?\" diye sor.",
-          "Ailenin kullandığı kelimeleri aynen not et.",
-          "Bu aşamada çözüm önerme; dinle ve özetle."
+          "Ailenin kelimelerini aynen not et. Çözüm önerme; dinle ve özetleyerek geri ver."
         ]
       },
       {
         "a": 2,
-        "t": "Can'ın Hikâyesi",
-        "dk": 30,
-        "ref": "s. 3–5 · okuma metni s. 11–12",
-        "mat": "Okuma metni",
+        "no": 2,
+        "t": "Can'ın Hikâyesi: birlikte okuma, beş bölüm",
+        "dk": 38,
+        "sure": "35–40 dk",
+        "ref": "s. 13–15 · okuma metni s. 21–23",
+        "mat": "Okuma metni (R-3)",
         "i": [
-          "Her sahnede: oku → aynalama sorusunu sor → ailenin örneğini dinle → beceriye ad ver.",
+          "Beş bölüm hâlinde sesli oku; arada başını kaldırıp aileye bak.",
+          "Her bölüm sonunda dur: duyguları sor → aynalama sorusu → ailenin örneği → beceriye ad ver (adı sonra söyle).",
           [
-            "Sahne 1 · Pijamalı Can",
+            "Bölüm 1 · Aslı ve Can",
             "CB"
           ],
           [
-            "Sahne 2 · \"Bu çocuk şımarık\""
-          ],
-          [
-            "Sahne 3 · Annenin akşamı",
+            "Bölüm 2 · Bir örnekle anlamak: \"Aslı ne yapıyor?\" tablosunu birlikte oku (s. 14)",
             "ALL"
           ],
-          [
-            "Sahne 4 · Video oyunu ve cepteki liste"
-          ],
-          [
-            "Sahne 5 · Bilek listesi"
-          ],
-          "\"Bu tam bizim çocuk\" cümlesini duyarsan aynen not et."
+          "Bölüm 3 · Yürütücü işlevlerin gelişimi: dıştan içe",
+          "Bölüm 4 · Seminer başlıyor: dış destek ve performans noktası",
+          "Bölüm 5 · Can terapiye başlıyor: ailenin yanıtı ilk hedef adayıdır, forma yaz.",
+          "Ebeveyn söz alırsa okumayı bırak ve dinle; diyalog hikâyeyi bitirmekten önemlidir.",
+          "\"Bu tam bizim çocuk\" cümlesini duyarsan acele etme: \"Bunu söylerken ne hissettiniz?\" diye sor, cümleyi aynen not et.",
+          "Hikâyeyi tanı üzerinden değil, davranışlar üzerinden kullan."
         ]
       },
       {
         "a": 3,
-        "t": "Beyin Becerileri Haritası",
-        "dk": 8,
-        "ref": "s. 6",
-        "mat": "Görsel ve harita",
+        "no": 2,
+        "t": "Hikâye boyunca: Beyin Becerileri Haritası",
+        "dk": 0,
+        "sure": "Adım 2 içinde",
+        "ref": "s. 16",
+        "mat": "Harita ve Simon'un Dört Beyin Becerisi görseli",
         "i": [
-          "Simon'un Dört Beyin Becerisi görselini göster.",
-          "\"Bizim evde\" sütununu ailenin kelimeleriyle doldur.",
-          "Güçlü yanlar satırını mutlaka doldur."
+          "Haritaya geçmeden önce dört beceriyi Simon'un Dört Beyin Becerisi görseliyle tanıt.",
+          "Önce \"Hikâyede\" sütununu birlikte oku.",
+          "\"Bizim evde\" sütununa ailenin örneklerini o anda, onların kelimeleriyle yaz.",
+          "Boş kalan satırda sor: \"Evde bunun bir örneği var mı?\"",
+          "Güçlü yanlar satırını mutlaka doldur.",
+          "Belirgin kaygı, öğrenme güçlüğü, uyku sorunu ya da ağır stres işareti görürsen not et (s. 16)."
         ]
       },
       {
         "a": 4,
-        "t": "Programı tanıt: Siz Koçsunuz",
-        "dk": 7,
-        "ref": "s. 7",
-        "mat": "Çalışma Kitapları 1–4",
+        "no": 3,
+        "t": "Bilgilendirme: Program ve Siz Koçsunuz",
+        "dk": 13,
+        "sure": "15–20 dk",
+        "ref": "s. 17",
+        "mat": "Aileler İçin Bilgi Sayfası (s. 24), Çalışma Kitapları 1–4",
         "i": [
-          "\"Siz Koçsunuz\" mesajını ver.",
-          "Kitapları masaya koy.",
-          "Koçun iki kuralını anlat.",
-          "Koçu belirle ve adını forma yaz."
+          "Bilgi Sayfası'nı aileyle birlikte aç; maddeleri oku (yaklaşık 10 dk), sonra sözü onlara ver.",
+          "\"Siz Koçsunuz\" mesajını ver: Koç çocuğun yerine yapmaz, doğru anda doğru ipucunu verir.",
+          "Ekibi tanıt: Uygulayıcı, Koç ve çocuk.",
+          "Kitapları masaya koy: her kitap bir beceriye odaklanır ve aynı dört adımı izler.",
+          "Koçu belirle: evde, okulda ve seanslara düzenli kim olacak? Birden fazla Koç olabilir; birini Koç Raporu'ndan sorumlu seç."
         ]
       },
       {
         "a": 5,
-        "t": "Beceri Kontrol Kartları",
+        "no": 3,
+        "t": "Bilgilendirme: Beceri Kontrol Kartları",
         "dk": 5,
-        "ref": "s. 8",
+        "sure": "Adım 3 içinde · 5 dk",
+        "ref": "s. 18",
         "mat": "4 Beceri Kontrol Kartı",
         "i": [
-          "Kartları yan yana diz.",
-          "Her kartı hikâyeye bağla.",
-          "\"Hangi kart en çok işimize yarar?\" diye sor, cevabı forma yaz."
+          "Dört kartı yan yana diz; her kartın bir kitaba ve bir beceriye karşılık geldiğini söyle.",
+          "Her kartı \"Hikâyede\" satırıyla Can'ın Hikâyesi'ne bağla.",
+          "\"Bizim evde hangi kart en çok işimize yarayacak gibi?\" diye sor, yanıtı forma yaz.",
+          "Kartlar ezberlenmez; çocuk her kartı ilgili kitapta oyunla öğrenecek.",
+          "Koçun iki kuralı: zorluk anında kısa bir ipucu ve çabayı fark etmek. Uzun öğüt ve kıyaslama yok."
         ]
       },
       {
         "a": 6,
-        "t": "Kapanış",
-        "dk": 3,
-        "ref": "s. 9",
+        "no": 3,
+        "t": "Bilgilendirme: Üç form ve kapanış",
+        "dk": 0,
+        "sure": "Adım 3 içinde",
+        "ref": "s. 19",
         "i": [
-          "Dört temel mesajı söyle.",
-          "Ev görevini ver.",
-          "Çocuğa söylenecek cümleyi yaşına göre seç (6–8 ya da 9–12)."
+          "Üç formu tanıt: Form 1 Oturum Değerlendirme ve Takip Formu, Form 2 Yapılacaklar (Görev) Listesi, Form 3 Beceri Takip Formu.",
+          "Koça dört temel mesajı özetle.",
+          "Ev çalışmasını ver: Beceri Anları Kayıt Sayfası (3 an; en az biri zorlanmadan başardığı an).",
+          "Çocuğa söylenecek cümleyi yaşına göre birlikte belirle (6–8 ya da 9–12); tanı, sorun ve \"düzelmek\" kelimelerinden kaçın.",
+          "Aileler İçin Bilgi Sayfası'nı aileye ver."
         ]
       }
     ],
     [
       {
-        "g": "Aileye ver",
+        "g": "Aile odadan çıkmadan önce (s. 20)",
+        "ic": "form",
+        "i": [
+          "Aile hikâyede kendi çocuğunu gördüğü yeri söyledi.",
+          "Beş bölümün her birinde aile bir örnek verdi.",
+          "Beyin Becerileri Haritası dolduruldu.",
+          "Ebeveyn kendini \"Koç\" olarak duydu.",
+          "Beceri Kontrol Kartları tanıtıldı, ebeveyn bir kart seçti.",
+          "Koç belirlendi, forma yazıldı.",
+          "Üç form tanıtıldı; Uygulayıcı Notları dolduruldu.",
+          "Beceri Anları Kayıt Sayfası ve Aileler İçin Bilgi Sayfası verildi.",
+          "Çocuğa söylenecek cümle yaşına göre belirlendi."
+        ]
+      },
+      {
+        "g": "Aileye hatırlat",
         "ic": "hand",
         "i": [
-          "Beceri Anları Kayıt Sayfası (3 an; en az biri başarı anı olsun)",
-          "Çocuğa söylenecek cümle"
+          "Bir sonraki oturuma kadar 3 beceri anı not edilecek; en az biri çocuğun zorlanmadan başardığı an olacak.",
+          "Kartlar evde henüz kullanılmaz; bu hafta yalnızca beceri anları gözlemlenir."
         ]
       },
       {
         "g": "Formu doldur",
         "ic": "form",
         "i": [
-          "Uygulayıcı Notları: öne çıkan beceriler, tanıma cümlesi, hedef adayı ve seçilen kart.",
-          "Koç Raporu bu hafta doldurulmaz; aileye yalnızca gösterilir."
+          "Form 1 · Uygulayıcı Notları: öne çıkan beceriler, tanıma cümlesi, Bölüm 5'teki hedef adayı ve seçilen kart.",
+          "Koç Raporu 2. Oturumdaki ilk görevle başlar; bugün doldurulmaz."
         ]
       },
       {
@@ -180,7 +213,7 @@
           ],
           [
             "hedef",
-            "Hedef adayı (Sahne 5)"
+            "Hedef adayı (Bölüm 5)"
           ]
         ]
       },
@@ -188,8 +221,8 @@
         "g": "2. Oturuma hazırlık",
         "ic": "next",
         "i": [
-          "Aile getirecek: Beceri Anları Kayıt Sayfası ve doldurulmuş harita.",
-          "Sen hazırlayacaksın: Simon'un Hikâyesi, Bölüm I."
+          "Aile getirecek: Beceri Anları Kayıt Sayfası. Doldurulan harita, çocukla çalışmanın başlangıç noktasıdır.",
+          "Sen hazırlayacaksın: Simon'un Hikâyesi (Çalışma Kitapları Bölüm I). Çocuk aynı dört beceri görseliyle karşılaşacak."
         ]
       },
       {
@@ -198,52 +231,44 @@
     ]
   ],
   "quick": {
+    "tot": "60–70 dk (önerilen)",
     "once": [
-      "Randevuyu teyit et: aile çocuksuz gelecek, mümkünse iki ebeveyn birlikte.",
-      "Can'ın Hikâyesi okuma metnini (Kılavuz s. 11–12) iki kez sesli oku; 5 durağı ve aileye en yakın sahneyi işaretle.",
-      "Çıktıları al, masayı hazırla. 4 Beceri Kontrol Kartı Etkinlik 5'e kadar kapalı dursun."
+      "Randevuda: aile çocuksuz gelsin, mümkünse iki ebeveyn birlikte; hikâyeyi önceden verme.",
+      "Okuma metnini (Kılavuz s. 21–23) iki kez sesli oku; durakları ve aileye en yakın bölümü işaretle.",
+      "Aileler İçin Bilgi Sayfası'nı (s. 24) çoğalt; materyal kutusunu (s. 12) masaya hazırla. Kartlar Adım 3'e kadar kapalı dursun."
     ],
     "flow": [
       {
-        "t": "Karşılama",
+        "t": "Giriş",
         "a": [
           1
         ],
-        "h": "\"Evde sizi en çok ne yoruyor?\" Ailenin kelimelerini aynen not et; çözüm önerme."
+        "sure": "10 dk",
+        "h": "Kısa çerçeve, sonra \"Evde sizi en çok ne yoruyor?\" Ailenin kelimelerini aynen not et; çözüm önerme."
       },
       {
-        "t": "Can'ın Hikâyesi",
+        "t": "Can'ın Hikâyesi ve Beyin Becerileri Haritası",
         "a": [
-          2
-        ],
-        "h": "5 sahnede: oku → aynalama sorusu → ailenin örneği → beceriye ad ver."
-      },
-      {
-        "t": "Beyin Becerileri Haritası",
-        "a": [
+          2,
           3
         ],
-        "h": "\"Bizim evde\" sütununu ailenin kelimeleriyle doldur; güçlü yanları atlama."
+        "sure": "35–40 dk",
+        "h": "Beş bölüm: oku → aynalama sorusu → ailenin örneği → beceriye ad. Örnekleri haritaya o anda yaz; güçlü yanları atlama."
       },
       {
-        "t": "Programı ve Koç rolünü tanıt",
+        "t": "Bilgilendirme: program, Koç, kartlar ve formlar",
         "a": [
-          4
-        ],
-        "h": "\"Siz Koçsunuz\" mesajı, Koçun iki kuralı; Koçu belirle."
-      },
-      {
-        "t": "Beceri Kontrol Kartları ve kapanış",
-        "a": [
+          4,
           5,
           6
         ],
-        "h": "Kartları hikâyeye bağla, en yararlı kartı sor; dört mesaj ve ev görevi."
+        "sure": "15–20 dk",
+        "h": "Bilgi Sayfası'yla programı anlat ve Koçu belirle; kartları hikâyeye bağla; üç formu tanıt, ev çalışmasını ve çocuğa söylenecek cümleyi belirle."
       }
     ],
     "after": [
-      "Beceri Anları Kayıt Sayfası'nı (3 an, en az biri başarı anı) ve çocuğa söylenecek cümleyi aileye ver.",
-      "Oturum Değerlendirme ve Takip Formu'nu doldur. Koç Raporu bu hafta yalnızca gösterilir.",
+      "Beceri Anları Kayıt Sayfası'nı (3 an, en az biri başarı anı), Bilgi Sayfası'nı ve çocuğa söylenecek cümleyi aileye ver.",
+      "Form 1 · Uygulayıcı Notları'nı doldur. Koç Raporu 2. Oturumdaki ilk görevle başlar.",
       "2. Oturum için Koçu, seçilen kartı ve hedef adayını aşağıya kaydet."
     ]
   }

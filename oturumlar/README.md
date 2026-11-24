@@ -11,9 +11,12 @@ Not: Dosyalar tarayıcıya bir web sunucusu üzerinden gelir (GitHub Pages, Clou
 {
   "facts":  ["≈ 50 dk", "Uygulayıcı ve çocuk", ...],   // başlıktaki kısa bilgiler
   "phases": [ [...], [...], [...] ],                    // 0 Seansa hazırlan · 1 Seansı uygula · 2 Seansı tamamla
-  "quick":  { "once": [...], "flow": [...], "after": [...] }   // yalnızca 1. oturumda: Hızlı Hazırlık
+  "quick":  { "tot": "...", "once": [...], "flow": [...], "after": [...] }   // yalnızca 1. oturumda: Hızlı Hazırlık
 }
 ```
+
+Hızlı Hazırlık'ta `tot` toplam süre metni, `flow` satırlarındaki `sure` o satırın süre metnidir (ikisi de isteğe bağlı; yoksa dakikalar toplanır).
+Sayfa aralığı `facts` içinde "Kılavuz s. 11–24" biçiminde yazılır.
 
 ### Hazırlan ve Tamamla bölümlerindeki gruplar
 | Alan | Anlamı |
@@ -29,9 +32,11 @@ Not: Dosyalar tarayıcıya bir web sunucusu üzerinden gelir (GitHub Pages, Clou
 ### Seansı uygula bölümündeki etkinlikler
 | Alan | Anlamı |
 |---|---|
-| `a` | Etkinlik numarası |
+| `a` | Etkinlik numarası (oturum içinde benzersiz; bağlantılar ve Hızlı Hazırlık bununla çalışır) |
+| `no` | Kılavuzdaki adım numarası (isteğe bağlı). Aynı `no`'ya sahip ardışık etkinlikler kartta aynı numarayı gösterir, zaman çubuğunda tek parça olur. Yoksa `a` kullanılır. |
 | `t` | Etkinlik adı |
-| `dk` | Tahmini süre (dakika) |
+| `dk` | Süre (dakika, sayı). `sure` varsa yalnızca zaman çubuğundaki genişlik için kullanılır; adımın içinde kalan alt bölümlerde 0 olabilir. |
+| `sure` | Kılavuzda yazdığı gibi süre metni (isteğe bağlı), ör. "35–40 dk", "Adım 2 içinde". Varsa `dk` yerine bu gösterilir. |
 | `ref` | Kılavuz sayfası (kitap sayfa numarası; bkz. CLAUDE.md) |
 | `mat` | Materyal (isteğe bağlı) |
 | `koc` | Koçun durumu (isteğe bağlı, ör. "Koç odada") |

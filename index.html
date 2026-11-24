@@ -242,7 +242,7 @@ const BOOKS=[
   {c:"plum",tag:"Çalışma Kitabı 3",name:"Dur… Odaklan… Değiştir",sk:"Değiştirme · Bilişsel Esneklik"},
   {c:"blue",tag:"Çalışma Kitabı 4",name:"Bir Planım Var!",sk:"Planlama · Sonuç Odaklı Düşünme"}];
 const SESS=[
-  [1,0,"Aileyle Tanışma: Can'ın Hikâyesi","Yalnızca aile"],[2,0,"Simon'un Hikâyesi","Çocukla ilk oturum"],
+  [1,0,"Aile Görüşmesi: Can'ın Hikâyesi","Yalnızca aile"],[2,0,"Simon'un Hikâyesi","Çocukla ilk oturum"],
   [3,1,"Simon Diyor ki: Dikkat Et, Rotada Kal","Adım 1 · Oyun"],[4,1,"Sabah DJ'i: İpuçları Her Yerde","Adım 2 · Bağlantı Kurma"],
   [5,1,"İpucu Atölyesi: Kartlar ve Gizli İşaretler","Adım 3 · Ev Çalışmaları"],[6,1,"Bilek Listeleri ve Hafıza Oyunları","Adım 3 · Ev Çalışmaları"],
   [7,1,"Bravo, Başardın!","Adım 4 · Bravo"],[8,2,"Simon Diyor ki: Bunu Yapma!","Adım 1 · Oyun"],
@@ -320,15 +320,17 @@ function phaseHTML(n,p){
   const P=DATA[n].phases[p]; let h="";
   if(p===1){
     const acts=P.filter(b=>b.a);
-    h+=`<div class="tl" aria-label="Oturum akışı">${acts.map((b,i)=>`<button type="button" data-jump="a${b.a}" style="flex:${b.dk};background:var(--${ACT_C[i%ACT_C.length]})" title="${b.t}"><b>${b.a}</b><span>${b.dk} dk</span></button>`).join("")}</div><p class="tlnote">Süreler kesin değil, tahmini öneridir.</p>`;
+    /* Aynı kılavuz adımına (no) ait etkinlikler zaman çubuğunda tek parça görünür; "sure" varsa süre olarak o yazılır. */
+    const tg=[];acts.forEach(b=>{const k=b.no||b.a,g=tg[tg.length-1];if(g&&g.k===k){g.dk+=b.dk;g.t.push(b.t)}else tg.push({k,a:b.a,dk:b.dk,s:b.sure,t:[b.t]})});
+    h+=`<div class="tl" aria-label="Oturum akışı">${tg.map((g,i)=>`<button type="button" data-jump="a${g.a}" style="flex:${g.dk};background:var(--${ACT_C[i%ACT_C.length]})" title="${g.t.join(" · ")}"><b>${g.k}</b><span>${g.s||g.dk+" dk"}</span></button>`).join("")}</div><p class="tlnote">Süreler kesin değil, tahmini öneridir.</p>`;
   }
   P.forEach((b,bi)=>{
     const base=`s${n}p${p}b${bi}`;
     if(b.a){
-      const c=ACT_C[(b.a-1)%ACT_C.length];
+      const c=ACT_C[((b.no||b.a)-1)%ACT_C.length];
       const ks=b.i.map((_,i)=>base+"i"+i); const dn=ks.filter(k=>st(k)).length;
-      h+=`<article class="act" id="a${b.a}" style="--ac:var(--${c});--as:var(--${c.replace('-d','')}-s)"><div class="acth"><span class="an">${b.a}</span><b>${b.t}</b><span class="ok" data-ok="${base}">${dn}/${ks.length}</span></div>
-      <div class="tags"><span class="t-dk">${b.dk} dk</span>${b.mat?`<span class="t-mat">Materyal: ${b.mat}</span>`:""}${b.koc?`<span class="t-koc">${b.koc}</span>`:""}<span>Kılavuz ${b.ref}</span></div>
+      h+=`<article class="act" id="a${b.a}" style="--ac:var(--${c});--as:var(--${c.replace('-d','')}-s)"><div class="acth"><span class="an">${b.no||b.a}</span><b>${b.t}</b><span class="ok" data-ok="${base}">${dn}/${ks.length}</span></div>
+      <div class="tags"><span class="t-dk">${b.sure||b.dk+" dk"}</span>${b.mat?`<span class="t-mat">Materyal: ${b.mat}</span>`:""}${b.koc?`<span class="t-koc">${b.koc}</span>`:""}<span>Kılavuz ${b.ref}</span></div>
       <div class="items">${b.i.map((x,i)=>Array.isArray(x)?item(base+"i"+i,x[0],x[1]):item(base+"i"+i,x)).join("")}</div></article>`;return}
     if(b.done){const d=st(`s${n}done`);h+=`<div class="done ${d?'is':''}"><button type="button" id="doneBtn">${d?"✓ Seans tamamlandı":"Seansı tamamlandı olarak işaretle"}</button><span>${d?"Ana ekranda bu oturum tamamlandı olarak görünür.":"Bütün maddeleri bitirdiğinde işaretle."}</span></div>`+resetHTML(n);return}
     h+=`<div class="grp"><div class="gh"><span class="gi">${ICON[b.ic]||""}</span><h4>${b.g}</h4></div>`;
@@ -383,10 +385,10 @@ function quick(n){
   if(pv0){ if(pv0.prev){const v=pv0.pf.map(f=>[f[1],st(`s${pv0.prev}f${f[0]}`)]).filter(x=>x[1]);once+=`<p class="qnote"><b>${pv0.prev}. Oturumdan:</b> ${v.length?v.map(x=>`${x[0]}: ${x[1]}`).join(" · "):"henüz not kaydedilmedi."}</p>`}
     else if(pv0.note) once+=`<p class="qnote"><b>Önceki oturum:</b> ${pv0.note}</p>`}
   const tot=Q.flow.reduce((t,f)=>t+f.a.reduce((u,a)=>u+(acts.find(x=>x.a===a)||{dk:0}).dk,0),0);
-  const flow=`<p class="qflow">Toplam ≈ ${tot} dk<em>Süreler kesin değil, tahmini öneridir.</em></p>`+Q.flow.map((f,i)=>{const A=f.a.map(a=>acts.find(x=>x.a===a)).filter(Boolean);
+  const flow=`<p class="qflow">Toplam ${Q.tot||"≈ "+tot+" dk"}<em>Süreler kesin değil, tahmini öneridir.</em></p>`+Q.flow.map((f,i)=>{const A=f.a.map(a=>acts.find(x=>x.a===a)).filter(Boolean);
     const dk=A.reduce((t,x)=>t+x.dk,0), mat=A.map(x=>x.mat).filter(Boolean).join(" · "), ref=A.map(x=>x.ref.split(" · ")[0]).join(", ");
     const on=st(qk(1,i))?"checked":"";
-    return `<div class="qrow"><label class="chk"><input type="checkbox" data-k="${qk(1,i)}" ${on}><span class="lt"><b>${f.t}</b> <span class="dk">${dk} dk</span><span class="qmeta">${f.h}</span><span class="qmeta">${mat?"Materyal: "+mat+" · ":""}Kılavuz ${ref}</span></span></label><button class="more" type="button" data-detail="1:a${f.a[0]}">Ayrıntılı adımları gör</button></div>`}).join("");
+    return `<div class="qrow"><label class="chk"><input type="checkbox" data-k="${qk(1,i)}" ${on}><span class="lt"><b>${f.t}</b> <span class="dk">${f.sure||dk+" dk"}</span><span class="qmeta">${f.h}</span><span class="qmeta">${mat?"Materyal: "+mat+" · ":""}Kılavuz ${ref}</span></span></label><button class="more" type="button" data-detail="1:a${f.a[0]}">Ayrıntılı adımları gör</button></div>`}).join("");
   let after=Q.after.map((x,i)=>item(qk(2,i),x)).join("");
   if(sv) after+=sv.f.map(f=>`<div class="field"><label for="q${n}${f[0]}">${f[1]}</label><input id="q${n}${f[0]}" data-f="s${n}f${f[0]}" value="${(st(`s${n}f${f[0]}`)||"").replace(/"/g,"&quot;")}"></div>`).join("");
   if(nx) after+=`<p class="qnote"><b>${nx.g}:</b> ${nx.i.map(x=>Array.isArray(x)?x[0]:x).join(" ")}</p>`;
