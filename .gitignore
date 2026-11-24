@@ -1,0 +1,3 @@
+﻿# Form PDF'leri yalnızca bu bilgisayarda kalır; depoya ve yayına girmez (kullanıcı kararı).
+formlar/
+*.pdf

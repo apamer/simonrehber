@@ -26,22 +26,10 @@
         "g": "Yazdır",
         "ic": "print",
         "i": [
-          [
-            "Form 4 · Peki Ya Sen? (ÇK s. 45)",
-            "pdf"
-          ],
-          [
-            "Form 1 · Oturum Değerlendirme ve Takip Formu",
-            "pdf"
-          ],
-          [
-            "Form 2 · Yapılacaklar (Görev) Listesi",
-            "pdf"
-          ],
-          [
-            "Form 3 · Beceri Takip Formu",
-            "pdf"
-          ]
+          "Form 4 · Peki Ya Sen? (ÇK s. 45)",
+          "Form 1 · Oturum Değerlendirme ve Takip Formu",
+          "Form 2 · Yapılacaklar (Görev) Listesi",
+          "Form 3 · Beceri Takip Formu"
         ]
       },
       {

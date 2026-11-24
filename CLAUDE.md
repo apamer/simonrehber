@@ -52,7 +52,9 @@ Uygulayıcı seans sırasında uzun liste okuyamaz. Portal kılavuzu anlatmaz; n
 - Tek görünüm (kullanıcı kararı): Oturum kartına tıklanınca doğrudan rehber (3 bölüm) açılır; "Hızlı Hazırlık" ve onunla gelen "kaldığın yere dön" kaldırıldı. Her oturumda "Seans planını yazdır" düğmesi tek sayfalık A4 çıktı verir.
 - Bozulmaması gerekenler: logo/ana ekran düğmesi, süre notu ("süreler tahminidir"), işaretleri temizle, notların sonraki oturuma aktarımı, kayıt alanı gizlilik uyarısı, A4 seans planının tek sayfaya sığması.
 - 7, 11 ve 16. oturumlarda bölüm değerlendirmesi (Bölüm Kapanışı), 20. oturumda isteğe bağlı program kapanışı ve program sonu notları var.
-- "PDF" etiketi yalnızca maddede bağlantı (`["metin","pdf","adres"]`) varsa görünür.
+- Form PDF'leri portala ve GitHub'a yüklenmez (kullanıcı kararı, 24 Kasım 2026). `formlar/` klasörü ve `*.pdf` `.gitignore`'dadır; PDF'ler yalnızca kullanıcının bilgisayarında kalır. Hiçbir commit'e PDF girmez.
+- Portalda PDF bağlantısı ya da etiketi yoktur. Formlar yalnızca adı, numarası ve sayfasıyla anılır (ör. "Form 5 · İpucu Listesi (s. 54)"). Sayfası olmayan formlar (Form 1, 2 ve beceri takip formları 3/9/25/34) yalnızca numara ve adla yazılır; sayfa uydurulmaz.
+- Depo: `apamer/simonrehber`. Yayın: Cloudflare Pages `simonrehber.pages.dev`; `main` = canlı, diğer dallar = önizleme. Bu yüzden bir dalı GitHub'a göndermek de onun önizlemesini yayına çıkarır: göndermeden önce kullanıcıya sorulur.
 - Her değişiklikten sonra masaüstü ve telefon genişliğinde (≈375 px) test et; görünüm değişmemesi gereken işlerde öncesi/sonrası ekran görüntüsüyle karşılaştır.
 - Kendi başına karar verilebilir: kod yapısı ve teknik çözümler, kılavuza dayalı içerik güncellemeleri, yazım ve terim düzeltmeleri.
 - Önce sorulur: kılavuzla çelişen ya da anlam değiştiren klinik ifade; kılavuzda olmayan yeni özellik ya da metin; `main`'e veya canlı siteye çıkış; silme ya da geri alınamaz işlemler.
