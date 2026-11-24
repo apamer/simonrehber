@@ -28,6 +28,11 @@ Portal basılı kılavuzun **yanında** kullanılır; kılavuzun yerini tutmaz.
 - Depo public olabilir: depoya klinik ayrıntı, kişisel veri ya da kılavuzdan uzun alıntı koyma.
 - Kayıt alanlarında çocuk/aile adı istenmez; kod ya da kısaltma kullanılır.
 
+## Sayfa referansları
+- "Kılavuz s. N" her zaman **kitap sayfa numarasıdır** (kılavuz PDF'inin ve form envanterinin kullandığı numara). Oturum içi sayfa numarası kullanılmaz.
+- Her oturumun başlığında o oturumun kitaptaki sayfa aralığı gösterilir (ör. "Kılavuz s. 47–58"); maddelerdeki sayfalar bu aralıkta olmalıdır.
+- Sayfa numarası tahmin edilmez; kılavuzun son hâlinin PDF'inden okunur. Eski kayıtlardaki "s. 2", "s. 9" gibi oturum içi numaralar Adım 2'deki yeniden eşleştirmede kitap numarasına çevrilir.
+
 ## Çalışma kuralları
 - Her değişiklik ayrı dalda yapılır. `main`'e birleştirme ve canlı siteye çıkış yalnızca kullanıcı onayıyla.
 - Bozulmaması gerekenler: logo/ana ekran düğmesi, "kaldığın yere dön", süre notu ("süreler tahminidir"), işaretleri temizle, notların sonraki oturuma aktarımı.
